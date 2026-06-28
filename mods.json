@@ -139,6 +139,13 @@
       "cf_slug": "amendments",
       "mr_slug": "amendments",
       "icon": "assets/mod_icons/amendments.gif"
+    },
+    {
+      "slug": "fast-paintings",
+      "name": "Fast Paintings",
+      "cf_slug": "fast-paintings",
+      "mr_slug": "fast-paintings",
+      "icon": null
     }
   ]
 }

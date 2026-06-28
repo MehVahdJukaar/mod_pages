@@ -94,9 +94,11 @@ def expand_support(config, fm, platform):
     kofi_url = config["kofi"]["url"]
     kofi_img = resolve_url(config, config["kofi"]["image"])
     akliz = config["akliz"]
-    akliz_url = akliz["url"]
+    # Per-mod akliz code from frontmatter overrides config default
+    code = fm.get("akliz_code") or akliz["code"]
+    akliz_base = akliz["url"].rsplit("/", 1)[0]
+    akliz_url = f"{akliz_base}/{code}"
     akliz_img = resolve_url(config, akliz["image"])
-    code = akliz["code"]
     pct = akliz["discount_pct"]
     # Support text is in config so it can be swapped centrally
     raw_text = config.get("support_text", "")
@@ -205,6 +207,16 @@ def render_list(items, platform):
     return "\n".join(f"- {item}" for item in items)
 
 
+def render_ordered_list(items, platform):
+    if platform == "cf":
+        lis = "\n".join(
+            f'<li><span style="font-size:18px">{md_to_cf_inline(item)}</span></li>'
+            for item in items
+        )
+        return f"<ol>\n{lis}\n</ol>"
+    return "\n".join(f"{idx + 1}. {item}" for idx, item in enumerate(items))
+
+
 def render_paragraph(text, platform):
     if platform == "cf":
         return f'<p><span style="font-size:18px">{md_to_cf_inline(text)}</span></p>'
@@ -242,9 +254,24 @@ def render_details(summary, content_lines, platform):
     if platform == "mr":
         body = "\n".join(content_lines)
         return f"<details>\n<summary>{summary}</summary>\n{body}\n</details>"
-    # CF: bold label + spoiler div containing image(s)
-    imgs = [md_img_to_html(cl.strip()) for cl in content_lines if cl.strip()]
-    inner = "\n".join(imgs)
+    # CF: bold label + spoiler div (handles images, code blocks, and text)
+    processed = []
+    in_pre = False
+    for cl in content_lines:
+        s = cl.strip()
+        if not s and not in_pre:
+            continue
+        if "<pre" in s:
+            in_pre = True
+        if in_pre or s.startswith("<"):
+            processed.append(cl)
+        elif s.startswith("!["):
+            processed.append(md_img_to_html(s))
+        else:
+            processed.append(f'<span style="font-size:18px">{md_to_cf_inline(s)}</span>')
+        if "</pre" in s:
+            in_pre = False
+    inner = "\n".join(processed)
     return (
         f'<p><span style="font-size:18px"><strong>{summary}:</strong></span></p>\n'
         f'<div class="spoiler">{inner}</div>'
@@ -363,6 +390,26 @@ def process_body(body, platform, config, fm, all_mods):
                 i += 1
             out.append(render_list(items, platform))
             out.append("")
+            continue
+
+        # ── Ordered list (consecutive) ────────────────────────────────────────
+        if re.match(r"^\d+\. ", s):
+            items = []
+            while i < len(lines) and re.match(r"^\d+\. ", lines[i].strip()):
+                items.append(re.sub(r"^\d+\. ", "", lines[i].strip()))
+                i += 1
+            out.append(render_ordered_list(items, platform))
+            out.append("")
+            continue
+
+        # ── Standalone markdown image ─────────────────────────────────────────
+        if s.startswith("!["):
+            if platform == "cf":
+                out.append(f'<p style="text-align:center">{md_img_to_html(s)}</p>')
+            else:
+                out.append(s)
+            out.append("")
+            i += 1
             continue
 
         # ── Raw HTML (pass through unchanged) ────────────────────────────────
