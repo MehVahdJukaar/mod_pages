@@ -1,0 +1,33 @@
+{
+  "github_user": "MehVahdJukaar",
+  "github_repo": "mod_pages",
+  "github_branch": "master",
+
+  "social": {
+    "discord": "https://discord.gg/qdKRTDf8Cv",
+    "patreon": "https://patreon.com/mehvahdjukaar",
+    "twitter": "https://www.twitter.com/Supplementariez",
+    "youtube": "https://www.youtube.com/channel/UCOaLLgwzOdbH6rCI7izCptw"
+  },
+
+  "badge_images": {
+    "discord": "assets/badges/discord.svg",
+    "patreon": "assets/badges/patreon.svg",
+    "twitter": "assets/badges/twitter.svg",
+    "youtube": "assets/badges/youtube.svg"
+  },
+
+  "kofi": {
+    "url": "https://ko-fi.com/mehvahdjukaar",
+    "image": "assets/badges/kofi.png"
+  },
+
+  "akliz": {
+    "code": "supplementaries",
+    "url": "https://www.akliz.net/supplementaries",
+    "image": "assets/badges/akliz.png",
+    "discount_pct": 20
+  },
+
+  "support_text": "Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom **Globe** and/or **Statue** just for you — this also applies if you buy a server from Akliz using the code below."
+}

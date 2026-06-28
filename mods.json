@@ -1,0 +1,144 @@
+{
+  "mods": [
+    {
+      "slug": "supplementaries",
+      "name": "Supplementaries",
+      "cf_slug": "supplementaries",
+      "mr_slug": "supplementaries",
+      "icon": "assets/mod_icons/supplementaries.gif"
+    },
+    {
+      "slug": "moonlight",
+      "name": "Moonlight Lib",
+      "cf_slug": "selene",
+      "mr_slug": "moonlight",
+      "icon": null
+    },
+    {
+      "slug": "haunted-harvest",
+      "name": "Haunted Harvest",
+      "cf_slug": "haunted-harvest",
+      "mr_slug": "haunted-harvest",
+      "icon": "assets/mod_icons/haunted-harvest.webp"
+    },
+    {
+      "slug": "snowy-spirit",
+      "name": "Snowy Spirit",
+      "cf_slug": "snowy-spirit",
+      "mr_slug": "snowy-spirit",
+      "icon": "assets/mod_icons/snowy-spirit.webp"
+    },
+    {
+      "slug": "labels",
+      "name": "Storage Labels",
+      "cf_slug": "labels",
+      "mr_slug": "labels",
+      "icon": "assets/mod_icons/labels.webp"
+    },
+    {
+      "slug": "goated",
+      "name": "Goated",
+      "cf_slug": "goated",
+      "mr_slug": "goated",
+      "icon": "assets/mod_icons/goated.webp"
+    },
+    {
+      "slug": "mystical-oak-tree",
+      "name": "Mystical Oak Tree",
+      "cf_slug": "mystical-oak-tree",
+      "mr_slug": "mystical-oak-tree",
+      "icon": "assets/mod_icons/mystical-oak-tree.webp"
+    },
+    {
+      "slug": "vista",
+      "name": "Vista",
+      "cf_slug": "vista",
+      "mr_slug": "vista",
+      "icon": "assets/mod_icons/vista.gif"
+    },
+    {
+      "slug": "mmmmmmmmmmmm",
+      "name": "MmmMmmMmmMmm",
+      "cf_slug": "mmmmmmmmmmmm",
+      "mr_slug": "mmmmmmmmmmmm",
+      "icon": "assets/mod_icons/mmmmmmmmmmmm.png"
+    },
+    {
+      "slug": "moyai",
+      "name": "Moyai",
+      "cf_slug": "moyai",
+      "mr_slug": "moyai",
+      "icon": "assets/mod_icons/moyai.webp"
+    },
+    {
+      "slug": "jeed",
+      "name": "JEED",
+      "cf_slug": "just-enough-effect-descriptions-jeed",
+      "mr_slug": "just-enough-effect-descriptions-jeed",
+      "icon": "assets/mod_icons/jeed.webp"
+    },
+    {
+      "slug": "better-lily-pads",
+      "name": "Better Lily Pads",
+      "cf_slug": "better-lily-pads",
+      "mr_slug": "better-lily-pads",
+      "icon": "assets/mod_icons/better-lily-pads.webp"
+    },
+    {
+      "slug": "advancement-frames",
+      "name": "Advancement Frames",
+      "cf_slug": "advancement-frames",
+      "mr_slug": "advancement-frames",
+      "icon": "assets/mod_icons/advancement-frames.png"
+    },
+    {
+      "slug": "randomium",
+      "name": "Randomium",
+      "cf_slug": "randomium-ore",
+      "mr_slug": "randomium-ore",
+      "icon": "assets/mod_icons/randomium.webp"
+    },
+    {
+      "slug": "sleep-tight",
+      "name": "Sleep Tight",
+      "cf_slug": "sleep-tight",
+      "mr_slug": "sleep-tight",
+      "icon": "assets/mod_icons/sleep-tight.png"
+    },
+    {
+      "slug": "polytone",
+      "name": "Polytone",
+      "cf_slug": "polytone",
+      "mr_slug": "polytone",
+      "icon": "assets/mod_icons/polytone.png"
+    },
+    {
+      "slug": "heartstone",
+      "name": "Heartstone",
+      "cf_slug": "heartstone",
+      "mr_slug": "heartstone",
+      "icon": "assets/mod_icons/heartstone.webp"
+    },
+    {
+      "slug": "map-atlases",
+      "name": "Map Atlases",
+      "cf_slug": "map-atlases-forge",
+      "mr_slug": "map-atlases",
+      "icon": "assets/mod_icons/map-atlases.png"
+    },
+    {
+      "slug": "sawmill",
+      "name": "Universal Sawmill",
+      "cf_slug": "sawmill",
+      "mr_slug": "universal-sawmill",
+      "icon": "assets/mod_icons/sawmill.webp"
+    },
+    {
+      "slug": "amendments",
+      "name": "Amendments",
+      "cf_slug": "amendments",
+      "mr_slug": "amendments",
+      "icon": "assets/mod_icons/amendments.gif"
+    }
+  ]
+}
