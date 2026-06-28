@@ -4,23 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="857f79c9-30ee-4637-9985-d4371230497a" name="Changes" comment="svgs">
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/advancement_frames.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/fast_paintings.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/goated.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/haunted_harvest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/heartstones.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/jeed.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/labels.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/randomium.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/archive/raw_sources/snowy_spirit.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/badges/discord.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/badges/discord.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/badges/patreon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/badges/patreon.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/badges/twitter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/badges/twitter.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/badges/youtube.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/badges/youtube.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/generate.py" beforeDir="false" afterPath="$PROJECT_DIR$/generate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mods.json" beforeDir="false" afterPath="$PROJECT_DIR$/mods.json" afterDir="false" />
+    <list default="true" id="857f79c9-30ee-4637-9985-d4371230497a" name="Changes" comment="stuff">
+      <change beforePath="$PROJECT_DIR$/output/curseforge/amendments.md" beforeDir="false" afterPath="$PROJECT_DIR$/output/curseforge/amendments.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/curseforge/goated.md" beforeDir="false" afterPath="$PROJECT_DIR$/output/curseforge/goated.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,23 +48,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.3602769134584314" />
-      <entry key="MS500" value="4.930165176240968" />
-      <entry key="S2" value="6.352175922843662" />
-      <entry key="S5" value="6.727920670519246" />
-      <entry key="S10" value="6.861689881570144" />
-      <entry key="S30" value="6.95338119498342" />
-      <entry key="S60" value="6.976625475233912" />
-      <entry key="M2" value="6.98829640457245" />
-      <entry key="M5" value="6.995314642674211" />
-      <entry key="M10" value="6.997788367860351" />
-      <entry key="M15" value="7.002736411382748" />
-      <entry key="M30" value="7.162424607018946" />
-      <entry key="H1" value="8.055220997942563" />
-      <entry key="H2" value="9.71066629717967" />
-      <entry key="H4" value="11.353253037814786" />
-      <entry key="D1" value="13.46667047196198" />
-      <entry key="W1" value="13.921184118011583" />
+      <entry key="MS100" value="1.029564301460175" />
+      <entry key="MS500" value="1.4944854581904656" />
+      <entry key="S2" value="1.8385681844409312" />
+      <entry key="S5" value="1.9319987984213176" />
+      <entry key="S10" value="1.9654008485708503" />
+      <entry key="S30" value="1.9883313210501101" />
+      <entry key="S60" value="1.9941485407373034" />
+      <entry key="M2" value="1.9970699778543444" />
+      <entry key="M5" value="1.9988679559768252" />
+      <entry key="M10" value="2.0163540083615485" />
+      <entry key="M15" value="2.1258637090275054" />
+      <entry key="M30" value="2.961527952146766" />
+      <entry key="H1" value="4.951604500428582" />
+      <entry key="H2" value="7.878181129531757" />
+      <entry key="H4" value="10.833196441643162" />
+      <entry key="D1" value="14.91496474580282" />
+      <entry key="W1" value="15.838241064297303" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -100,23 +86,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.2732077133202995" />
-      <entry key="MS500" value="4.888878783900274" />
-      <entry key="S2" value="6.3382558842283006" />
-      <entry key="S5" value="6.721964779895351" />
-      <entry key="S10" value="6.858642584650513" />
-      <entry key="S30" value="6.9523495544442095" />
-      <entry key="S60" value="6.976107640922055" />
-      <entry key="M2" value="6.988036981652602" />
-      <entry key="M5" value="6.995210751833219" />
-      <entry key="M10" value="6.9977364008901635" />
-      <entry key="M15" value="7.002701733787072" />
-      <entry key="M30" value="7.162406687510799" />
-      <entry key="H1" value="8.055210368397685" />
-      <entry key="H2" value="9.710659415285985" />
-      <entry key="H4" value="11.353248814974569" />
-      <entry key="D1" value="13.4666695999192" />
-      <entry key="W1" value="13.921183988256857" />
+      <entry key="MS100" value="0.9479639844113305" />
+      <entry key="MS500" value="1.4718563385073622" />
+      <entry key="S2" value="1.8318063823076804" />
+      <entry key="S5" value="1.9291745310193935" />
+      <entry key="S10" value="1.963967357207781" />
+      <entry key="S30" value="1.9878486042566048" />
+      <entry key="S60" value="1.9939065625943797" />
+      <entry key="M2" value="1.9969488331674916" />
+      <entry key="M5" value="1.9988194600583276" />
+      <entry key="M10" value="2.0163296286552828" />
+      <entry key="M15" value="2.1258469131564177" />
+      <entry key="M30" value="2.9615174600098344" />
+      <entry key="H1" value="4.951596562223032" />
+      <entry key="H2" value="7.87817494202788" />
+      <entry key="H4" value="10.833192145299614" />
+      <entry key="D1" value="14.91496374101286" />
+      <entry key="W1" value="15.838240911248052" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -200,7 +186,7 @@
       <workItem from="1782663969397" duration="153000" />
       <workItem from="1782664130541" duration="159000" />
       <workItem from="1782664300996" duration="4662000" />
-      <workItem from="1782675209872" duration="3292000" />
+      <workItem from="1782675209872" duration="3696000" />
     </task>
     <task id="LOCAL-00001" summary="stuff">
       <option name="closed" value="true" />
@@ -234,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1782666412281</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="stuff">
+      <option name="closed" value="true" />
+      <created>1782681105020</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1782681105020</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,10 +246,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="stuff" />
     <MESSAGE value="pages" />
     <MESSAGE value="svgs" />
-    <option name="LAST_COMMIT_MESSAGE" value="svgs" />
+    <MESSAGE value="stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
