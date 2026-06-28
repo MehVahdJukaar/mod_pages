@@ -1,0 +1,71 @@
+<h1 style="text-align: center;"><span style="color: #d24fbf;">Vista</span></h1>
+<h1 style="text-align: center;"><a href="https://discord.gg/qdKRTDf8Cv" rel="nofollow"> <img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/discord.svg?raw=true" alt="Supplementaries Discord"> </a> <a href="https://patreon.com/mehvahdjukaar" rel="nofollow"> <img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/patreon.svg?raw=true" alt="Support me on Patreon"> </a> <a href="https://www.twitter.com/Supplementariez" rel="nofollow"> <img src="https://badges.penpow.dev/badges/social/twitter-plural/cozy.svg" alt="Supplementaries Twitter"> </a> <a href="https://www.youtube.com/channel/UCOaLLgwzOdbH6rCI7izCptw" rel="nofollow"> <img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/youtube.svg?raw=true" alt="Youtube Channel"> </a></h1>
+<p style="text-align: center;"><img src="https://i.imgur.com/7SXNHTv.png" alt=""></p>
+<h2 style="text-align: center;">📖 About 📖</h2>
+<p style="text-align: left;"><span style="font-size: 18px;">Vista is a mod that adds Televisions, Cassettes and Viewfinders allowing you to view collect gifs and place cameras in your base.</span></p>
+<p style="text-align: left;"><span style="font-size: 18px;">Features:</span></p>
+<p>&nbsp;</p>
+<h2><strong>Televisions:</strong></h2>
+<ul>
+<li>Need to be powered on by redstone</li>
+<li>Can be linked to a view finder through a hollow cassette to view what it sees</li>
+<li>Can accept and display cassettes or hollow cassettes</li>
+<li>Can be connected in any square size</li>
+<li>Can be interacted with droppers and hoppers to swap cassettes</li>
+<li>Shift click on a tv to pause it</li>
+</ul>
+<h2><strong>Cassette:</strong></h2>
+<ul>
+<li>Can be dropped by creepers killed by a pillager arrow</li>
+<li>Will also rarely be found in chests</li>
+<li>Each plays a unique gif. Collect them all!</li>
+<li>Insert them in a TV to play them</li>
+<li>New ones can be added with datapack &amp; resource packs.</li>
+</ul>
+<h2><strong>Hollow Cassette:</strong></h2>
+<ul>
+<li>Crafted with a Cassette and Echo Shard</li>
+<li>Use it on a view finder to link it to it</li>
+<li>Can be inserted in a TV to view the view finder content</li>
+</ul>
+<h2><strong>View Finder:</strong></h2>
+<ul>
+<li>Can be interacted with to see a particular view</li>
+<li>Click to lock it while using it</li>
+<li>Scroll to zoom</li>
+<li>Can have glass panes applied to have the linked TV get a particular tint effects</li>
+<li>Can also equip mob heads when supplementaries is on to have the linked tv use the respective mob head shaders</li>
+<li>Can be rotated remotely using a supplementaries turn table</li>
+<li>View distance can be controlled with redstone</li>
+</ul>
+<h2><strong>Wave Gate:</strong></h2>
+<ul>
+<li>Creative only item (unless configs are used)</li>
+<li>Can accept a URL, can be a video, image, gif, file on your machine</li>
+<li>when connected to a TV via a hollow cassette it will display that media</li>
+<li>Requires either FFMPEG (doenwloaded by the mod) or Watermedia mod.</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong>Note:</strong>&nbsp;The mod has degraded visuals when using IRIS mod. This is something iris would have to fix. For best experience don't use Iris shaderpacks. The mod will have fancy <strong>crt shaders</strong> and tv turn on effects</p>
+<p>&nbsp;</p>
+<p><strong>Adding your own cassettes:</strong></p>
+<p>to add your own cassette tapes simply add files like these in assets/your pack id/vista/cassette_tape <a href="https://github.com/MehVahdJukaar/cameramod/tree/master/common/src/main/resources/data/vista/vista/cassette_tape" target="_blank" rel="nofollow noopener">https://github.com/MehVahdJukaar/cameramod/tree/master/common/src/main/resources/data/vista/vista/cassette_tape</a> via a datapack. These can also support sounds via the "sound" and "sound_duration" fields.</p>
+<p>Then add similar files in a resource pack (also check out the mod own resource pack. You'll need either a ping or gif with the file name you specified in the previous json</p>
+<p style="text-align: center;">\*\*!\[\](https://i.imgur.com/7SXNHTv.png)\*\*</p>
+<h2 style="text-align: center;">\*\*📺 Medias 📺\*\*</h2>
+<p><strong>Cinematic trailer:</strong></p>
+<p><strong><iframe style="display: table; margin-left: auto; margin-right: auto;" src="https://www.youtube.com/embed/FvLPfYxOePA" width="560" height="314" allowfullscreen="allowfullscreen"></iframe></strong></p>
+<p>&nbsp;</p>
+<p><strong>Reviews:</strong></p>
+<p><iframe style="display: table; margin-left: auto; margin-right: auto;" src="https://www.youtube.com/embed/h_vfz68BfH4?si=tXdiDYoCyDM7mA6w" width="560" height="314" allowfullscreen="allowfullscreen"></iframe></p>
+<p>undefined</p>
+<p><strong><img src="https://i.imgur.com/7SXNHTv.png" alt=""></strong></p>
+<p style="text-align: center;"><span style="font-size: 24px;"><strong>❤️Support Me❤️</strong></span></p>
+<p><span style="font-size: 18px;"><br>Modding is taking a lot of my time, so if you like what I do, and you would like to support me, you can do so here. If you do, you'll receive a custom&nbsp;<strong>Globe </strong>and or <strong>Statue</strong> just for you! This also applies if you purchase a server from Akliz using "supplementaries" code.<br><br>Also feel free to suggest more features! I will be happy yo listen to your suggestions?<br><br></span></p>
+<p>&nbsp; <a href="https://www.curseforge.com/linkout?remoteUrl=https://ko-fi.com/mehvahdjukaar" target="_blank" rel="nofollow noopener"><img src="https://i.imgur.com/sroRu1I.png" alt="Ko-Fi"></a></p>
+<div style="text-align: left;"><br><span style="font-size: 14px;">Need a server? Check out Akliz, they have top brand servers just for modded minecraft.</span></div>
+<div style="text-align: left;"><span style="font-size: 14px;">They really have a cozy community with great support and the servers wonderfully</span><br><span style="font-size: 14px;">Use code "supplementaries" to get<strong> 20% off</strong> and also support me in the process!</span><br><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/g5B76A8.png" alt="" width="640" height="150"></div>
+<p>&nbsp;</p>
+<p><img src="https://i.imgur.com/7SXNHTv.png" alt=""></p>
+<p style="text-align: center;"><span style="font-size: 24px;"><strong>🦉 Our Mods🦉</strong></span></p>
+<p style="text-align: center;">\[!\[Haunted Harvest\](https://media.forgecdn.net/avatars/769/890/638107786158633425.gif)\](https://www.curseforge.com/minecraft/mc-mods/haunted-harvest)\[!\[Snowy Spirit\](https://media.forgecdn.net/avatars/488/371/637792657482121666.png)\](https://www.curseforge.com/minecraft/mc-mods/snowy-spirit)\[!\[Storage Labels\](https://media.forgecdn.net/avatars/623/301/638017052310334649.png)\](https://www.curseforge.com/minecraft/mc-mods/labels)\[!\[Goated\](https://media.forgecdn.net/avatars/767/944/638104301571813998.png)\](https://www.curseforge.com/minecraft/mc-mods/goated)\[!\[Mysyical Oak Tree\](https://media.forgecdn.net/avatars/628/707/638025814904126005.gif)\](https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree)\[!\[Carpeted Stairs\](https://media.forgecdn.net/avatars/658/179/638058347698730749.png)\](https://www.curseforge.com/minecraft/mc-mods/carpeted-stairs)\[!\[MmmMmmMmmMmm\](https://media.forgecdn.net/avatars/727/100/638080208599452100.png)\](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)\[!\[Moyai\](https://media.forgecdn.net/avatars/490/709/637798404029150212.png)\](https://www.curseforge.com/minecraft/mc-mods/moyai)\[!\[Jeed\](https://media.forgecdn.net/avatars/438/886/637685255314420532.png)\](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed)\[!\[Better Lily Pads\](https://media.forgecdn.net/avatars/551/229/637888507256267100.png)\](https://www.curseforge.com/minecraft/mc-mods/better-lily-pads)\[!\[Advancement Frames\](https://media.forgecdn.net/avatars/774/798/638115339656250649.png)\](https://www.curseforge.com/minecraft/mc-mods/advancement-frames)\[!\[Randomium\](https://media.forgecdn.net/avatars/774/800/638115342928765853.png)\](https://www.curseforge.com/minecraft/mc-mods/randomium-ore)\[!\[Sleep Tight\](https://media.forgecdn.net/avatars/788/418/638141921847312709.png)\](https://www.curseforge.com/minecraft/mc-mods/sleep-tight)\[!\[Heartstone\](https://media.forgecdn.net/avatars/488/555/637793261935851502.gif)\](https://www.curseforge.com/minecraft/mc-mods/heartstone)</p>

@@ -1,0 +1,78 @@
+<h1 style="text-align: center;"><strong><span style="color: #843fa1;">Polytone</span></strong></h1>
+<h1 style="text-align: center;"><a href="https://discord.gg/qdKRTDf8Cv" rel="nofollow"><img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/discord.svg?raw=true" alt="Supplementaries Discord" width="163" height="56"></a> <a href="https://patreon.com/mehvahdjukaar" rel="nofollow"><img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/patreon.svg?raw=true" alt="Support me on Patreon" width="180" height="56"></a> <a href="https://www.twitter.com/Supplementariez" rel="nofollow"> <img src="https://badges.penpow.dev/badges/social/twitter-plural/cozy.svg" alt="Supplementaries Twitter" width="189" height="55"></a> <a href="https://www.youtube.com/channel/UCOaLLgwzOdbH6rCI7izCptw" rel="nofollow"> <img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/youtube.svg?raw=true" alt="Youtube Channel" width="183" height="50"></a>&nbsp;</h1>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/7SXNHTv.png" width="1688" height="42"></strong></p>
+<h2 style="text-align: center;"><strong>📖 About&nbsp;📖</strong></h2>
+<p style="text-align: left;"><span style="font-size: 18px;">Polytone is a client-side <strong>customization</strong> mod which allows extensive tweaking of various aspect of the game via <strong>Resource Packs<br><br><br></strong>Mod has extensive documentation on the <a href="https://github.com/MehVahdJukaar/polytone/wiki" target="_blank" rel="nofollow noopener"><strong>WIKI</strong></a>, including an example pack.</span></p>
+<p style="text-align: left;"><span style="font-size: 18px;">If you have questions feeel free to contact me and remmeber to add Polytone to the optional dependency section of your resource pack.</span></p>
+<p style="text-align: left;"><span style="font-size: 18px;">&nbsp;</span></p>
+<p style="text-align: left;"><span style="font-size: 18px;">Main features are:</span></p>
+<ul>
+<li><span style="font-size: 18px;">Custom <strong>Client Side Particles</strong> <strong>✨</strong></span></li>
+<li><span style="font-size: 18px;">Custom <strong>Post Shaders 🌅</strong></span></li>
+<li><span style="font-size: 18px;"><strong><strong>Entity Models Particle Emitters 🦋</strong></strong></span></li>
+<li><span style="font-size: 18px;">Custom <strong><strong>Client Side Sounds 🎵</strong></strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Customize Creative Tabs 🏷️</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Config screen</strong> to disable<strong> Pack overlays 🔧</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Move GUI slots&nbsp;🗓️</span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Add GUI elements</strong> 📒</span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Custom Item Model</strong>🗡️</span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Modify <strong>existing particles🖌️</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Add/Remove&nbsp;<strong>Item Tooltips</strong>&nbsp;🪡</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Change Item Rarity💍</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Customize&nbsp;<strong>Map Colors </strong><strong>🗺️</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Change <strong>Block Sounds 🪅</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Custom Blocks&nbsp;<strong>Colormaps&nbsp;🎨</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Customize <strong>Particle Colors🍭</strong></strong><strong><strong>&nbsp;</strong></strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Block Offset Type&nbsp;📐</span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Day Time-Variant Animated Textures☀️</span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Fluids Colormaps&nbsp;🍸</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Custom <strong>Biome Colors &amp; particles 🌄</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;"><strong>Change <strong>Spawn Eggs Colors&nbsp;🐣</strong></strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Custom <strong>Sky Colors&nbsp;🌈</strong></span></li>
+<li style="text-align: left;"><span style="font-size: 18px;">Register Sound Events&nbsp;🔔</span></li>
+<li><span style="font-size: 18px;">Change Cloud height and Sky colors&nbsp;☁️</span></li>
+</ul>
+<p><span style="font-size: 18px;"><strong>And Much More!</strong></span></p>
+<p><span style="font-size: 18px;">It also offers backwards compatibility with the <strong>color.properties</strong> system previously offered by Optifine, allowing said features from existing packs to work aswell</span></p>
+<p><span style="font-size: 18px;">The mod is designed to be fast and as light weight as possible while keeping the most customizaiton it can.</span></p>
+<p><span style="font-size: 18px;">Not only does it offer a replacement for color.properties system but also offer way more features and customization options that were previously not available.</span></p>
+<p><span style="font-size: 18px;">Feel free to use this banner in your Resource Packs and be sure to<strong> show us your creations</strong> here in the comments!</span><br><a href="https://legacy.curseforge.com/minecraft/mc-mods/polytone" rel="nofollow"><img style="display: block; margin-left: auto; margin-right: auto;" src="https://media.forgecdn.net/attachments/788/551/polytone_banner2.png" alt="polytone_banner" width="250"></a></p>
+<p>If you are using Sodium 1.20 note that some features might not work. Most noticeably one due to <a href="https://github.com/CaffeineMC/sodium-fabric/issues/2298" rel="nofollow">this Sodium issue</a>.</p>
+<p>Consider using Embeddium instead.</p>
+<p>Also check out this website <a href="https://github.com/LambdAurora/optifine_alternatives" target="_blank" rel="nofollow noopener">https://github.com/LambdAurora/optifine_alternatives</a><br><br>Actively supported Polytone versions:</p>
+<p><strong>1.20.1, 1.21.1, 1.21.5, 1.21.11</strong></p>
+<p><strong>Please refrain from using any other version if you dont want bugs and want all the latest features.</strong></p>
+<p>&nbsp;</p>
+<p style="text-align: center;"><strong><img src="https://i.imgur.com/7SXNHTv.png" width="1688" height="42"></strong></p>
+<h2 style="text-align: center;"><strong>📦 Known Packs📦</strong></h2>
+<ul>
+<li><strong><a href="https://modrinth.com/resourcepack/fogulous" target="_blank" rel="nofollow noopener">https://modrinth.com/resourcepack/fogulous</a></strong></li>
+<li><strong>https://modrinth.com/resourcepack/polyshader/gallery</strong></li>
+<li><strong><a href="https://modrinth.com/resourcepack/visual-effects-plus" target="_blank" rel="nofollow noopener">https://modrinth.com/resourcepack/visual-effects-plus</a></strong></li>
+<li><strong><a href="https://www.planetminecraft.com/texture-pack/unique-goat-horns/" target="_blank" rel="nofollow noopener">https://www.planetminecraft.com/texture-pack/unique-goat-horns/</a></strong></li>
+<li><strong><a href="https://www.curseforge.com/minecraft/texture-packs/shrimps-distinct-potions" target="_blank" rel="nofollow noopener">https://www.curseforge.com/minecraft/texture-packs/shrimps-distinct-potions</a></strong></li>
+<li><strong><a href="https://modrinth.com/resourcepack/variant-paintings" target="_blank" rel="nofollow noopener">https://modrinth.com/resourcepack/variant-paintings</a></strong></li>
+<li><strong><a href="https://discord.gg/4cy5s2UN" target="_blank" rel="nofollow noopener">https://discord.gg/4cy5s2UN</a></strong></li>
+<li><strong><a href="https://www.curseforge.com/minecraft/texture-packs/minecraft-reimagined" target="_blank" rel="nofollow noopener">https://www.curseforge.com/minecraft/texture-packs/minecraft-reimagined</a></strong></li>
+<li><strong><a href="https://modrinth.com/resourcepack/light-leak/version/1.4.0" target="_blank" rel="nofollow noopener">https://modrinth.com/resourcepack/light-leak/version/1.4.0</a></strong></li>
+<li><strong><a href="https://www.curseforge.com/minecraft/texture-packs/golden-days" target="_blank" rel="nofollow noopener">https://www.curseforge.com/minecraft/texture-packs/golden-days</a>&nbsp;</strong></li>
+<li><strong><a href="https://www.curseforge.com/minecraft/texture-packs/rainbows-foliage" target="_blank" rel="nofollow noopener">https://www.curseforge.com/minecraft/texture-packs/rainbows-foliage</a></strong></li>
+<li><strong><a href="https://modrinth.com/resourcepack/knishles-beautiful-colormap" target="_blank" rel="nofollow noopener">https://modrinth.com/resourcepack/knishles-beautiful-colormap</a></strong></li>
+<li><strong>https://legacy.curseforge.com/minecraft/texture-packs/sunbathing-godrays</strong></li>
+</ul>
+<p><strong>Want to have your pack featured here? Feel free to contact me.<br><br>This is not an exhaustive list and just inclues packs submitted here to me by the community.<br><br>Pro tip: Check out the Dependents section here above to see all known packs there</strong></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p><strong><img src="https://i.imgur.com/7SXNHTv.png" width="1688" height="42"></strong></p>
+<p style="text-align: center;"><span style="font-size: 24px;"><strong>❤️Support Me❤️</strong></span></p>
+<p><span style="font-size: 18px;">Polytone is a <strong>free</strong> mod</span></p>
+<p><span style="font-size: 18px;">Enojoying the&nbsp;<strong>Polytone Packs</strong>? Consider donating<br>Modding is taking a lot of my time, so if you like what I do, and you would like to support me, you can do so here. If you do, you'll receive a custom&nbsp;<strong>Globe </strong>and or <strong>Statue</strong> just for you! This also applies if you purchase a server from Akliz using "supplementaries" code.<br><br>Also feel free to suggest more features! I will be happy yo listen to your suggestions?<br><br></span></p>
+<p>&nbsp;<a href="https://www.curseforge.com/linkout?remoteUrl=https://ko-fi.com/mehvahdjukaar" rel="nofollow"><br><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/sroRu1I.png" alt="Ko-Fi" width="346" height="68"></a></p>
+<div style="text-align: left;"><br><span style="font-size: 14px;">Need a server? Check out Akliz, they have top brand servers just for modded minecraft.</span></div>
+<div style="text-align: left;"><span style="font-size: 14px;">They really have a cozy community with great support and the servers wonderfully</span><br><span style="font-size: 14px;">Use code "supplementaries" to get<strong> 20% off</strong> and also support me in the process!</span><br><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/g5B76A8.png" alt="" width="640" height="150"></div>
+<p>&nbsp;</p>
+<p><img src="https://i.imgur.com/7SXNHTv.png" width="1688" height="42"></p>
+<p style="text-align: center;"><span style="font-size: 24px;"><strong>🦉 Our Mods🦉</strong></span></p>
+<p style="text-align: center;"><a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest" rel="nofollow"><img src="https://media.forgecdn.net/avatars/769/890/638107786158633425.gif" alt="Haunted Harvest" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit" rel="nofollow"><img src="https://media.forgecdn.net/avatars/488/371/637792657482121666.png" alt="Snowy Spirit" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/labels" rel="nofollow"><img src="https://media.forgecdn.net/avatars/623/301/638017052310334649.png" alt="Storage Labels" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/goated" rel="nofollow"><img src="https://media.forgecdn.net/avatars/767/944/638104301571813998.png" alt="Goated" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree" rel="nofollow"><img src="https://media.forgecdn.net/avatars/628/707/638025814904126005.gif" alt="Mysyical Oak Tree" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/carpeted-stairs" rel="nofollow"><img src="https://media.forgecdn.net/avatars/658/179/638058347698730749.png" alt="Carpeted Stairs" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm" rel="nofollow"><img src="https://media.forgecdn.net/avatars/727/100/638080208599452100.png" alt="MmmMmmMmmMmm" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/moyai" rel="nofollow"><img src="https://media.forgecdn.net/avatars/490/709/637798404029150212.png" alt="Moyai" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed" rel="nofollow"><img src="https://media.forgecdn.net/avatars/438/886/637685255314420532.png" alt="Jeed" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/better-lily-pads" rel="nofollow"><img src="https://media.forgecdn.net/avatars/551/229/637888507256267100.png" alt="Better Lily Pads" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-frames" rel="nofollow"><img src="https://media.forgecdn.net/avatars/774/798/638115339656250649.png" alt="Advancement Frames" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/randomium-ore" rel="nofollow"><img src="https://media.forgecdn.net/avatars/774/800/638115342928765853.png" alt="Randomium" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight" rel="nofollow"><img src="https://media.forgecdn.net/avatars/788/418/638141921847312709.png" alt="Sleep Tight" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/heartstone" rel="nofollow"><img src="https://media.forgecdn.net/avatars/488/555/637793261935851502.gif" alt="Heartstone" width="125" height="125"></a></p>
+<div>&nbsp;</div>
+<div>&nbsp;</div>

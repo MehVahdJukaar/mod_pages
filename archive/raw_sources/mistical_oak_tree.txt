@@ -1,0 +1,60 @@
+<p style="text-align: center;"><span style="color: #993300;"><strong><span style="font-size: 36px;">Mystical Oak Tree</span></strong>&nbsp;</span></p>
+<p style="text-align: left;"><span style="font-size: 18px; color: #000000;">Mystical Wise Tree, what is your wisdom?</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<ul>
+<li style="text-align: left;"><span style="font-size: 18px; color: #000000;">Mystical Oak Tree is an ancient immortal transcendental being that manifests himself in the shape of an ordinary oak tree</span></li>
+</ul>
+<p style="text-align: left;"><span style="font-size: 18px; color: #000000;">You might also notice its uncanny human resemblance, this is because he can engage in complex methaphyical conversation with the player</span></p>
+<p style="text-align: left;"><span style="font-size: 18px; color: #000000;">To do so simply touch him</span></p>
+<p style="text-align: left;">&nbsp;</p>
+<ul>
+<li style="text-align: left;"><span style="font-size: 18px; color: #000000;">Be wary tho as attacking the tree wont be a good idea as he can very well defend for himself. Infact how could have he lived for so long if he didnt?</span></li>
+</ul>
+<p style="text-align: left;">&nbsp;</p>
+<ul>
+<li style="text-align: left;"><span style="font-size: 18px; color: #000000;">Once talked to the tree will bestow the player with all sorts of his knowledge such as random facts, words of wistom, trivia or even jokes.</span></li>
+</ul>
+<p style="text-align: left;"><span style="font-size: 18px; color: #000000;">To do so however you will first have to gain hist trust by talking with him for long enough.</span></p>
+<p style="text-align: left;"><span style="font-size: 18px; color: #000000;">Negative actions will of course decrease his trust in you</span></p>
+<p style="text-align: left;"><span style="font-size: 18px; color: #000000;">&nbsp;</span></p>
+<ul>
+<li style="text-align: left;"><span style="font-size: 18px; color: #000000;">Pro tip: don't talk to him during the day as doing so will require you to wake him up and this will reduce his trust in you</span></li>
+</ul>
+<p style="text-align: left;">&nbsp;</p>
+<ul>
+<li style="text-align: left;"><span style="color: #000000;"><span style="font-size: 18px;">As for where you can find him there's not a good answer as he is the one that will find you but in general be on the lookout becaus this might very well happen in any overworld biome. You will notice him as he has a slightly different tree shape</span></span></li>
+</ul>
+<p style="text-align: left;"><span style="color: #000000;"><span style="font-size: 18px;">&nbsp;</span></span></p>
+<ul>
+<li style="text-align: left;"><span style="color: #000000;"><span style="font-size: 18px;">The mod includes <strong>300+</strong> custom written lines for him plus way more dynamically grabbed from the web. Talk with him every day and he'll always have something new to share!</span></span></li>
+<li style="text-align: left;"><span style="color: #000000;"><span style="font-size: 18px;">More precisely here are all the topics he knows:</span></span><span style="font-size: 14px;">- Random facts<br>- Tree jokes<br>- Minecraft lore and trivia<br>- Words of wisdon<br>- Videogame quotes<br>- Tips<br>- Memes<br>- Tomorrows weather<br>- You<br><br></span></li>
+</ul>
+<p style="text-align: left;"><span style="color: #000000;"><span style="font-size: 18px;">&nbsp;</span></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="color: #000000;"><span style="font-size: 18px;">This mod was made for Spooky Jam 2022</span></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="color: #000000;"><span style="font-size: 18px;">https://twitter.com/i/status/1587151251300823040</span></span></p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;"><span style="font-size: 24px;"><span style="font-size: 18px;">Additional credits (for tree dialogue)</span><br></span></p>
+<ul>
+<li><span style="font-weight: 400;">TGP</span></li>
+<li><span style="font-weight: 400;">Bepsus</span></li>
+<li><span style="font-weight: 400;">snugget</span></li>
+<li><span style="font-weight: 400;">The All Knowing White Chicken</span></li>
+<li><span style="font-weight: 400;">Tronche2Cake</span></li>
+<li><span style="font-weight: 400;">TheVoxelroguery</span></li>
+<li><span style="font-weight: 400;">Zepjamb</span></li>
+<li><span style="font-weight: 400;">this was a mistake</span></li>
+<li><strong>Treebread</strong></li>
+<li><span style="font-weight: 400;">LarsMans</span></li>
+<li><span style="font-weight: 400;">Turnoverdisc</span></li>
+<li><strong>Looxond</strong></li>
+<li><strong>Suomi_Ikuisesti</strong></li>
+<li><strong>BlackbirdAntlion</strong></li>
+<li><strong>Spinoyonyx</strong></li>
+<li><strong>3TSeeker</strong></li>
+<li><span style="font-weight: 400;">nitro_dynamite18</span></li>
+</ul>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>
+<p style="text-align: left;">&nbsp;</p>

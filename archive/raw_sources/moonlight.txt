@@ -1,0 +1,180 @@
+<h1 style="text-align:center">Moonlight Lib</h1><p style="text-align:center">[![Supplementaries Discord](https://github.com/MehVahdJukaar/dynamic_badges/blob/master/discord.svg?raw=true)](https://discord.gg/qdKRTDf8Cv) [![Support me on Patreon](https://github.com/MehVahdJukaar/dynamic_badges/blob/master/patreon.svg?raw=true)](https://patreon.com/mehvahdjukaar) [![Supplementaries Twitter](https://badges.penpow.dev/badges/social/twitter-plural/cozy.svg)](https://www.twitter.com/Supplementariez) [![Youtube Channel](https://github.com/MehVahdJukaar/dynamic_badges/blob/master/youtube.svg?raw=true)](https://www.youtube.com/channel/UCOaLLgwzOdbH6rCI7izCptw)</p><p style="text-align:center">**![](https://i.imgur.com/UpMHfZ5.png)**</p><h2 style="text-align:center">**📖 About 📖**</h2> <p style="text-align:left">Formerly Selene Library, Moonlight Lib is a set of specialized utilities and shared code that I use for my mods.
+These include some highly specialized features such as dynamic asset generation, 2 new data registries, dynamic registration system as well as your usual multi loader helpers and wrappers to develop for both Fabric and Forge</p><p style="text-align:center">**![](https://i.imgur.com/UpMHfZ5.png)**</p><h2 style="text-align:center">**🛠️ Features🛠️**</h2> <p style="text-align:left">Here are the most important features included. If you are a developer planning to use this library this is the section for you!</p>
+
+The main place for documentations are these:
+
+*   This page
+*   Example Package classes on [github](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/example/java)
+*   Java Docs in classes from API package on [github](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/main/java/net/mehvahdjukaar/moonlight/api)
+
+<p style="text-align:left">To **import this lbrary**, simply go into the file section here and click "copy gradle line". Then paste that in your build.gradle file.</p> 
+
+***
+
+ 
+
+### **🎨Dynamic Assets**
+
+Moonlight allows you to generate any asset dynamically, for both datapacks and resource packs. In particulat the mod contains an extensive API to generate dynamic textures with tools like extracting palette, cropping, reshaping images, automatic recoloring and more.
+
+ 
+
+*   Dynamic Resources example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/RipgGvz.png" alt="" width="1083" height="813"></p></div>
+
+*   Texture Recoloring example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/8X9USvL.png" alt="" width="1063" height="506"></p></div>
+
+*   Palette manipulation example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/2Yiu8C5.png" alt="" width="940" height="677"></p></div>
+
+     
+
+### **🌍 Multiloader Utilities**
+
+These sets of utilities try to be as simple as possible, usually just relying on static helper functions instead of annotations or other OOP practices, and mainly emulate Forge behavior by simply wrapping it with helper functions. For fabric the equivalent behavior is called or implemented if its not available. Some highlight of this are Deferred registration, Common Setup and more.
+
+Mod focus is on simplicity so most important calls are split among just 4 main API classes.
+
+These are: PlatHelper, ClientHelper, RegHelper and ForgeHelper. 
+
+For configs and networking the main classes are ConfigBuilder and ChannelHandler
+
+Configs in particular have extra features like being able to use Codecs, be loaded early or be automatically synced to clients
+
+ 
+
+*   PlatHelper example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/J09BP39.png" width="1054" height="631"></p></div>
+
+*   ClientHelper example
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/Xnm6IWm.png" width="800" height="778"></p></div>
+
+*   RegHelper example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/EcNchXA.png" width="776" height="694"></p></div>
+
+      
+*   ConfigBuilder example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/XRxW9nv.png" alt="" width="1017" height="806"></p></div>
+
+*   ChannelHandler example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/rE22Fcm.png" alt="" width="761" height="620"></p></div>
+
+     
+
+### **📒 Dynamic Registration**
+
+This includes a new system (BlockSetAPI) which allows to dynamically detect "block sets" right after all blocks have been registered and dynamically register new entries which depend on it. An example is using the builtin WoodTypeRegistry or LeavesTypeRegistry, two block sets that will be populated dynamically with all installed woods and leaves from any mod, allowing you to register your wooden items in all existing wood types.
+
+*   BlockSetAPI example : defining a block set
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/UXqIcTu.png" alt="" width="906" height="725"></p></div>
+
+*   BlockSetAPI example: registering dynamic blocks
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/0pbcAXp.png" alt="" width="1000" height="625"></p></div>
+
+
+### **
+🧙‍♂️ Misc Utilities**
+
+*   DispenserHelper example
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/wzU7lWX.png" alt="" width="913" height="687"></p></div>
+
+*   First and Third-person Item animations example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/3oHouB2.png" alt="" width="1250" height="734"></p></div>
+
+     
+
+### **🍩Custom Baked Models
+**
+
+*   Custom Model and Model Loader example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/oRY0fS8.png" alt="" width="877" height="788"></p></div>
+
+*   Quad Utils example:
+
+    <div class="spoiler"><p><img src="https://i.imgur.com/hu4aYCz.png" alt="" width="946" height="761"></p></div>
+
+
+ 
+
+### **🌽Custom Villager Trades**
+
+Using the \`moonlight/villager\_trades\` datapack folder you'll be able to add new custom trades to any villager. Here's an example trade.  Check out Supplementaries of Sawmill for more examples
+
+<div class="spoiler"><p><img src="https://media.forgecdn.net/attachments/description/499980/description_bd90e87f-614d-4bc3-ae9c-dd1fa3f89ba5.png"></p></div>
+
+
+
+
+*   **Block Color API:**A set of utilities which allows to detect any arbitrary modded block DyeColor as well as getting the equivalent block in a different color
+    This works dynamically for any modded block or item
+
+ 
+
+*   **Custom map markers:** 
+      A complete system that allows to easily implement and add map decoration and map markers as well as control every aspect of them like rendering. Also allows storing simple data inside maps data offering a couple of hooks to use it too like on item tooltip.
+     This system also offers a simple Data Driven implementation meaning you can easily register new markers with datapacks!
+
+
+*   **Global datapack folder & model loader folder**
+    respectively in moonlight-global-datapacks and /assets/models/special\_models
+
+ 
+
+*   **Dynamic Villager AI
+    **A helper system to easily and dynamically add tasks and modify villager schedules in a compatible way without overriding the whole existing AI. Also allows to properly add memory types
+
+ 
+
+*   **Custom first and third person animations:
+    **  Allows modders to implement a simple interface in their items to allow it to have custom third and first person animations (like crossbows). 
+     Includes simple and easy to use interfaces that can let you control first person and third person animations as well as a callback for rendering the item itself (similar to spyglass) directly in your item class
+
+ 
+
+*   **Global datapacks folder
+    **
+*   **Debug renderers command**
+
+ 
+
+*   **Grindstone achievement triggers:**
+      The mod adds a custom trigger that gets called when an item is passed through a grindstone that you can call in your mods advancements jsons
+
+
+*   **Soft fluid system:**
+      An entirely Data Driven custom virtual fluid system that goes on top of forge one and is designed to fit better in vanilla minecraft and having as main feature the ability to have multiple fluid containers items like bottles, bowls and buckets, as well as providing support for stews and drinks that can be consumed directly from a fluid tank. As opposed to the forge fluid system it has a base unit of 1 minecraft bottle (250 forge mb). The system also automatically generates all the needed fluids for already registered forge fluids and allows the user to override them or add to them easily. Fluids are virtual so they can only exist in modded container specifically for them
+
+ 
+
+**![](https://i.imgur.com/UpMHfZ5.png)**
+
+<p style="text-align:center">**❤️Support Me❤️**</p> 
+
+Modding is taking a lot of my time, so if you like what I do, and you would like to support me, you can do so here. If you do, you'll receive a custom **Globe** and or **Statue** just for you! This also applies if you purchase a server from Akliz using "supplementaries" code.
+
+ [
+![Ko-Fi](https://i.imgur.com/sroRu1I.png)](https://www.curseforge.com/linkout?remoteUrl=https://ko-fi.com/mehvahdjukaar)
+
+<div style="text-align:left"><div>Need a server? Check out Akliz, they have top brand servers just for modded minecraft.</div><div>They really have a cozy community with great support and the servers wonderfully<br>Use code "supplementaries" to get<strong>&nbsp;20% off</strong>&nbsp;and also support me in the process!</div></div>
+
+<div style="text-align:left"><img style="display:block;margin-left:auto;margin-right:auto" src="https://i.imgur.com/g5B76A8.png" alt="" width="640" height="150"></div>
+
+ 
+
+![](https://i.imgur.com/UpMHfZ5.png)
+
+<p style="text-align:center">**🦉 Our Mods🦉**</p><p style="text-align:center">[![Haunted Harvest](https://media.forgecdn.net/avatars/769/890/638107786158633425.gif)](https://www.curseforge.com/minecraft/mc-mods/haunted-harvest)[![Snowy Spirit](https://media.forgecdn.net/avatars/488/371/637792657482121666.png)](https://www.curseforge.com/minecraft/mc-mods/snowy-spirit)[![Storage Labels](https://media.forgecdn.net/avatars/623/301/638017052310334649.png)](https://www.curseforge.com/minecraft/mc-mods/labels)[![Goated](https://media.forgecdn.net/avatars/767/944/638104301571813998.png)](https://www.curseforge.com/minecraft/mc-mods/goated)[![Mysyical Oak Tree](https://media.forgecdn.net/avatars/628/707/638025814904126005.gif)](https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree)[![Carpeted Stairs](https://media.forgecdn.net/avatars/658/179/638058347698730749.png)](https://www.curseforge.com/minecraft/mc-mods/carpeted-stairs)[![MmmMmmMmmMmm](https://media.forgecdn.net/avatars/727/100/638080208599452100.png)](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm)[![Moyai](https://media.forgecdn.net/avatars/490/709/637798404029150212.png)](https://www.curseforge.com/minecraft/mc-mods/moyai)[![Jeed](https://media.forgecdn.net/avatars/438/886/637685255314420532.png)](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed)[![Better Lily Pads](https://media.forgecdn.net/avatars/551/229/637888507256267100.png)](https://www.curseforge.com/minecraft/mc-mods/better-lily-pads)[![Advancement Frames](https://media.forgecdn.net/avatars/774/798/638115339656250649.png)](https://www.curseforge.com/minecraft/mc-mods/advancement-frames)[![Randomium](https://media.forgecdn.net/avatars/774/800/638115342928765853.png)](https://www.curseforge.com/minecraft/mc-mods/randomium-ore)</p>

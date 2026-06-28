@@ -1,0 +1,68 @@
+<h1 style="text-align: center;"><span style="color: #f1c40f;"><strong>MmmMmmMmmMmm</strong></span></h1>
+<p>&nbsp;</p>
+<p style="text-align: center;"><a href="https://discord.gg/qdKRTDf8Cv" rel="nofollow"><img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/discord.svg?raw=true" alt="Supplementaries Discord" width="163" height="56"></a> <a href="https://patreon.com/mehvahdjukaar" rel="nofollow"><img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/patreon.svg?raw=true" alt="Support me on Patreon" width="180" height="56"></a> <a href="https://www.twitter.com/Supplementariez" rel="nofollow"> <img src="https://badges.penpow.dev/badges/social/twitter-plural/cozy.svg" alt="Supplementaries Twitter" width="189" height="55"></a> <a href="https://www.youtube.com/channel/UCOaLLgwzOdbH6rCI7izCptw" rel="nofollow"> <img src="https://github.com/MehVahdJukaar/dynamic_badges/blob/master/youtube.svg?raw=true" alt="Youtube Channel" width="183" height="50"></a></p>
+<p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/PLgRE6M.png" alt=""></strong></p>
+<h2 style="text-align: center;"><strong>📖 About 📖</strong></h2>
+<p>This is a small mod that adds exactly one item: a Target Dummy.</p>
+<p>The dummy can be placed in the world, where it'll stand silently, judging your every action. It'll wiggle funny if you hit it, screaming large numbers of damage at you. It can be dressed up to look even more awesome. This will please the dummy, making the numbers smaller.</p>
+<p>TL;DR: target dummies show damage dealt to them and can be equipped with armor</p>
+<p>Check out this video tutorials <a href="https://www.youtube.com/watch?v=nm76hv9sShM" rel="nofollow">here</a></p>
+<p>Additionslly you can enabldamege numbers for ANY entity in the configs!</p>
+<p><strong><img src="https://i.imgur.com/PLgRE6M.png" alt=""></strong></p>
+<h2 style="text-align: center;"><strong>🎯 Usage and Features🎯</strong></h2>
+<h4><strong>Usage:</strong></h4>
+<p>Right click on a block with a target dummy to place it. He can be rotated 16 different directions depending on the way you face when you place it, similar to an armor stand.</p>
+<p>You can start dressing the little dude with all kind of armors and equipment including shields. Just right click him with the desired item. To unequip a certain armor piece just click on his corresponding body part.</p>
+<p>Got tired of testing your dps? You can remove the dummy just by shift left clicking him with an empty hand!</p>
+<p><br>Ever wanted to test your shiny new smite sword but couldn't because there are no skellies around? Well fear no more, you can now equip the dummy with and undead mob head and it will change its type accordingly! Other headgears will have similar effect for other mob categories.</p>
+<p><br>Need automating? You can dispense the dummy using a dispenser and you can break him by removing the block under his feet. You can also place a Target Block below the dummy to read the damage dealt with its output signal</p>
+<p>&nbsp;</p>
+<p>Want a challenge? Give it banner for it to enter Boss Mode.</p>
+<p>&nbsp;</p>
+<p>Don't like how much he swings or the new skin? Well you can easily change that by using the mod config file. You can additionally choose between static and dynamic dps messages and you can make the numbers show hearths instead of damage.</p>
+<p>&nbsp;</p>
+<p>You can also equip them with a pumpkin or jack o lantern and they'll act as&nbsp;<strong>scarecrows</strong>, scaring nearby animals</p>
+<p>... o with a player head to let mob target It instead!</p>
+<p>&nbsp;</p>
+<h3><strong>Showcases:</strong></h3>
+<p>&nbsp;</p>
+<p><iframe style="display: table; margin-left: auto; margin-right: auto;" src="https://www.youtube.com/embed/sfYEYH5Haj4" width="560" height="314" allowfullscreen="allowfullscreen"></iframe></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4><strong>Full list of changes from original 1.12 bonusboni's mod:</strong></h4>
+<p>Lots of stuff here, more than half of the mod was re written.</p>
+<ul>
+<li>Greatly improved damage detection code to be inline with all other Mobs.</li>
+<li>New skins!</li>
+<li>Added support for more than one damage number. They now have a fading animation to clarify which is the newest.</li>
+<li>Can have an optional boss bar when given a banner</li>
+<li>Can hold and block with a Shield!</li>
+<li>Numbers change their colors depending on the type of damage dealt. For example critical hits are red and lightning damage is yellow. Try it out!</li>
+<li>Added dispenser support</li>
+<li>Renaming the item to a number will give the dumy that health</li>
+<li>Can mimic mob types by equipping different items.</li>
+<li>Updated the model and animation so that the head stays attached to the body</li>
+<li>The dummy now reacts to all damage types</li>
+<li>Can be killed with /kill command, by withers and by void damage.</li>
+<li>Dps number now appears on the status bar. You can choose between static and dynamic dps in the config.</li>
+<li>Added configs to change a few aesthetic things</li>
+<li>Equipping and unequipping functions alot more like an armor stand</li>
+<li>Base is a bit smaller and centered on the block grid</li>
+<li>Custom armor models from other mods render properly (only 1.16 for now)</li>
+<li>Swinging animation is now much smoother</li>
+<li>Act as scarecrows when equipped with a pumpkin</li>
+<li>Fixed many bugs</li>
+</ul>
+<p>&nbsp;</p>
+<p><strong><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/PLgRE6M.png" alt=""></strong></p>
+<h2 style="text-align: center;"><strong>❤️Support Me❤️</strong></h2>
+<p>Modding is taking a lot of my time, so if you like what I do, and you would like to support me, you can do so here. If you do, you'll receive a custom&nbsp;<strong>Globe</strong>&nbsp;and or&nbsp;<strong>Statue</strong>&nbsp;just for you! This also applies if you purchase a server from Akliz using "supplementaries" code.</p>
+<p>&nbsp;<a href="https://www.curseforge.com/linkout?remoteUrl=https://ko-fi.com/mehvahdjukaar" rel="nofollow"> <img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/sroRu1I.png" alt="Ko-Fi"></a></p>
+<p>Need a server? Check out Akliz, they have top brand servers just for modded minecraft.</p>
+<p>They really have a cozy community with great support and the servers wonderfully<br>Use code "supplementaries" to get&nbsp;<strong>20% off</strong>&nbsp;and also support me in the process!</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/g5B76A8.png" alt=""></p>
+<p>&nbsp;undefined</p>
+<p><img style="display: block; margin-left: auto; margin-right: auto;" src="https://i.imgur.com/PLgRE6M.png" alt=""></p>
+<h2 style="text-align: center;"><strong>🦉 Our Mods🦉</strong></h2>
+<p style="text-align: center;"><span style="font-family: helvetica, arial, sans-serif;"><span style="font-size: 18px;"> <a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest" target="_blank" rel="nofollow noopener"><img src="https://media.forgecdn.net/avatars/769/890/638107786158633425.gif" alt="Haunted Harvest" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit" target="_blank" rel="nofollow noopener"><img src="https://media.forgecdn.net/avatars/488/371/637792657482121666.png" alt="Snowy Spirit" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/labels" target="_blank" rel="nofollow noopener"><img src="https://media.forgecdn.net/avatars/623/301/638017052310334649.png" alt="Storage Labels" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/goated" rel="nofollow"><img src="https://media.forgecdn.net/avatars/767/944/638104301571813998.png" alt="Goated" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree" target="_blank" rel="nofollow noopener"><img src="https://media.forgecdn.net/avatars/628/707/638025814904126005.gif" alt="Mysyical Oak Tree" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/carpeted-stairs" target="_blank" rel="nofollow noopener"><img src="https://media.forgecdn.net/avatars/658/179/638058347698730749.png" alt="Carpeted Stairs" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm" rel="nofollow"><img src="https://media.forgecdn.net/avatars/727/100/638080208599452100.png" alt="MmmMmmMmmMmm" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/moyai" rel="nofollow"><img src="https://media.forgecdn.net/avatars/936/997/638414771733478975.png" alt="Moyai" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed" rel="nofollow"><img src="https://media.forgecdn.net/avatars/438/886/637685255314420532.png" alt="Jeed" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/better-lily-pads" rel="nofollow"><img src="https://media.forgecdn.net/avatars/551/229/637888507256267100.png" alt="Better Lily Pads" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-frames" rel="nofollow"><img src="https://media.forgecdn.net/avatars/936/992/638414764957723804.png" alt="Advancement Frames" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/randomium-ore" rel="nofollow"><img src="https://media.forgecdn.net/avatars/774/800/638115342928765853.png" alt="Randomium" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight" rel="nofollow"><img src="https://media.forgecdn.net/avatars/788/418/638141921847312709.png" alt="Sleep Tight" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/polytone" rel="nofollow"><img src="https://media.forgecdn.net/avatars/931/583/638405407858849835.png" alt="Polytone" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/heartstone" rel="nofollow"><img src="https://media.forgecdn.net/avatars/488/555/637793261935851502.gif" alt="Heartstone" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge" rel="nofollow"><img src="https://media.forgecdn.net/avatars/878/615/638305506575137108.png" alt="Map Atlases" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/sawmill" rel="nofollow"><img src="https://media.forgecdn.net/avatars/936/946/638414707400791480.png" alt="Universal Sawmill" width="125" height="125"></a></span></span></p>
+<div>&nbsp;</div>

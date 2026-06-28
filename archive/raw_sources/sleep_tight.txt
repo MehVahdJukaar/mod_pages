@@ -1,0 +1,181 @@
+<p style="text-align:center"><span style="font-size:36px"><strong><span style="color:#000080"><img src="https://i.imgur.com/c6WaaAG.png" alt="mod" width="1290" height="1179"></span></strong></span></p><p style="text-align:center">   **[![Supplementaries Discord](https://img.shields.io/discord/790151253144895508?label=&color=2d2d2d&labelColor=dddddd&style=for-the-badge&logo=Discord&)](https://discord.gg/qdKRTDf8Cv) [![Support me on Patreon](https://img.shields.io/endpoint.svg?url=https://shieldsio-patreon.vercel.app/api?username=mehvahdjukaar&type=patrons&style=for-the-badge&label=&color=2d2d2d&labelColor=dddddd&)](https://patreon.com/mehvahdjukaar) [![Supplementaries Twitter](https://img.shields.io/twitter/follow/Supplementariez?label=&color=2d2d2d&labelColor=dddddd&style=for-the-badge&logo=Twitter&message=Twitter&)](https://www.twitter.com/Supplementariez) [![Supplementaries Twitter](https://img.shields.io/youtube/channel/subscribers/UCOaLLgwzOdbH6rCI7izCptw?label=&color=2d2d2d&labelColor=dddddd&style=for-the-badge&logo=Youtube&message=Twitter&logoColor=ff0000)](https://www.youtube.com/channel/UCOaLLgwzOdbH6rCI7izCptw)**</p><p style="text-align:center"><span style="font-size:14px;font-family:helvetica, arial, sans-serif"><strong><img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></strong></span></p><p style="text-align:center"><span style="font-size:24px"><strong>🖼️ Media🖼️</strong></span></p><p style="text-align:center"><span><iframe src="https://www.youtube.com/embed/Uunei1ZoW-s?wmode=transparent" width="700" height="400" allowfullscreen="allowfullscreen"></iframe></span>![hammocks](https://media.forgecdn.net/attachments/667/709/hammocks.png)  <span>&nbsp;<img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></span></p><p style="text-align:center"><span style="font-size:24px;font-family:helvetica, arial, sans-serif"><strong>📖 About&nbsp;📖</strong></span></p> 
+
+<span style="font-size:18px">Sleep Tight is a very comprehensive rebalance and <strong>overhaul of the Minecraft sleeping system</strong>.</span>
+
+<span style="font-size:18px">The mod's main goals are:</span>
+
+*   <span style="font-size:18px">Slow down early game progression, making it so sleeping off the night isn't always a no-brainer<br></span>
+*   <span style="font-size:18px">Rewards player for prioritizing their "home bed" instead of placing random beds down every night</span>
+*   <span style="font-size:18px">Offers late game options to sleep immediately without setting your spawn point (and without associated penalties)</span>
+*   <span style="font-size:18px">Expand the sleep system by allowing players to rest during the day</span>
+*   <span style="font-size:18px">Adds some drawbacks and dangers to sleep such as nightmares, sleep encounters and bedbugs</span>
+
+ 
+
+<span style="font-size:18px">Overall sleeping should feel more rewarding and balanced while still being fun and engaging at the same time with its new encounters mechanics. The mod late game should feel like vanilla but with added benefits</span>
+
+ <p style="text-align:center"><span style="font-size:24px;color:#36f"><strong>[EASY MODE]</strong></span></p> 
+
+<span style="font-size:18px"><strong>This mod is for everybody as its</strong>&nbsp;<strong>highly configurable</strong>. Just want the hammocks with no sleeping changes? You can do just that!</span>
+
+<span style="font-size:18px">Additionally a </span> **pre configured** undefined**EASY MODE** <span style="font-size:18px"> jar is available. It </span> **only adds beneficial features** <span style="font-size:18px"> while keeping nightmares as just a visual effect. changes are:</span>
+
+*   <span style="font-size:18px">No sleep cooldown</span>
+*   <span style="font-size:18px">Less nightmares and no nightmare cooldown. Nightmares dont make you wake up earlier and are just a visual effect</span>
+*   <span style="font-size:18px">Bedbugs are rarer and can be prevented with deamer essence</span>
+*   <span style="font-size:18px">Night bags recipe is way easier, accessible early game</span>
+*   <span style="font-size:18px">No hunger is consumed when sleeping. Sleep benefits kick in earlier</span>
+
+<span style="font-size:18px"><br>(Download file marked with "EASY_MODE")</span>
+
+  
+
+**![](https://i.imgur.com/XxKWBpA.png)**
+
+<p style="text-align:center"><span style="font-size:24px"><strong>🌌Night Bags🌌</strong></span></p><p style="text-align:center"><span style="font-size:24px"><strong><img src="https://cdn-raw.modrinth.com/data/tNai0h2Y/images/dee42b5dd4643454e75db0a987a810bb31330bed.png" width="334" height="197"></strong></span></p>
+
+*   <span style="font-size:18px">A late game item crafted with echo shards and phantom membrane</span>
+*   <span style="font-size:18px">Serves as a temporary bed that does not set your spawn point</span>
+*   <span style="font-size:18px">When used will immediately place the player in sleep mode on the spot</span>
+*   <span style="font-size:18px">Upon waking up they will go back in your inventory. Perfect for camping!</span>
+*   <span style="font-size:18px">Does not prevent Phantom spawn nor provide any benefit</span>
+
+<span style="font-size:14px"><strong><img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></strong></span>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>💤Hammocks💤</strong></span></p><p style="text-align:center"><span style="font-size:24px"><strong><img src="https://cdn-raw.modrinth.com/data/tNai0h2Y/images/ce174aba2c57bc4ef7edb6632d848d1510f542c9.png" width="341" height="178"></strong></span></p>
+
+*   <span style="font-size:18px">Allow players to rest during the day</span>
+*   <span style="font-size:18px">When laying on one you can swing back and forth by pressing "a" or "d" movement keys</span>
+*   <span style="font-size:18px">Come in all different colors</span>
+*   <span style="font-size:18px">Can be attached to either 2 fences with 2 blocks in between or in a 3 block space against 2 blocks</span>
+
+<p style="text-align:center">**![](https://i.imgur.com/XxKWBpA.png)**</p><p style="text-align:center"><span style="font-size:24px"><strong>🪳Bedbugs🪳</strong></span></p><p style="text-align:center"><span style="font-size:24px"><strong><img src="https://cdn-raw.modrinth.com/data/tNai0h2Y/images/7406d71aaed17430f670c918555400a55bfbc804.png" width="263" height="184"></strong></span></p>
+
+*   <span style="font-size:18px">A disruptive mob that has a rare chance to spawn right after you sleep in a bed on high difficulties</span>
+*   <span style="font-size:18px">Normally they ignore the player and sprint toward any bed close by</span>
+*   <span style="font-size:18px">Once they reach a bed they will burrow in it making it unusable/"infested"</span>
+*   <span style="font-size:18px">To solve this you'll have to use a potion of harming on the bed itself</span>
+*   <span style="font-size:18px">Can pass through doors</span>
+*   <span style="font-size:18px">Can also rarely spawn in the wild and will attack players when no beds are in sight</span>
+
+<span style="font-size:14px"><strong><img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></strong></span>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>🏠Home Bed🏠</strong></span></p>
+
+*   <span style="font-size:18px">Sleeping at least 6 times (familiarity level) in the same bed will mark it as your "home bed"</span>
+*   <span style="font-size:18px">Once a bed gets marked you'll receive a new effect, <strong>Invigorated</strong>, upon waking up</span>
+*   <span style="font-size:18px">Invigorating increases XP drop from ores and mobs for a long period of time making it a valuable reward for committing to the same bed</span>
+*   <span style="font-size:18px">If you sleep on another bed o let it be infested as doing so will reset its familiarity level but NOT its home bed level. Sleep 6 more nights on it again to unlock all you old levels back.</span>
+*   <span style="font-size:18px">Sleeping even more nights on the same bed will increase the Home Bed level even further up to a max of 100</span>
+*   <span style="font-size:18px">Home bed status can be viewed in a newly added icon in the sleep screen or sleep bar when laying</span>
+
+<span style="font-size:14px"><strong><img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></strong></span>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>🌒Nightmares🌒</strong></span></p><p style="text-align:center"><span style="font-size:24px"><strong><img src="https://cdn-raw.modrinth.com/data/tNai0h2Y/images/e0ec71bed38bc049d458bf7249f26d4fb49f3e84.png" width="260" height="231"></strong></span></p>
+
+*   <span style="font-size:18px">The more consecutive nights you sleep the more likely you'll be to have a nightmare</span>
+*   <span style="font-size:18px">This serves as a way to discourage sleeping off every night</span>
+*   <span style="font-size:18px">Nightmares will wake you up in the middle of the night and will afflict you with a sleep cooldown longer than usual</span>
+*   <span style="font-size:18px">Nightmares only serve as an early game threat as they can be easily prevented with <strong>Dreamer Essence</strong></span>
+*   <span style="font-size:18px">Dreamer essence prevents nightmares in a 5 blocks radius</span>
+*   <span style="font-size:18px">Additionally phantoms will be attracted to Dreamer Essence and will try to break the block. This allows clever players to lure them away allowing one to not be bothered by them</span>
+
+<span style="font-size:14px"><strong><img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></strong></span>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>🛌Sleeping Changes🛌</strong></span></p>
+
+*   <span style="font-size:18px">You can now <strong>lay</strong> on a bed or hammock without sleeping. This allows you to move your camera and access your inventory like normal</span>
+*   <span style="font-size:18px">Successfully sleeping will now have a <strong>cooldown.&nbsp;</strong>By default this will be 5m but some events, such as sleep encounters or nightmares will inflict much harsher penalties</span>
+*   <span style="font-size:18px">You can view your current cooldown in a newly added status bar right below your crossair when aiming or resting on a bed</span>
+*   <span style="font-size:18px">While sleeping you will see the current time on the left corner of your screen</span>
+*   <span style="font-size:18px">Beds will no longer violently explode when in the nether. They will instead only make a tiny blast. You can also disable the explosion entirely allowing you to sleep there</span>
+*   <span style="font-size:18px">Villagers will close their eyes when sleeping</span>
+
+**![](https://i.imgur.com/XxKWBpA.png)**
+
+<p style="text-align:center"><span style="font-size:24px"><strong>🧟Sleep Encounters🧟</strong></span></p>
+
+*   <span style="font-size:18px">Formerly known as "bad dreams" this is an old mechanic that was removed in previous versions of mc</span>
+*   <span style="font-size:18px">When sleeping next to a dark spot you'll have a chance to get woken up by a mob that could have naturally spawned there</span>
+*   <span style="font-size:18px">No longer are you safe to sleep in a dark cave!</span>
+
+    **![](https://i.imgur.com/XxKWBpA.png)**
+
+    <p style="text-align:center"><span style="font-size:24px"><strong>😪Sleep Benefits &amp; Requirements😪</strong></span></p><span style="font-size:18px">The mod offers many ways to customize your sleeping experience. Here are all the options that it offers with their default behavior</span>
+*   <span style="font-size:18px">Sleeping requires full hunger (default off)</span>
+*   <span style="font-size:18px">Sleeping requires an XP toll (default 0)</span>
+*   <span style="font-size:18px">Sleeping will grant a status effect (Invigorating only for home beds as explained above)</span>
+*   <span style="font-size:18px">Heal when woken up (default on)</span>
+*   <span style="font-size:18px">Clear all effects when woken up (default on)<br></span>
+*   <span style="font-size:18px">Consumes hunger when woken up (default on)<br><br></span><span style="font-size:18px">All these can be turned on or off individually for each bed type (bed, hammocks and sleeping bags)</span>
+
+<span style="font-size:18px"><br>The rest of the mod is equally configurable so be sure to check the configs for a more in depth explanation</span>
+
+ 
+
+**![](https://i.imgur.com/XxKWBpA.png)**
+
+<p style="text-align:center"><span style="font-size:24px"><strong>💜Mod Integration💜</strong></span></p>
+
+*   <span style="font-size:18px">When Heartstones mod is installed sleeping next to a Heartstone owner will grant both of you a regeneration effect<br></span>
+
+    <span style="font-size:24px"><strong><img style="display:block;margin-left:auto;margin-right:auto" src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></strong></span>
+
+    <p style="text-align:center"><span style="font-size:24px"><strong>❓Q&amp;A❓</strong></span></p>
+
+<span style="font-size:18px"><strong>Q: This mod seems tedious. I just want hammocks and my op beds back<br>A:&nbsp;</strong>Just turn off all the difficulty features in the configs. The mod is entirely customizable</span>
+
+ 
+
+<span style="font-size:18px"><strong>Q: How do i get rid of bed bugs?<br>A:&nbsp;</strong>You'll have to account for that, hunting for them when you wake up if you hear one. Smart house construction can also help</span>
+
+ 
+
+<span style="font-size:18px"><strong>Q: I dont like X feature, how do i change it?<br>A:&nbsp;</strong>Everything is extremely customizable in the mods configs. Infact mod also contains some optional features off by default</span>
+
+ 
+
+<span style="font-size:18px"><strong>Q: Does this work for multiplayer?<br>A:&nbsp;</strong>Yes! Some features like nightmares will account for all the players nightmare change and a "nightmare night" will be rolled accordingly. Only the player that actually got a nightmare will be set on cooldown</span>
+
+ undefined
+
+<span style="font-size:18px"><strong>Q: Does this work with X mod?<br>A: </strong>If that mod adds new beds all should work fine. If it alters the sleep mechanic try and see. If that mod adds sleeping bags probably will too but not thematically.</span>
+
+<span style="font-size:18px">As for bedbugs they will be able to enter a modded bed only if its correctly been assigned as a villager point home point of interest as they all should (most mods dont do this).</span>
+
+<span style="font-size:18px">If you have Sleep Warp mod note that not only its thematically incompatible but almost the entirety of the mod wont work there as bedbugs, bed encounters, nightmares and bed benefits are all events that happen when you sleep instantaneously a night and as such are able to alter the time at which you wake up which is just not possible with the way that mod works</span>
+
+  
+
+<span style="font-size:18px"><strong>Q: What about phantoms?</strong></span>
+
+<span style="font-size:18px">A: Phantoms are a mechanic which punishes you by making the game harder for wanting the game to be harder(??) by not sleeping. For how much I think their spawn condition is contradictory you can still deal with them. Just laying on a bed is enough or you could sleep on a hammock for no drawbacks. Furthermore you can use dream essence placed high up to lure them away making them a non threat</span>
+
+ 
+
+<span style="font-size:18px"><strong>Q: Why does this mod nerf bed in early game?<br>A:&nbsp;</strong>Because being able to skip the only part of a day where mobs spawn above ground without consequences in a game built around surviving mobs seems pretty op to me. In vanilla sleeping becomes such a no brainer that you have no incentive in not doing it as soon as you can every night.</span>
+
+ 
+
+<span style="font-size:18px">Also remember that&nbsp;playersSleepingPercentage gamerule exist so you can set how many players need to sleep in a sever. You dont need a mod for this!</span>
+
+ undefined
+
+<span style="font-size:14px"><strong><img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></strong></span>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>❤️Support Me❤️</strong></span></p> 
+
+<span style="font-size:18px">Modding is taking a lot of my time, so if you like what I do, and you would like to support me, you can do so here. If you do, you'll receive a custom Supplementaries&nbsp;<strong>Globe&nbsp;</strong>and/or&nbsp;<strong>Statue</strong>&nbsp;just for you! This also applies if you purchase a server from Akliz using "supplementaries" code.</span>
+
+ [
+![Ko-Fi](https://i.imgur.com/sroRu1I.png)](https://www.curseforge.com/linkout?remoteUrl=https://ko-fi.com/mehvahdjukaar)
+
+<div style="text-align:left"><div><span style="font-size:18px">Need a server? Check out Akliz, they have top brand servers just for modded minecraft.</span></div><div><span style="font-size:18px">They really have a cozy community with great support and the servers wonderfully</span><br><span style="font-size:18px">Use code "supplementaries" to get<strong>&nbsp;20% off</strong>&nbsp;and also support me in the process!</span></div></div>
+
+<div style="text-align:left"><img style="display:block;margin-left:auto;margin-right:auto" src="https://i.imgur.com/g5B76A8.png" alt="" width="640" height="150"></div>
+
+ undefined
+
+<span style="font-size:14px"><img src="https://i.imgur.com/XxKWBpA.png" width="1688" height="42"></span>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>🦉 Our Mods🦉</strong></span></p><p style="text-align:center"><span style="font-family:helvetica, arial, sans-serif"><span style="font-size:18px"><a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest" target="_blank" rel="nofollow"><img src="https://media.forgecdn.net/avatars/769/890/638107786158633425.gif" alt="Haunted Harvest" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit" target="_blank" rel="nofollow"><img src="https://media.forgecdn.net/avatars/488/371/637792657482121666.png" alt="Snowy Spirit" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/labels" target="_blank" rel="nofollow"><img src="https://media.forgecdn.net/avatars/623/301/638017052310334649.png" alt="Storage Labels" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/goated" rel="nofollow"><img src="https://media.forgecdn.net/avatars/767/944/638104301571813998.png" alt="Goated" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree" target="_blank" rel="nofollow"><img src="https://media.forgecdn.net/avatars/628/707/638025814904126005.gif" alt="Mysyical Oak Tree" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/carpeted-stairs" target="_blank" rel="nofollow"><img src="https://media.forgecdn.net/avatars/658/179/638058347698730749.png" alt="Carpeted Stairs" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm" rel="nofollow"><img src="https://media.forgecdn.net/avatars/727/100/638080208599452100.png" alt="MmmMmmMmmMmm" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/moyai" rel="nofollow"><img src="https://media.forgecdn.net/avatars/490/709/637798404029150212.png" alt="Moyai" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed" rel="nofollow"><img src="https://media.forgecdn.net/avatars/438/886/637685255314420532.png" alt="Jeed" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/better-lily-pads" rel="nofollow"><img src="https://media.forgecdn.net/avatars/551/229/637888507256267100.png" alt="Better Lily Pads" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/advancement-frames" rel="nofollow"><img src="https://media.forgecdn.net/avatars/774/798/638115339656250649.png" alt="Advancement Frames" width="125" height="125"></a><a href="https://www.curseforge.com/minecraft/mc-mods/randomium-ore" rel="nofollow"><img src="https://media.forgecdn.net/avatars/774/800/638115342928765853.png" alt="Randomium" width="125" height="125"></a></span></span></p>
