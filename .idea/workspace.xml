@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="857f79c9-30ee-4637-9985-d4371230497a" name="Changes" comment="stuff">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="721ad828-65d8-46d0-bfd9-53c17942075e" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,101 +9,35 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
-      <entry key="_/home/matteo/IdeaProjects/mod_pages" value="3E31J5PjkSHp1knvB1VBpAJYtg2" />
+      <entry key="_/home/matteo/IdeaProjects/mod_pages" value="3GMAhDkUYtQpapWzZGgYMaC6HK2" />
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+    <option name="cachedIndexableFilesCount" value="440" />
   </component>
   <component name="Git.Settings">
-    <option name="PUSH_TAGS">
-      <GitPushTagMode>
-        <option name="argument" value="--tags" />
-        <option name="title" value="All" />
-      </GitPushTagMode>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory">{
-  &quot;lastFilter&quot;: {
-    &quot;state&quot;: &quot;OPEN&quot;,
-    &quot;assignee&quot;: &quot;MehVahdJukaar&quot;
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MehVahdJukaar"
   }
-}</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/MehVahdJukaar/mod_pages.git&quot;,
-    &quot;accountId&quot;: &quot;e68f0cfe-0229-4955-94b8-0f1a5dd4e439&quot;
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MehVahdJukaar/mod_pages.git",
+    "accountId": "e68f0cfe-0229-4955-94b8-0f1a5dd4e439"
   }
-}</component>
+}]]></component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
   </component>
-  <component name="NextEditCompletionFeaturesState">
-    <decayedCancelled>
-      <entry key="MS100" value="1.029564301460175" />
-      <entry key="MS500" value="1.4944854581904656" />
-      <entry key="S2" value="1.8385681844409312" />
-      <entry key="S5" value="1.9319987984213176" />
-      <entry key="S10" value="1.9654008485708503" />
-      <entry key="S30" value="1.9883313210501101" />
-      <entry key="S60" value="1.9941485407373034" />
-      <entry key="M2" value="1.9970699778543444" />
-      <entry key="M5" value="1.9988679559768252" />
-      <entry key="M10" value="2.0163540083615485" />
-      <entry key="M15" value="2.1258637090275054" />
-      <entry key="M30" value="2.961527952146766" />
-      <entry key="H1" value="4.951604500428582" />
-      <entry key="H2" value="7.878181129531757" />
-      <entry key="H4" value="10.833196441643162" />
-      <entry key="D1" value="14.91496474580282" />
-      <entry key="W1" value="15.838241064297303" />
-    </decayedCancelled>
-    <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
-    </decayedSelected>
-    <decayedShown>
-      <entry key="MS100" value="0.9479639844113305" />
-      <entry key="MS500" value="1.4718563385073622" />
-      <entry key="S2" value="1.8318063823076804" />
-      <entry key="S5" value="1.9291745310193935" />
-      <entry key="S10" value="1.963967357207781" />
-      <entry key="S30" value="1.9878486042566048" />
-      <entry key="S60" value="1.9939065625943797" />
-      <entry key="M2" value="1.9969488331674916" />
-      <entry key="M5" value="1.9988194600583276" />
-      <entry key="M10" value="2.0163296286552828" />
-      <entry key="M15" value="2.1258469131564177" />
-      <entry key="M30" value="2.9615174600098344" />
-      <entry key="H1" value="4.951596562223032" />
-      <entry key="H2" value="7.87817494202788" />
-      <entry key="H4" value="10.833192145299614" />
-      <entry key="D1" value="14.91496374101286" />
-      <entry key="W1" value="15.838240911248052" />
-    </decayedShown>
-  </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 5,
-  &quot;fromUser&quot;: false
-}</component>
-  <component name="ProjectId" id="3E31J5PjkSHp1knvB1VBpAJYtg2" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="3GMAhDkUYtQpapWzZGgYMaC6HK2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -119,7 +48,6 @@
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -127,40 +55,16 @@
     "git-widget-placeholder": "master",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/matteo/IdeaProjects/mod_pages/modpages",
+    "last_opened_file_path": "/home/matteo/IdeaProjects/mod_pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/home/matteo/IdeaProjects/mod_pages/src/Main.java",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/modpages" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/sources" />
-      <recent name="$PROJECT_DIR$/new_pages" />
-    </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="mod_pages" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="mod_pages" />
-      <option name="filePath" />
-      <method v="2" />
-    </configuration>
-  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -171,114 +75,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="857f79c9-30ee-4637-9985-d4371230497a" name="Changes" comment="" />
-      <created>1779392380720</created>
+      <changelist id="721ad828-65d8-46d0-bfd9-53c17942075e" name="Changes" comment="" />
+      <created>1783771181031</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1779392380720</updated>
-      <workItem from="1779392382032" duration="444000" />
-      <workItem from="1779392843851" duration="224000" />
-      <workItem from="1779393117952" duration="12372000" />
-      <workItem from="1781609671471" duration="7769000" />
-      <workItem from="1781633999838" duration="52000" />
-      <workItem from="1782601448790" duration="5644000" />
-      <workItem from="1782663969397" duration="153000" />
-      <workItem from="1782664130541" duration="159000" />
-      <workItem from="1782664300996" duration="4662000" />
-      <workItem from="1782675209872" duration="7292000" />
+      <updated>1783771181031</updated>
+      <workItem from="1783771182643" duration="419000" />
     </task>
-    <task id="LOCAL-00001" summary="stuff">
-      <option name="closed" value="true" />
-      <created>1782603431082</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1782603431082</updated>
-    </task>
-    <task id="LOCAL-00002" summary="stuff">
-      <option name="closed" value="true" />
-      <created>1782605262383</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1782605262383</updated>
-    </task>
-    <task id="LOCAL-00003" summary="pages">
-      <option name="closed" value="true" />
-      <created>1782606481292</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1782606481292</updated>
-    </task>
-    <task id="LOCAL-00004" summary="svgs">
-      <option name="closed" value="true" />
-      <created>1782666412281</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1782666412281</updated>
-    </task>
-    <task id="LOCAL-00005" summary="stuff">
-      <option name="closed" value="true" />
-      <created>1782681105020</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1782681105020</updated>
-    </task>
-    <task id="LOCAL-00006" summary="stuff">
-      <option name="closed" value="true" />
-      <created>1782681509735</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1782681509735</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="pages" />
-    <MESSAGE value="svgs" />
-    <MESSAGE value="stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="stuff" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
-  <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
-    <select />
-  </component>
-  <component name="github-copilot-workspace">
-    <instructionFileLocations>
-      <option value=".github/instructions" />
-    </instructionFileLocations>
-    <promptFileLocations>
-      <option value=".github/prompts" />
-    </promptFileLocations>
   </component>
 </project>

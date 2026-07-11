@@ -183,6 +183,24 @@ def md_img_to_html(text):
     return re.sub(r"!\[([^\]]*)\]\(([^\)]+)\)", r'<img src="\2" alt="\1">', text)
 
 
+def resolve_md_img(text, config):
+    """Resolve local asset paths inside a markdown image to GitHub raw URLs."""
+    return re.sub(
+        r"(!\[[^\]]*\]\()([^\)]+)(\))",
+        lambda m: m.group(1) + resolve_url(config, m.group(2)) + m.group(3),
+        text,
+    )
+
+
+def render_code_block(code_lines, lang, platform):
+    code = "\n".join(code_lines)
+    if platform == "cf":
+        escaped = code.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        return f"<pre><code>{escaped}</code></pre>"
+    fence = f"```{lang}" if lang else "```"
+    return f"{fence}\n{code}\n```"
+
+
 # ── Block renderers ───────────────────────────────────────────────────────────
 
 def render_h2(text, platform):
@@ -308,6 +326,19 @@ def process_body(body, platform, config, fm, all_mods):
             i += 1
             continue
 
+        # ── Fenced code block ─────────────────────────────────────────────────
+        if s.startswith("```"):
+            lang = s[3:].strip()
+            code_lines = []
+            i += 1
+            while i < len(lines) and not lines[i].strip().startswith("```"):
+                code_lines.append(lines[i])
+                i += 1
+            i += 1  # skip closing fence
+            out.append(render_code_block(code_lines, lang, platform))
+            out.append("")
+            continue
+
         # ── Placeholders ──────────────────────────────────────────────────────
         if s == "[SEPARATOR]":
             out.append(expand_separator(config, fm))
@@ -404,10 +435,11 @@ def process_body(body, platform, config, fm, all_mods):
 
         # ── Standalone markdown image ─────────────────────────────────────────
         if s.startswith("!["):
+            resolved = resolve_md_img(s, config)
             if platform == "cf":
-                out.append(f'<p style="text-align:center">{md_img_to_html(s)}</p>')
+                out.append(f'<p style="text-align:center">{md_img_to_html(resolved)}</p>')
             else:
-                out.append(s)
+                out.append(resolved)
             out.append("")
             i += 1
             continue

@@ -146,6 +146,13 @@
       "cf_slug": "fast-paintings",
       "mr_slug": "fast-paintings",
       "icon": "assets/mod_icons/fast-paintings.png"
+    },
+    {
+      "slug": "pack-editor",
+      "name": "PackEditor",
+      "cf_slug": "pack-editor",
+      "mr_slug": "pack-editor",
+      "icon": null
     }
   ]
 }
