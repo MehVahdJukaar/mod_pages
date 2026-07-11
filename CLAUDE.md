@@ -135,6 +135,12 @@ Pages are read by users deciding whether to download a mod. They should be:
 - **Captivating** — good structure, not a wall of text; use feature sections with images where available
 - **Honest** — FAQ answers should be direct, not corporate
 
+### Writing style
+- **No em dashes** in page prose. Use commas, colons, periods, or rewrite the sentence.
+- **Intros (About section) are 2-3 short paragraphs max**, leading with what the mod does; that's what readers came for. Vivid and concrete beats flat: painting the experience ("pick a file, fill in the fields, hit reload") is good, but details belong in Features/other sections, not the intro. See the pack-editor About as the reference intro.
+- **Don't sound AI-written.** Avoid marketing-speak and over-explaining. The existing pages (supplementaries, sawmill, polytone) are the tone reference: plain, direct, a bit casual.
+- Informative but not dispersive — cut sentences that repeat a point already made elsewhere on the page.
+
 Feel free to:
 - Add sections if the mod warrants them (e.g., a Compatibility section, a Configuration section)
 - Restructure section order for better narrative flow
