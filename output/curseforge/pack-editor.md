@@ -19,11 +19,7 @@
 
 <p style="text-align:center"><span style="font-size:24px"><strong>🖼️ Media 🖼️</strong></span></p>
 
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/pack-editor-1.png" alt="The PackEditor workbench — file tree, generated form, and live JSON"></p>
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/pack-editor-2.png" alt="Editing content through auto-generated form widgets"></p>
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/pack-editor-3.png" alt="Browsing a pack and reloading the game live"></p>
+<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/packs_editor.png" alt="The PackEditor workbench — file tree, generated form, and live JSON"></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/teal.png" alt="separator" width="1688" height="42"></p>
 

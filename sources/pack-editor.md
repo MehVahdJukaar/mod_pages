@@ -22,11 +22,7 @@ It reads the game's own definitions to build these editors automatically, so it 
 
 ## 🖼️ Media 🖼️
 
-![The PackEditor workbench — file tree, generated form, and live JSON](assets/media/pack-editor-1.png)
-
-![Editing content through auto-generated form widgets](assets/media/pack-editor-2.png)
-
-![Browsing a pack and reloading the game live](assets/media/pack-editor-3.png)
+![The PackEditor workbench — file tree, generated form, and live JSON](assets/media/packs_editor.png)
 
 [SEPARATOR]
 

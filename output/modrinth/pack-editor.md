@@ -12,11 +12,7 @@ It reads the game's own definitions to build these editors automatically, so it 
 
 <h2 style="text-align:center">🖼️ Media 🖼️</h2>
 
-![The PackEditor workbench — file tree, generated form, and live JSON](https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/pack-editor-1.png)
-
-![Editing content through auto-generated form widgets](https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/pack-editor-2.png)
-
-![Browsing a pack and reloading the game live](https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/pack-editor-3.png)
+![The PackEditor workbench — file tree, generated form, and live JSON](https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/media/packs_editor.png)
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/teal.png" alt="separator" width="1688" height="42"></p>
 
