@@ -1,7 +1,7 @@
 ---
-name: "PackEditor"
+name: "Nautilus Studio"
 slug: pack-editor
-separator: "assets/separators/teal.png"
+separator: "assets/separators/lilac.png"
 icon: null
 cf_slug: pack-editor
 mr_slug: pack-editor
@@ -12,35 +12,25 @@ mr_slug: pack-editor
 
 ## 📖 About 📖
 
-**PackEditor** is an in-game **data & resource pack workbench**. Instead of hand-writing JSON in a text editor and guessing at the right fields, it opens a real desktop window right next to your game and turns any content format into an **editable form**: pick a file, fill in the fields, hit reload, and watch the change appear in your world instantly.
+**Nautilus Studio** is an in-game **data & resource pack workbench**. 
 
-It reads the game's own definitions to build these editors automatically, so it always knows exactly which fields exist, what type each one is, and what values are valid. No more typos, no more missing brackets, no more digging through the wiki to remember a field name.
+Instead of hand-writing JSON in a text editor and guessing at the right fields, it adds a fully fledged IDE alongside your game.
 
-**PackEditor is content-agnostic.** Out of the box it can edit dozens of vanilla content types, and any mod can plug its own content in with a single line of code.
+In short, pick a file, fill in the fields, hit reload, and watch the change appear in your world instantly.
+
+It reads the game's own definitions to build these editors automatically, works with any mod.
 
 [SEPARATOR]
 
 ## 🖼️ Media 🖼️
 
-![The PackEditor workbench with file tree, generated form, and live JSON](assets/media/packs_editor.png)
-
-[SEPARATOR]
-
-## ✨ Features ✨
-
-- 🧩 **Auto-generated editors**: every content type becomes a typed form built from the game's own codecs, so the editor always matches the real format
-- 🗂️ **Pack file browser**: open any data or resource pack and navigate it in a familiar file tree
-- 🎛️ **Smart widgets**: dropdowns for enums, color pickers, add/remove rows for lists, and **registry pickers** that search real block/item/entity IDs
-- 📝 **Raw JSON fallback**: anything too custom to introspect gets a live-validated JSON editor with **syntax highlighting**
-- 🔄 **Live reload**: push your edits into the running game with one click, no restart needed
-- 🖥️ **Real desktop UI**: a modern, resizable window beside Minecraft, not cramped inside a game screen
-- 🔌 **Content-agnostic**: ships with editors for a wide range of vanilla content, and any mod can register its own
+![The Nautilus Studio workbench with file tree, generated form, and live JSON](assets/media/packs_editor.png)
 
 [SEPARATOR]
 
 ## 📦 What It Can Edit 📦
 
-Out of the box, PackEditor ships form editors for a broad slice of vanilla content, including:
+Out of the box, Nautilus Studio ships form editors for a broad slice of vanilla content, including:
 
 - **Worldgen**: configured & placed features, carvers, biomes, noise settings, density functions, world presets
 - **Structures**: structures, structure sets, jigsaw pools
@@ -50,36 +40,58 @@ Out of the box, PackEditor ships form editors for a broad slice of vanilla conte
 - **World & Dimension**: dimensions, dimension types
 - **Mob Variants**, **Decoration & Trims**, **Items & Sound**, and more
 
-...plus whatever mods contribute. [**Polytone**](https://modrinth.com/mod/polytone), for example, registers its content so you can edit colormaps, particle effects and custom models right inside PackEditor. You can even point it at a **custom codec by class name** to generate an editor for content it has never seen before.
+...plus whatever mods contribute. [**Polytone**](https://modrinth.com/mod/polytone), for example, registers its content so you can edit colormaps, particle effects and custom models right inside the workbench. You can even point it at a **custom codec by class name** to generate an editor for content it has never seen before.
 
 [SEPARATOR]
 
 ## 🚀 Getting Started 🚀
 
-1. Install PackEditor and join a world (the editor needs a live world for registries and reloads).
+1. Install Nautilus Studio and join a world (the editor needs a live world for registries and reloads).
 2. On **Fabric**, open it from the **Mod Menu** entry. On **NeoForge**, open it from the mod's config-screen button in the mods list.
 3. The workbench window opens beside your game. Open a pack folder, pick a file, and start editing.
 4. Hit **reload** to push your changes into the running game.
 
-> **Tip:** PackEditor runs best on **Fabric**. On NeoForge the editor window can occasionally fail to open due to Java's headless-window restrictions.
+> **Tip:** Nautilus Studio runs best on **Fabric**. On NeoForge the editor window can occasionally fail to open due to Java's headless-window restrictions.
 
 [SEPARATOR]
 
 ## 🛠️ For Mod Developers 🛠️
 
-Have your own data-driven content? Make it editable in one call, no UI code required:
+For most things the mod should just work. However if you want proper compat here is what you can do:
+
+To register your codec so they appear by default in the editor you can register them like such:
 
 ```java
-PackEditorApi.register(
-    "My Mod",              // library group (your mod's name)
-    "Widget Layout",       // human-readable content name
-    MY_CODEC,              // your existing per-file codec
-    Side.ASSETS,           // assets/ or data/
-    "mymod/widgets"        // in-pack folder
+NautilusStudioApi.register(
+    "My Mod",                  // group name, shown next to "Minecraft"
+    "Widget Layout",           // this content type's label
+    MY_CODEC,                  // your per-file Codec (the DIRECT_CODEC)
+    Side.CLIENT_RESOURCES,     // CLIENT_RESOURCES (assets/) or SERVER_DATA (data/)
+    "mymod/widgets"            // folder the files live in
 );
 ```
 
-PackEditor turns your codec into a full form editor automatically, groups your content under your mod's name next to the vanilla entries, and handles file placement, validation and reloads for you. Anything it can't introspect falls back to the validated raw-JSON editor.
+To get nicer widgets, a color picker, a slider, a dropdown for a sum type, build your codec as a [**CodecUI**](https://github.com/MehVahdJukaar/codecui) `SchemaCodec` and pass that instead. It stays a real `Codec` with the same wire format. Anything CodecUI can't read falls back to a validated raw-JSON editor, so registering is always safe.
+
+Simply add these lines (jar-in-jar, so CodecUI ships inside your mod) and replace your `Codec` calls with `SchemaCodec` calls, following the API in that class:
+
+```gradle
+repositories {
+    maven { url "https://registry.somethingcatchy.net/repository/maven-public/" }
+}
+
+dependencies {
+    // Fabric (Loom)
+    modImplementation "net.mehvahdjukaar:codecui-fabric:1.21.11-0.4.0"
+    include           "net.mehvahdjukaar:codecui-fabric:1.21.11-0.4.0"
+
+    // NeoForge (ModDevGradle)
+    implementation "net.mehvahdjukaar:codecui-neoforge:1.21.11-0.4.0"
+    jarJar         "net.mehvahdjukaar:codecui-neoforge:1.21.11-0.4.0"
+}
+```
+
+See the [CodecUI repo](https://github.com/MehVahdJukaar/codecui) for the full DSL and examples.
 
 [SEPARATOR]
 
@@ -89,13 +101,16 @@ PackEditor turns your codec into a full form editor automatically, groups your c
 **A:** Yes. The editor is a client tool: it edits pack files on disk and reloads your client. You don't need it on a server.
 
 **Q: Do players need this to use my pack/mod?**
-**A:** No. PackEditor is a *creation* tool. The packs you make with it are plain vanilla data/resource packs that work for everyone.
+**A:** No. Nautilus Studio is a *creation* tool. The packs you make with it are plain vanilla data/resource packs that work for everyone.
 
 **Q: Does it work with modded content?**
-**A:** Yes. Any mod that registers its codecs (a one-liner) shows up automatically. You can also add custom codecs yourself by class name.
+**A:** Yes. Any mod that registers its codec (a one-liner, thanks to CodecUI) shows up automatically. You can also add custom codecs yourself by class name.
 
-**Q: What if PackEditor doesn't understand a file?**
+**Q: What if Nautilus Studio doesn't understand a file?**
 **A:** It falls back to a live-validated raw JSON editor with syntax highlighting, so you can still edit anything.
+
+**Q: Do I need CodecUI as a dependency?**
+**A:** No. Nautilus Studio bundles it. You only touch CodecUI directly if you want to hand-tune your editor's widgets.
 
 **Q: Fabric or NeoForge?**
 **A:** Both are supported. Fabric is the smoother experience; on NeoForge the external window can occasionally hit AWT headless limitations.

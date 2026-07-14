@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="721ad828-65d8-46d0-bfd9-53c17942075e" name="Changes" comment="png">
+    <list default="true" id="721ad828-65d8-46d0-bfd9-53c17942075e" name="Changes" comment="pack editor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLAUDE.md" beforeDir="false" afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/curseforge/pack-editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/output/curseforge/pack-editor.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/output/modrinth/pack-editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/output/modrinth/pack-editor.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sources/pack-editor.md" beforeDir="false" afterPath="$PROJECT_DIR$/sources/pack-editor.md" afterDir="false" />
@@ -46,23 +45,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.284473444959877" />
-      <entry key="MS500" value="4.967097766162472" />
-      <entry key="S2" value="6.380605303665045" />
-      <entry key="S5" value="6.741591186230845" />
-      <entry key="S10" value="6.868945892525274" />
-      <entry key="S30" value="7.006758354657149" />
-      <entry key="S60" value="7.722614343762365" />
-      <entry key="M2" value="9.847727874507468" />
-      <entry key="M5" value="13.410351924340304" />
-      <entry key="M10" value="15.397522915800959" />
-      <entry key="M15" value="16.188263585122115" />
-      <entry key="M30" value="17.053415969425334" />
-      <entry key="H1" value="17.516065079602754" />
-      <entry key="H2" value="17.755311503121803" />
-      <entry key="H4" value="17.876967803838" />
-      <entry key="D1" value="17.9793984260159" />
-      <entry key="W1" value="17.99705455323897" />
+      <entry key="MS100" value="1.5232530007166896" />
+      <entry key="MS500" value="4.96103797730182" />
+      <entry key="S2" value="9.455836674431517" />
+      <entry key="S5" value="13.844981583314954" />
+      <entry key="S10" value="18.67974423774102" />
+      <entry key="S30" value="33.46038190553895" />
+      <entry key="S60" value="50.8540291397859" />
+      <entry key="M2" value="69.06460301763592" />
+      <entry key="M5" value="86.00230083832672" />
+      <entry key="M10" value="94.03895675449665" />
+      <entry key="M15" value="99.50684607463657" />
+      <entry key="M30" value="114.3886605513947" />
+      <entry key="H1" value="133.83855749805488" />
+      <entry key="H2" value="151.16052689353896" />
+      <entry key="H4" value="163.06535507765238" />
+      <entry key="D1" value="175.26444184627655" />
+      <entry key="W1" value="177.60262824791235" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -84,23 +83,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.16974891087683" />
-      <entry key="MS500" value="4.904695153375634" />
-      <entry key="S2" value="6.35927296997325" />
-      <entry key="S5" value="6.73245827969904" />
-      <entry key="S10" value="6.864273009050891" />
-      <entry key="S30" value="7.005165900101552" />
-      <entry key="S60" value="7.721740702135099" />
-      <entry key="M2" value="9.847174898217986" />
-      <entry key="M5" value="13.41005202752534" />
-      <entry key="M10" value="15.39735089641136" />
-      <entry key="M15" value="16.188143038960874" />
-      <entry key="M30" value="17.053352483756786" />
-      <entry key="H1" value="17.516032477133713" />
-      <entry key="H2" value="17.755294979534064" />
-      <entry key="H4" value="17.876959485500247" />
-      <entry key="D1" value="17.979397031690663" />
-      <entry key="W1" value="17.99705435385424" />
+      <entry key="MS100" value="1.4423510890650346" />
+      <entry key="MS500" value="4.893840748017384" />
+      <entry key="S2" value="9.424045922747982" />
+      <entry key="S5" value="13.828523889767599" />
+      <entry key="S10" value="18.669641773963363" />
+      <entry key="S30" value="33.45256035622879" />
+      <entry key="S60" value="50.846395302797454" />
+      <entry key="M2" value="69.05876779223927" />
+      <entry key="M5" value="85.99921780646967" />
+      <entry key="M10" value="94.03723888534654" />
+      <entry key="M15" value="99.5056223520162" />
+      <entry key="M30" value="114.38794655798542" />
+      <entry key="H1" value="133.83813778399093" />
+      <entry key="H2" value="151.1602904880936" />
+      <entry key="H4" value="163.06522803819323" />
+      <entry key="D1" value="175.2644191967307" />
+      <entry key="W1" value="177.6026249723222" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -157,7 +156,9 @@
       <updated>1783771181031</updated>
       <workItem from="1783771182643" duration="1161000" />
       <workItem from="1783773742374" duration="432000" />
-      <workItem from="1783801204236" duration="1923000" />
+      <workItem from="1783801204236" duration="2541000" />
+      <workItem from="1783812791572" duration="753000" />
+      <workItem from="1783868023258" duration="3235000" />
     </task>
     <task id="LOCAL-00001" summary="pngs">
       <option name="closed" value="true" />
@@ -175,7 +176,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783774017302</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="pack editor">
+      <option name="closed" value="true" />
+      <created>1783804740309</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1783804740309</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pngs" />
     <MESSAGE value="png" />
-    <option name="LAST_COMMIT_MESSAGE" value="png" />
+    <MESSAGE value="pack editor" />
+    <option name="LAST_COMMIT_MESSAGE" value="pack editor" />
   </component>
 </project>
