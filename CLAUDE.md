@@ -4,7 +4,7 @@ This project generates clean, platform-aware markdown descriptions for CurseForg
 
 ## Goal
 
-Maintain a single source-of-truth file per mod and generate two polished output files — one for CurseForge, one for Modrinth.
+Maintain a single source-of-truth file per mod and generate two polished output files: one for CurseForge, one for Modrinth.
 
 ## Directory Structure
 
@@ -29,11 +29,11 @@ mod_pages/
 
 ## Workflow
 
-1. Edit (or create) `sources/<mod_slug>.md` — the single source of truth
+1. Edit (or create) `sources/<mod_slug>.md`, the single source of truth
 2. Run `python generate.py sources/<mod_slug>.md` (or `python generate.py` for all)
 3. This writes `output/curseforge/<mod_slug>.md` and `output/modrinth/<mod_slug>.md`
 
-Never touch the files in `modpages/` — they are raw archives for reference only.
+Never touch the files in `modpages/`: they are raw archives for reference only.
 
 ## Source File Format
 
@@ -95,20 +95,21 @@ Global registry of all mods. The `in_our_mods: true` entries are used to auto-ge
 | Element | CurseForge | Modrinth |
 |---|---|---|
 | Output format | WYSIWYG HTML (as pasted into CF editor) | Clean Markdown with minimal HTML |
-| Banner image at top | Yes (large, with Akliz affiliate link) | **No** — Modrinth shows mod icon/gallery automatically |
-| Social badge row | Yes (Discord, Patreon, Twitter, YouTube) | **No** — Modrinth sidebar has these |
+| Banner image at top | Yes (large, with Akliz affiliate link) | **No**, Modrinth shows mod icon/gallery automatically |
+| Social badge row | Yes (Discord, Patreon, Twitter, YouTube) | **No**, Modrinth sidebar has these |
 | Separator between badges and first section | Yes | **No** (nothing above first section) |
 | Internal links (Our Mods, dependency) | `curseforge.com/minecraft/mc-mods/...` | `modrinth.com/mod/...` |
 | Everything else | Same content, different format | Same content, different format |
 
-**Important:** CurseForge renders markdown poorly — its output file should use WYSIWYG-compatible HTML (like the source format), not markdown syntax. Modrinth natively supports markdown so its output should be clean markdown with only the minimal HTML that markdown can't express (centering, iframes, image links).
+**Important:** CurseForge renders markdown poorly, so its output file should use WYSIWYG-compatible HTML (like the source format), not markdown syntax. Modrinth natively supports markdown so its output should be clean markdown with only the minimal HTML that markdown can't express (centering, iframes, image links).
 
 ## Formatting Rules
 
 ### Both platforms
-- Section headers: **2 emojis** wrapping the title, one on each side — e.g., `🖼️ Media 🖼️`, `📖 About 📖`, `❓ F.A.Q. ❓`
+- **No em dashes anywhere** (frontmatter, prose, bullets, FAQ, this file). Use a comma, colon, period, semicolon, parentheses, or a hyphen with spaces ( - ) instead.
+- Section headers: **2 emojis** wrapping the title, one on each side, e.g. `🖼️ Media 🖼️`, `📖 About 📖`, `❓ F.A.Q. ❓`
 - Headers must be centered
-- Consistent spacing between all sections — one separator between each, no double-separating
+- Consistent spacing between all sections: one separator between each, no double-separating
 - Body text at a readable size, no redundant font-size spans
 - FAQ format: bold Q then bold A, clearly separated
 - YouTube embeds: `<iframe src="https://www.youtube.com/embed/VIDEO_ID?wmode=transparent" width="638" height="358" allowfullscreen="allowfullscreen"></iframe>` centered
@@ -131,20 +132,20 @@ Global registry of all mods. The `in_our_mods: true` entries are used to auto-ge
 ## Content Guidelines
 
 Pages are read by users deciding whether to download a mod. They should be:
-- **Informative** — clearly explain what the mod does and why someone would want it
-- **Captivating** — good structure, not a wall of text; use feature sections with images where available
-- **Honest** — FAQ answers should be direct, not corporate
+- **Informative**: clearly explain what the mod does and why someone would want it
+- **Captivating**: good structure, not a wall of text; use feature sections with images where available
+- **Honest**: FAQ answers should be direct, not corporate
 
 ### Writing style
-- **No em dashes** in page prose. Use commas, colons, periods, or rewrite the sentence.
+- **No em dashes** (see Formatting Rules above).
 - **Intros (About section) are 2-3 short paragraphs max**, leading with what the mod does; that's what readers came for. Vivid and concrete beats flat: painting the experience ("pick a file, fill in the fields, hit reload") is good, but details belong in Features/other sections, not the intro. See the pack-editor About as the reference intro.
 - **Don't sound AI-written.** Avoid marketing-speak and over-explaining. The existing pages (supplementaries, sawmill, polytone) are the tone reference: plain, direct, a bit casual.
-- Informative but not dispersive — cut sentences that repeat a point already made elsewhere on the page.
+- Informative but not dispersive: cut sentences that repeat a point already made elsewhere on the page.
 
 Feel free to:
 - Add sections if the mod warrants them (e.g., a Compatibility section, a Configuration section)
 - Restructure section order for better narrative flow
-- Remove sections that add no value (e.g., the translation list on Supplementaries — remove it)
+- Remove sections that add no value (e.g., the translation list on Supplementaries, remove it)
 - Rewrite prose for clarity and engagement, not just clean up HTML
 
 ## Assets
@@ -172,8 +173,8 @@ When a GitHub repo is created for this project:
 ## Raw Source Notes (legacy .txt files)
 
 If converting a raw CurseForge editor paste (.txt) into a source .md:
-- Ignore all `undefined` — copy-paste artifact from JS rendering
-- Strip all `<span style="font-size:Xpx">` wrappers — meaningless noise
+- Ignore all `undefined`: copy-paste artifact from JS rendering
+- Strip all `<span style="font-size:Xpx">` wrappers: meaningless noise
 - Full browser-saved HTML pages are not needed; the description paste is sufficient
 
 ## Per-Mod Notes
@@ -182,7 +183,7 @@ If converting a raw CurseForge editor paste (.txt) into a source .md:
 - Separator: blue-grey (`https://i.imgur.com/CD5oSJn.png`)
 - Dependency: Moonlight Library (CF: `mc-mods/selene`, MR: `mod/moonlight`)
 - Akliz affiliate code: `supplementaries`
-- Has a Credits section (unique to this mod — in-game Notice Board credits)
+- Has a Credits section (unique to this mod, in-game Notice Board credits)
 
 ### sleep_tight
 - Source: `sources/sleep_tight/description.txt`
@@ -193,20 +194,20 @@ If converting a raw CurseForge editor paste (.txt) into a source .md:
 ### moonlight
 - Separator: light blue (`https://i.imgur.com/UpMHfZ5.png`)
 - Dual audience: players (just install it) and developers (API docs)
-- Has collapsible spoilers with code screenshots — use `<div class="spoiler">` on CF, `<details>` on MR
+- Has collapsible spoilers with code screenshots: use `<div class="spoiler">` on CF, `<details>` on MR
 - No Akliz banner (library mod, no mod-specific affiliate code)
 - Import via Gradle: "Copy Gradle Line" button in Files section
 
 ### moyai
 - Separator: stone/grey (`https://i.imgur.com/fLjWse7.png`)
-- Meme/fun mod — intentionally short. Keep the humor, keep the graduated 🗿 header
+- Meme/fun mod, intentionally short. Keep the humor, keep the graduated 🗿 header
 - The tenor GIF is the hero image: `https://c.tenor.com/9QWHYsTOCYMAAAAd/intese-moyai.gif`
 - Fabric version is missing some features (note this)
 
 ### polytone
 - Separator: purple (`https://i.imgur.com/7SXNHTv.png`)
 - Client-side resource pack customization mod
-- Feature list is long — group into: Colors & Visuals, Particles & Shaders, Audio, Items & UI
+- Feature list is long, group into: Colors & Visuals, Particles & Shaders, Audio, Items & UI
 - Has a Compatibility section (Sodium note, Optifine replacement)
 - Has a Known Packs section (community showcase)
 - Supported versions must be listed explicitly (they change with updates)
@@ -214,6 +215,6 @@ If converting a raw CurseForge editor paste (.txt) into a source .md:
 ### vista
 - Separator: purple (`https://i.imgur.com/7SXNHTv.png`)
 - TVs, Cassettes, Viewfinders, Wave Gate
-- Put Media section (YouTube trailer) early — visual mod, show don't tell
+- Put Media section (YouTube trailer) early: visual mod, show don't tell
 - Has a Custom Cassettes section (for modpack/datapack makers)
 - Note: degraded visuals with Iris shader packs

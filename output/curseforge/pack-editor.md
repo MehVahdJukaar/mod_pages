@@ -63,11 +63,11 @@
 <p><span style="font-size:18px">To register your codec so they appear by default in the editor you can register them like such:</span></p>
 
 <pre><code>NautilusStudioApi.register(
-    "My Mod",                  // group name, shown next to "Minecraft"
-    "Widget Layout",           // this content type's label
-    MY_CODEC,                  // your per-file Codec (the DIRECT_CODEC)
-    Side.CLIENT_RESOURCES,     // CLIENT_RESOURCES (assets/) or SERVER_DATA (data/)
-    "mymod/widgets"            // folder the files live in
+"My Mod",                  // group name, shown next to "Minecraft"
+"Widget Layout",           // this content type's label
+MY_CODEC,                  // your per-file Codec (the DIRECT_CODEC)
+Side.CLIENT_RESOURCES,     // CLIENT_RESOURCES (assets/) or SERVER_DATA (data/)
+"mymod/widgets"            // folder the files live in
 );</code></pre>
 
 <p><span style="font-size:18px">To get nicer widgets, a color picker, a slider, a dropdown for a sum type, build your codec as a <a href="https://github.com/MehVahdJukaar/codecui"><strong>CodecUI</strong></a> <code>SchemaCodec</code> and pass that instead. It stays a real <code>Codec</code> with the same wire format. Anything CodecUI can't read falls back to a validated raw-JSON editor, so registering is always safe.</span></p>
@@ -75,17 +75,17 @@
 <p><span style="font-size:18px">Simply add these lines (jar-in-jar, so CodecUI ships inside your mod) and replace your <code>Codec</code> calls with <code>SchemaCodec</code> calls, following the API in that class:</span></p>
 
 <pre><code>repositories {
-    maven { url "https://registry.somethingcatchy.net/repository/maven-public/" }
+maven { url "https://registry.somethingcatchy.net/repository/maven-public/" }
 }
 
 dependencies {
-    // Fabric (Loom)
-    modImplementation "net.mehvahdjukaar:codecui-fabric:1.21.11-0.4.0"
-    include           "net.mehvahdjukaar:codecui-fabric:1.21.11-0.4.0"
+// Fabric (Loom)
+modImplementation "net.mehvahdjukaar:codecui-fabric:1.21.11-0.4.0"
+include           "net.mehvahdjukaar:codecui-fabric:1.21.11-0.4.0"
 
-    // NeoForge (ModDevGradle)
-    implementation "net.mehvahdjukaar:codecui-neoforge:1.21.11-0.4.0"
-    jarJar         "net.mehvahdjukaar:codecui-neoforge:1.21.11-0.4.0"
+// NeoForge (ModDevGradle)
+implementation "net.mehvahdjukaar:codecui-neoforge:1.21.11-0.4.0"
+jarJar         "net.mehvahdjukaar:codecui-neoforge:1.21.11-0.4.0"
 }</code></pre>
 
 <p><span style="font-size:18px">See the <a href="https://github.com/MehVahdJukaar/codecui">CodecUI repo</a> for the full DSL and examples.</span></p>

@@ -16,7 +16,7 @@ akliz_code: supplementaries
 
 Sleep Tight overhauls sleeping to make it feel dangerous, rewarding, and actually meaningful.
 
-Early game is slower — sleep has a cooldown and costs hunger. Stick with your home bed and it becomes your sanctuary, granting bonus XP over time. Push too far and nightmares start, bad encounters spawn near your bed, and bedbugs move in. There's also a daytime hammock for naps, a portable Night Bag for adventurers, and plenty of configs if you want to dial anything back.
+Early game is slower: sleep has a cooldown and costs hunger. Stick with your home bed and it becomes your sanctuary, granting bonus XP over time. Push too far and nightmares start, bad encounters spawn near your bed, and bedbugs move in. There's also a daytime hammock for naps, a portable Night Bag for adventurers, and plenty of configs if you want to dial anything back.
 
 [YOUTUBE: Uunei1ZoW-s]
 

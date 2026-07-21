@@ -27,18 +27,18 @@ Inside you'll find: which items provide the effect, a description of what it doe
 
 JEED automatically picks up all registered status effects. Modded effects won't have a description by default, but anyone can add one.
 
-**Adding descriptions** — add this key to your language file or resource pack:
+**Adding descriptions**: add this key to your language file or resource pack:
 
 `effect.[mod_id].[effect_name].description`
 
 This is something modders can do directly in their mod, or players can do via a resource pack.
 
-**JeedAPI** — modders can use the `JeedAPI` class to register screen extensions for custom GUIs, or tell JEED where effects are rendered so they become clickable.
+**JeedAPI**: modders can use the `JeedAPI` class to register screen extensions for custom GUIs, or tell JEED where effects are rendered so they become clickable.
 
-**Recipe support** — if your mod has custom effects or effect-providing items that JEED can't detect automatically, add one of these recipe types:
+**Recipe support**: if your mod has custom effects or effect-providing items that JEED can't detect automatically, add one of these recipe types:
 
 <details>
-<summary>jeed:effect_provider — link an item to an effect it provides</summary>
+<summary>jeed:effect_provider - link an item to an effect it provides</summary>
 <pre><code>{
   "type": "jeed:effect_provider",
   "effect": "minecraft:haste",
@@ -50,7 +50,7 @@ Also supports `"fluid_providers"` and `"effect_providers"` (tags or lists of flu
 </details>
 
 <details>
-<summary>jeed:potion_provider — mark an item as a potion container (like tipped arrows)</summary>
+<summary>jeed:potion_provider - mark an item as a potion container (like tipped arrows)</summary>
 <pre><code>{
   "type": "jeed:potion_provider",
   "providers": [

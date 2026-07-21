@@ -1,0 +1,172 @@
+{
+  "mods": [
+    {
+      "id": "supplementaries",
+      "name": "Supplementaries",
+      "description": "A large, highly configurable Vanilla+ mod adding 80+ functional and decorative blocks and items that feel at home in the base game.",
+      "icon": null,
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
+      "modrinth": "https://modrinth.com/mod/supplementaries"
+    },
+    {
+      "id": "amendments",
+      "name": "Amendments",
+      "description": "Small vanilla tweaks and touch-ups: directional signs, hanging pots, ceiling lanterns, carpeted stairs and more.",
+      "icon": null,
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/amendments",
+      "modrinth": "https://modrinth.com/mod/amendments"
+    },
+    {
+      "id": "map_atlases",
+      "name": "Map Atlases",
+      "description": "Bundle your maps into a single atlas that auto-updates and stitches the world together as you explore.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge",
+      "modrinth": "https://modrinth.com/mod/map-atlases"
+    },
+    {
+      "id": "sawmill",
+      "name": "Universal Sawmill",
+      "description": "A sawmill block that turns any wood into its planks, stairs, slabs and other cuts, for every wood type in your pack.",
+      "icon": null,
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/sawmill",
+      "modrinth": "https://modrinth.com/mod/universal-sawmill"
+    },
+    {
+      "id": "polytone",
+      "name": "Polytone",
+      "description": "A powerful resource-pack driven colormap and tinting engine for blocks, items, fluids and particles.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/polytone",
+      "modrinth": "https://modrinth.com/mod/polytone"
+    },
+    {
+      "id": "snowyspirit",
+      "name": "Snowy Spirit",
+      "description": "A festive winter mod: garlands, gift wrapping, ginger houses, sleds, hot cocoa and more holiday cheer.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit",
+      "modrinth": "https://modrinth.com/mod/snowy-spirit"
+    },
+    {
+      "id": "haunted_harvest",
+      "name": "Haunted Harvest",
+      "description": "A spooky autumn mod stuffed with Halloween decorations, treats and trick-or-treating fun.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/haunted-harvest",
+      "modrinth": "https://modrinth.com/mod/haunted-harvest"
+    },
+    {
+      "id": "sleep_tight",
+      "name": "Sleep Tight",
+      "description": "Makes beds matter: sleep buffs, bad-dream penalties, bed setting, and configurable sleep mechanics.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/sleep-tight",
+      "modrinth": "https://modrinth.com/mod/sleep-tight"
+    },
+    {
+      "id": "mysticaloaktree",
+      "name": "Mystical Oak Tree",
+      "description": "A rare oak that grows enchanted fruit granting XP, effects and other little mystical rewards.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree",
+      "modrinth": "https://modrinth.com/mod/mystical-oak-tree"
+    },
+    {
+      "id": "labels",
+      "name": "Storage Labels",
+      "description": "Label your chests and barrels with the item inside so you can find things at a glance.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/labels",
+      "modrinth": "https://modrinth.com/mod/labels"
+    },
+    {
+      "id": "goated",
+      "name": "Goated",
+      "description": "Overhauls goats into a fully-featured mob with new behaviors, drops and interactions.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/goated",
+      "modrinth": "https://modrinth.com/mod/goated"
+    },
+    {
+      "id": "moyai",
+      "name": "Moyai",
+      "description": "It adds a moai. That's it. That's the mod.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/moyai.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/moyai",
+      "modrinth": "https://modrinth.com/mod/moyai"
+    },
+    {
+      "id": "jeed",
+      "name": "JEED",
+      "description": "Just Enough Effect Descriptions: adds a JEI tab explaining exactly what every status effect does.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed",
+      "modrinth": "https://modrinth.com/mod/just-enough-effect-descriptions-jeed"
+    },
+    {
+      "id": "advancementframes",
+      "name": "Advancement Frames",
+      "description": "Gives every advancement toast a frame matching its type, so progress reads at a glance.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/advancement-frames.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/advancement-frames",
+      "modrinth": "https://modrinth.com/mod/advancement-frames"
+    },
+    {
+      "id": "randomium",
+      "name": "Randomium",
+      "description": "A rare ore that drops a random item every time you mine it. What will you get?",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/randomium.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/randomium-ore",
+      "modrinth": "https://modrinth.com/mod/randomium-ore"
+    },
+    {
+      "id": "heartstone",
+      "name": "Heartstone",
+      "description": "Adds a heartstone that lets you set and teleport back to a home point.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/heartstone",
+      "modrinth": "https://modrinth.com/mod/heartstone"
+    },
+    {
+      "id": "better_lily_pads",
+      "name": "Better Lily Pads",
+      "description": "Lets you place lily pads on top of one another and adds a few nice lily-pad tweaks.",
+      "icon": null,
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/better-lily-pads",
+      "modrinth": "https://modrinth.com/mod/better-lily-pads"
+    },
+    {
+      "id": "fastpaintings",
+      "name": "Fast Paintings",
+      "description": "Place a painting instantly at the exact size you want, no more random rolls.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/fast-paintings",
+      "modrinth": "https://modrinth.com/mod/fast-paintings"
+    },
+    {
+      "id": "mmmmmmmmmmmm",
+      "name": "MmmMmmMmmMmm",
+      "description": "Adds a target dummy you can whack to test your damage output.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+      "modrinth": "https://modrinth.com/mod/mmmmmmmmmmmm"
+    },
+    {
+      "id": "vista",
+      "name": "Vista",
+      "description": "Adds animated panorama backgrounds to your title screen based on your recent worlds.",
+      "icon": null,
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/vista",
+      "modrinth": "https://modrinth.com/mod/vista"
+    },
+    {
+      "id": "packeditor",
+      "name": "PackEditor",
+      "description": "An in-game editor for creating and tweaking resource and data packs on the fly.",
+      "icon": null,
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pack-editor",
+      "modrinth": "https://modrinth.com/mod/pack-editor"
+    }
+  ]
+}
