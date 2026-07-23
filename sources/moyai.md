@@ -25,7 +25,7 @@ Adds Moyai to your game. What else would you want from a mod?
 - Has a unique boom noteblock sound
 - Can be used to make an iron golem
 - Can eat soap
-- Affected by gravity — will deal a lot of damage when falling on entities
+- Affected by gravity - will deal a lot of damage when falling on entities
 - Can be crafted into firework stars
 
 Note: the Fabric version currently has some of these features missing.

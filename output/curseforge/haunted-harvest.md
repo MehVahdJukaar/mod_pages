@@ -20,7 +20,7 @@
 <p><span style="font-size:18px">Baby villagers wear one of 8 possible masks at night: Creeper, Pumpkin, Zombie, Illager, Piglin, Skeleton, Enderman, or Spider. Then they go door to door:</span></p>
 
 <ol>
-<li><span style="font-size:18px">The adult gives the child a random <strong>Candy</strong> (including Supplementaries candies if installed) — the kid moves on to the next house</span></li>
+<li><span style="font-size:18px">The adult gives the child a random <strong>Candy</strong> (including Supplementaries candies if installed), the kid moves on to the next house</span></li>
 <li><span style="font-size:18px">The adult has no candy and gives out <strong>Coal</strong> instead</span></li>
 <li><span style="font-size:18px">The child's spooky costume <strong>scares the adult off</strong></span></li>
 <li><span style="font-size:18px">If the child gets nothing, they pull out <strong>Eggs</strong>… you know what happens next</span></li>
@@ -35,7 +35,7 @@
 <ol>
 <li><span style="font-size:18px">The Witch <strong>spooks</strong> and scares off the child</span></li>
 <li><span style="font-size:18px">The Witch hands out a <strong>Rotten Apple</strong></span></li>
-<li><span style="font-size:18px">Rarely, the Witch gives a <strong>Grim Apple</strong> — a cursed item that slowly converts the child into a Witch if consumed</span></li>
+<li><span style="font-size:18px">Rarely, the Witch gives a <strong>Grim Apple</strong> (a cursed item that slowly converts the child into a Witch if consumed)</span></li>
 </ol>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/orange.png" alt="separator" width="1688" height="42"></p>
@@ -43,11 +43,11 @@
 <p style="text-align:center"><span style="font-size:24px"><strong>🌽 Food 🌽</strong></span></p>
 
 <ul>
-<li><span style="font-size:18px"><strong>Candy</strong> — collected by trick-or-treating; eating it decreases age slightly and heals the child, letting them trick-or-treat for more nights</span></li>
-<li><span style="font-size:18px"><strong>Rotten Apple</strong> — a new food, similar to Rotten Flesh; drops rarely from Oak and Dark Oak Leaves; ingredient in Grim Apples</span></li>
-<li><span style="font-size:18px"><strong>Grim Apple</strong> — the opposite of a Golden Apple; inflicts all sorts of negative effects; can transform a child who eats it into a Witch</span></li>
-<li><span style="font-size:18px"><strong>Corn</strong> — a new 3-block-tall rare crop found in abandoned farm structures; crafts into Popcorn, Candy Corn, or Paper Bags; full Farmer's Delight integration</span></li>
-<li><span style="font-size:18px"><strong>Splattered Egg</strong> — throw an Egg at any block to leave a mess</span></li>
+<li><span style="font-size:18px"><strong>Candy</strong>: collected by trick-or-treating; eating it decreases age slightly and heals the child, letting them trick-or-treat for more nights</span></li>
+<li><span style="font-size:18px"><strong>Rotten Apple</strong>: a new food, similar to Rotten Flesh; drops rarely from Oak and Dark Oak Leaves; ingredient in Grim Apples</span></li>
+<li><span style="font-size:18px"><strong>Grim Apple</strong>: the opposite of a Golden Apple; inflicts all sorts of negative effects; can transform a child who eats it into a Witch</span></li>
+<li><span style="font-size:18px"><strong>Corn</strong>: a new 3-block-tall rare crop found in abandoned farm structures; crafts into Popcorn, Candy Corn, or Paper Bags; full Farmer's Delight integration</span></li>
+<li><span style="font-size:18px"><strong>Splattered Egg</strong>: throw an Egg at any block to leave a mess</span></li>
 </ul>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/orange.png" alt="separator" width="1688" height="42"></p>
@@ -75,17 +75,17 @@
 
 <ul>
 <li><span style="font-size:18px">Baby villagers are no longer targeted by hostile mobs at night</span></li>
-<li><span style="font-size:18px">Entirely configurable — seasonal mode, always-on, specific date ranges, all adjustable</span></li>
+<li><span style="font-size:18px">Entirely configurable: seasonal mode, always-on, specific date ranges, all adjustable</span></li>
 <li><span style="font-size:18px">Designed to work in any modpack; seasonal mode strips all features except Rotten Apples and egg splattering when inactive</span></li>
 <li><span style="font-size:18px"><strong>Farmer's Delight</strong> integration: Succotash recipe, tomato fields in abandoned farms</span></li>
 <li><span style="font-size:18px"><strong>Serene Seasons</strong> compatibility: restrict the mod to specific in-game seasons</span></li>
 <li><span style="font-size:18px"><strong>Autumnity</strong> compatibility</span></li>
-<li><span style="font-size:18px">Note: Pumpkin placement is tied to MobGriefing — if disabled, the mod effectively stops working (same reason villagers can't breed without it)</span></li>
+<li><span style="font-size:18px">Note: Pumpkin placement is tied to MobGriefing; if disabled, the mod effectively stops working (same reason villagers can't breed without it)</span></li>
 </ul>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/orange.png" alt="separator" width="1688" height="42"></p>
 
-<p><span style="font-size:18px">Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom <strong>Globe</strong> and/or <strong>Statue</strong> just for you — this also applies if you buy a server from Akliz using the code below.</span></p>
+<p><span style="font-size:18px">Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom <strong>Globe</strong> and/or <strong>Statue</strong> just for you - this also applies if you buy a server from Akliz using the code below.</span></p>
 
 <p style="text-align:center"><a href="https://ko-fi.com/mehvahdjukaar"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/badges/kofi.png" alt="Ko-Fi"></a></p>
 
@@ -97,21 +97,25 @@
 
 <p style="text-align:center">
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.webp" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.webp" alt="Supplementaries Squared" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.webp" alt="Universal Sawmill" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.webp" alt="Snowy Spirit" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.webp" alt="Smarter Farmers" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.webp" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.webp" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.webp" alt="Goated" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.webp" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.webp" alt="A Good Place" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.webp" alt="Heartstone" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/moyai"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/moyai.webp" alt="Moyai" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.webp" alt="JEED" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/advancement-frames"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/advancement-frames.png" alt="Advancement Frames" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/randomium-ore"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/randomium.webp" alt="Randomium" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.webp" alt="Heartstone" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.webp" alt="Universal Sawmill" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/moyai"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/moyai.webp" alt="Moyai" width="125" height="125"></a>
 </p>

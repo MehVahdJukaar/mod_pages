@@ -4,7 +4,7 @@
       "id": "supplementaries",
       "name": "Supplementaries",
       "description": "A large, highly configurable Vanilla+ mod adding 80+ functional and decorative blocks and items that feel at home in the base game.",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/supplementaries",
       "modrinth": "https://modrinth.com/mod/supplementaries"
     },
@@ -12,14 +12,30 @@
       "id": "amendments",
       "name": "Amendments",
       "description": "Small vanilla tweaks and touch-ups: directional signs, hanging pots, ceiling lanterns, carpeted stairs and more.",
-      "icon": null,
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/amendments",
       "modrinth": "https://modrinth.com/mod/amendments"
     },
     {
+      "id": "everycomp",
+      "name": "Every Compat (Wood Good)",
+      "description": "Fills in every missing wooden block from every mod you have installed, automatically. No per-mod compat addons needed.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/every-compat",
+      "modrinth": "https://modrinth.com/mod/every-compat"
+    },
+    {
+      "id": "suppsquared",
+      "name": "Supplementaries Squared",
+      "description": "Supplementaries addon with extra variants: colored sacks, wooden item shelves, plaques, metal frames and more.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared",
+      "modrinth": "https://modrinth.com/mod/supplementaries-squared"
+    },
+    {
       "id": "map_atlases",
       "name": "Map Atlases",
-      "description": "Bundle your maps into a single atlas that auto-updates and stitches the world together as you explore.",
+      "description": "A vanilla-friendly world map: bundle your maps into one atlas that fills itself in as you explore.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge",
       "modrinth": "https://modrinth.com/mod/map-atlases"
@@ -27,31 +43,38 @@
     {
       "id": "sawmill",
       "name": "Universal Sawmill",
-      "description": "A sawmill block that turns any wood into its planks, stairs, slabs and other cuts, for every wood type in your pack.",
-      "icon": null,
+      "description": "The woodcutter as it was meant to be: works with every wood from every mod, automatically. Comes with a Carpenter villager.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/sawmill",
       "modrinth": "https://modrinth.com/mod/universal-sawmill"
     },
     {
       "id": "polytone",
       "name": "Polytone",
-      "description": "A powerful resource-pack driven colormap and tinting engine for blocks, items, fluids and particles.",
+      "description": "Resource pack driven customization for block colors, colormaps, biome and dye colors, sounds, particles and more.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/polytone",
       "modrinth": "https://modrinth.com/mod/polytone"
     },
     {
+      "id": "nautilus_studio",
+      "name": "Nautilus Studio",
+      "description": "An in-game workbench for building data and resource packs: pick a file, fill in the form, hit reload.",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pack-editor",
+      "modrinth": "https://modrinth.com/mod/pack-editor"
+    },
+    {
       "id": "snowyspirit",
       "name": "Snowy Spirit",
-      "description": "A festive winter mod: garlands, gift wrapping, ginger houses, sleds, hot cocoa and more holiday cheer.",
+      "description": "Sleds, garlands, gift wrapping, ginger houses and winter villager activities. Christmas, in mod form.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit",
       "modrinth": "https://modrinth.com/mod/snowy-spirit"
     },
     {
-      "id": "haunted_harvest",
+      "id": "hauntedharvest",
       "name": "Haunted Harvest",
-      "description": "A spooky autumn mod stuffed with Halloween decorations, treats and trick-or-treating fun.",
+      "description": "Pumpkin carving, corn food and villagers who go trick-or-treating. Halloween that lasts all year.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/haunted-harvest",
       "modrinth": "https://modrinth.com/mod/haunted-harvest"
@@ -59,15 +82,23 @@
     {
       "id": "sleep_tight",
       "name": "Sleep Tight",
-      "description": "Makes beds matter: sleep buffs, bad-dream penalties, bed setting, and configurable sleep mechanics.",
+      "description": "A full sleep and bed overhaul: hammocks, night bags, bedbugs, nightmares and dream essence.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/sleep-tight",
       "modrinth": "https://modrinth.com/mod/sleep-tight"
     },
     {
+      "id": "smarterfarmers",
+      "name": "Smarter Farmers",
+      "description": "Farmer villagers that replant what they harvest, handle modded crops, carry a hoe and stop trampling their own fields.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant",
+      "modrinth": "https://modrinth.com/mod/smarter-farmers-farmers-replant"
+    },
+    {
       "id": "mysticaloaktree",
       "name": "Mystical Oak Tree",
-      "description": "A rare oak that grows enchanted fruit granting XP, effects and other little mystical rewards.",
+      "description": "A talking, NPC-like tree with 300+ lines of lore, wisdom and questionable facts.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree",
       "modrinth": "https://modrinth.com/mod/mystical-oak-tree"
@@ -75,7 +106,7 @@
     {
       "id": "labels",
       "name": "Storage Labels",
-      "description": "Label your chests and barrels with the item inside so you can find things at a glance.",
+      "description": "Fancy item labels for your chests and barrels, so you can find things at a glance.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/labels",
       "modrinth": "https://modrinth.com/mod/labels"
@@ -83,31 +114,69 @@
     {
       "id": "goated",
       "name": "Goated",
-      "description": "Overhauls goats into a fully-featured mob with new behaviors, drops and interactions.",
+      "description": "Goats worth keeping: block-breaking ram blocks, thatch, a viking helmet and geeps.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/goated",
       "modrinth": "https://modrinth.com/mod/goated"
     },
     {
-      "id": "moyai",
-      "name": "Moyai",
-      "description": "It adds a moai. That's it. That's the mod.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/moyai.webp",
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/moyai",
-      "modrinth": "https://modrinth.com/mod/moyai"
+      "id": "a_good_place",
+      "name": "A Good Place",
+      "description": "Blocks pop, slide and swing into place instead of just appearing. Fully customizable with resource packs.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/a-good-place",
+      "modrinth": "https://modrinth.com/mod/a-good-place"
+    },
+    {
+      "id": "vista",
+      "name": "Vista",
+      "description": "Televisions, cassettes and viewfinders: collect GIF tapes and wire up live camera feeds in your base.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/vista",
+      "modrinth": "https://modrinth.com/mod/vista"
+    },
+    {
+      "id": "heartstone",
+      "name": "Heartstone",
+      "description": "Paired stones that let you and a friend track each other across the world, no F3 required.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/heartstone",
+      "modrinth": "https://modrinth.com/mod/heartstone"
+    },
+    {
+      "id": "fastpaintings",
+      "name": "Fast Paintings",
+      "description": "Rewrites painting rendering to be faster, and lets paintings have custom models.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/fast-paintings",
+      "modrinth": "https://modrinth.com/mod/fast-paintings"
+    },
+    {
+      "id": "dummmmmmy",
+      "name": "MmmMmmMmmMmm",
+      "description": "A target dummy that shows the damage you deal and can be dressed up in armor.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
+      "modrinth": "https://modrinth.com/mod/mmmmmmmmmmmm"
     },
     {
       "id": "jeed",
       "name": "JEED",
-      "description": "Just Enough Effect Descriptions: adds a JEI tab explaining exactly what every status effect does.",
+      "description": "Just Enough Effect Descriptions: a JEI tab explaining exactly what every status effect does.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed",
       "modrinth": "https://modrinth.com/mod/just-enough-effect-descriptions-jeed"
     },
     {
+      "id": "jepp",
+      "name": "JEPP",
+      "description": "Just Enough Painting Previews: a JEI/REI tab that previews every painting, with name, size and source mod.",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/jepp"
+    },
+    {
       "id": "advancementframes",
       "name": "Advancement Frames",
-      "description": "Gives every advancement toast a frame matching its type, so progress reads at a glance.",
+      "description": "Turns your advancements into nice looking plaques you can display.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/advancement-frames.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/advancement-frames",
       "modrinth": "https://modrinth.com/mod/advancement-frames"
@@ -115,58 +184,18 @@
     {
       "id": "randomium",
       "name": "Randomium",
-      "description": "A rare ore that drops a random item every time you mine it. What will you get?",
+      "description": "An ore that behaves randomly and can drop absolutely any item in the game.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/randomium.webp",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/randomium-ore",
       "modrinth": "https://modrinth.com/mod/randomium-ore"
     },
     {
-      "id": "heartstone",
-      "name": "Heartstone",
-      "description": "Adds a heartstone that lets you set and teleport back to a home point.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.webp",
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/heartstone",
-      "modrinth": "https://modrinth.com/mod/heartstone"
-    },
-    {
-      "id": "better_lily_pads",
-      "name": "Better Lily Pads",
-      "description": "Lets you place lily pads on top of one another and adds a few nice lily-pad tweaks.",
-      "icon": null,
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/better-lily-pads",
-      "modrinth": "https://modrinth.com/mod/better-lily-pads"
-    },
-    {
-      "id": "fastpaintings",
-      "name": "Fast Paintings",
-      "description": "Place a painting instantly at the exact size you want, no more random rolls.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png",
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/fast-paintings",
-      "modrinth": "https://modrinth.com/mod/fast-paintings"
-    },
-    {
-      "id": "mmmmmmmmmmmm",
-      "name": "MmmMmmMmmMmm",
-      "description": "Adds a target dummy you can whack to test your damage output.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png",
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm",
-      "modrinth": "https://modrinth.com/mod/mmmmmmmmmmmm"
-    },
-    {
-      "id": "vista",
-      "name": "Vista",
-      "description": "Adds animated panorama backgrounds to your title screen based on your recent worlds.",
-      "icon": null,
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/vista",
-      "modrinth": "https://modrinth.com/mod/vista"
-    },
-    {
-      "id": "packeditor",
-      "name": "PackEditor",
-      "description": "An in-game editor for creating and tweaking resource and data packs on the fly.",
-      "icon": null,
-      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pack-editor",
-      "modrinth": "https://modrinth.com/mod/pack-editor"
+      "id": "moyai",
+      "name": "Moyai",
+      "description": "Adds naturally spawning Moyai to your game. 🗿",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/moyai.webp",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/moyai",
+      "modrinth": "https://modrinth.com/mod/moyai"
     }
   ]
 }

@@ -1,127 +1,47 @@
 {
+  "_comment": "Global registry. Drives the Our Mods grid on every page and moonlight_mods.json (Moonlight's in-game 'discover mods' screen). Order here is the order shown in both. mod_id must match the real Minecraft mod id, it is how Moonlight decides if you already have the mod installed. in_our_mods/in_mod_list default to true.",
   "mods": [
     {
       "slug": "supplementaries",
       "name": "Supplementaries",
+      "mod_id": "supplementaries",
+      "description": "A large, highly configurable Vanilla+ mod adding 80+ functional and decorative blocks and items that feel at home in the base game.",
       "cf_slug": "supplementaries",
       "mr_slug": "supplementaries",
       "icon": "assets/mod_icons/supplementaries.gif"
     },
     {
-      "slug": "moonlight",
-      "name": "Moonlight Lib",
-      "cf_slug": "selene",
-      "mr_slug": "moonlight",
-      "icon": null
+      "slug": "amendments",
+      "name": "Amendments",
+      "mod_id": "amendments",
+      "description": "Small vanilla tweaks and touch-ups: directional signs, hanging pots, ceiling lanterns, carpeted stairs and more.",
+      "cf_slug": "amendments",
+      "mr_slug": "amendments",
+      "icon": "assets/mod_icons/amendments.gif"
     },
     {
-      "slug": "haunted-harvest",
-      "name": "Haunted Harvest",
-      "cf_slug": "haunted-harvest",
-      "mr_slug": "haunted-harvest",
-      "icon": "assets/mod_icons/haunted-harvest.webp"
+      "slug": "every-compat",
+      "name": "Every Compat (Wood Good)",
+      "mod_id": "everycomp",
+      "description": "Fills in every missing wooden block from every mod you have installed, automatically. No per-mod compat addons needed.",
+      "cf_slug": "every-compat",
+      "mr_slug": "every-compat",
+      "icon": "assets/mod_icons/every-compat.webp"
     },
     {
-      "slug": "snowy-spirit",
-      "name": "Snowy Spirit",
-      "cf_slug": "snowy-spirit",
-      "mr_slug": "snowy-spirit",
-      "icon": "assets/mod_icons/snowy-spirit.webp"
-    },
-    {
-      "slug": "labels",
-      "name": "Storage Labels",
-      "cf_slug": "labels",
-      "mr_slug": "labels",
-      "icon": "assets/mod_icons/labels.webp"
-    },
-    {
-      "slug": "goated",
-      "name": "Goated",
-      "cf_slug": "goated",
-      "mr_slug": "goated",
-      "icon": "assets/mod_icons/goated.webp"
-    },
-    {
-      "slug": "mystical-oak-tree",
-      "name": "Mystical Oak Tree",
-      "cf_slug": "mystical-oak-tree",
-      "mr_slug": "mystical-oak-tree",
-      "icon": "assets/mod_icons/mystical-oak-tree.webp"
-    },
-    {
-      "slug": "vista",
-      "name": "Vista",
-      "cf_slug": "vista",
-      "mr_slug": "vista",
-      "icon": "assets/mod_icons/vista.gif"
-    },
-    {
-      "slug": "mmmmmmmmmmmm",
-      "name": "MmmMmmMmmMmm",
-      "cf_slug": "mmmmmmmmmmmm",
-      "mr_slug": "mmmmmmmmmmmm",
-      "icon": "assets/mod_icons/mmmmmmmmmmmm.png"
-    },
-    {
-      "slug": "moyai",
-      "name": "Moyai",
-      "cf_slug": "moyai",
-      "mr_slug": "moyai",
-      "icon": "assets/mod_icons/moyai.webp"
-    },
-    {
-      "slug": "jeed",
-      "name": "JEED",
-      "cf_slug": "just-enough-effect-descriptions-jeed",
-      "mr_slug": "just-enough-effect-descriptions-jeed",
-      "icon": "assets/mod_icons/jeed.webp"
-    },
-    {
-      "slug": "better-lily-pads",
-      "name": "Better Lily Pads",
-      "cf_slug": "better-lily-pads",
-      "mr_slug": "better-lily-pads",
-      "icon": null
-    },
-    {
-      "slug": "advancement-frames",
-      "name": "Advancement Frames",
-      "cf_slug": "advancement-frames",
-      "mr_slug": "advancement-frames",
-      "icon": "assets/mod_icons/advancement-frames.png"
-    },
-    {
-      "slug": "randomium",
-      "name": "Randomium",
-      "cf_slug": "randomium-ore",
-      "mr_slug": "randomium-ore",
-      "icon": "assets/mod_icons/randomium.webp"
-    },
-    {
-      "slug": "sleep-tight",
-      "name": "Sleep Tight",
-      "cf_slug": "sleep-tight",
-      "mr_slug": "sleep-tight",
-      "icon": "assets/mod_icons/sleep-tight.png"
-    },
-    {
-      "slug": "polytone",
-      "name": "Polytone",
-      "cf_slug": "polytone",
-      "mr_slug": "polytone",
-      "icon": "assets/mod_icons/polytone.png"
-    },
-    {
-      "slug": "heartstone",
-      "name": "Heartstone",
-      "cf_slug": "heartstone",
-      "mr_slug": "heartstone",
-      "icon": "assets/mod_icons/heartstone.webp"
+      "slug": "supp-squared",
+      "name": "Supplementaries Squared",
+      "mod_id": "suppsquared",
+      "description": "Supplementaries addon with extra variants: colored sacks, wooden item shelves, plaques, metal frames and more.",
+      "cf_slug": "supplementaries-squared",
+      "mr_slug": "supplementaries-squared",
+      "icon": "assets/mod_icons/supp-squared.webp"
     },
     {
       "slug": "map-atlases",
       "name": "Map Atlases",
+      "mod_id": "map_atlases",
+      "description": "A vanilla-friendly world map: bundle your maps into one atlas that fills itself in as you explore.",
       "cf_slug": "map-atlases-forge",
       "mr_slug": "map-atlases",
       "icon": "assets/mod_icons/map-atlases.png"
@@ -129,30 +49,193 @@
     {
       "slug": "sawmill",
       "name": "Universal Sawmill",
+      "mod_id": "sawmill",
+      "description": "The woodcutter as it was meant to be: works with every wood from every mod, automatically. Comes with a Carpenter villager.",
       "cf_slug": "sawmill",
       "mr_slug": "universal-sawmill",
       "icon": "assets/mod_icons/sawmill.webp"
     },
     {
-      "slug": "amendments",
-      "name": "Amendments",
-      "cf_slug": "amendments",
-      "mr_slug": "amendments",
-      "icon": "assets/mod_icons/amendments.gif"
+      "slug": "polytone",
+      "name": "Polytone",
+      "mod_id": "polytone",
+      "description": "Resource pack driven customization for block colors, colormaps, biome and dye colors, sounds, particles and more.",
+      "cf_slug": "polytone",
+      "mr_slug": "polytone",
+      "icon": "assets/mod_icons/polytone.png"
+    },
+    {
+      "slug": "pack-editor",
+      "name": "Nautilus Studio",
+      "mod_id": "nautilus_studio",
+      "description": "An in-game workbench for building data and resource packs: pick a file, fill in the form, hit reload.",
+      "cf_slug": "pack-editor",
+      "mr_slug": "pack-editor",
+      "icon": null
+    },
+    {
+      "slug": "snowy-spirit",
+      "name": "Snowy Spirit",
+      "mod_id": "snowyspirit",
+      "description": "Sleds, garlands, gift wrapping, ginger houses and winter villager activities. Christmas, in mod form.",
+      "cf_slug": "snowy-spirit",
+      "mr_slug": "snowy-spirit",
+      "icon": "assets/mod_icons/snowy-spirit.webp"
+    },
+    {
+      "slug": "haunted-harvest",
+      "name": "Haunted Harvest",
+      "mod_id": "hauntedharvest",
+      "description": "Pumpkin carving, corn food and villagers who go trick-or-treating. Halloween that lasts all year.",
+      "cf_slug": "haunted-harvest",
+      "mr_slug": "haunted-harvest",
+      "icon": "assets/mod_icons/haunted-harvest.webp"
+    },
+    {
+      "slug": "sleep-tight",
+      "name": "Sleep Tight",
+      "mod_id": "sleep_tight",
+      "description": "A full sleep and bed overhaul: hammocks, night bags, bedbugs, nightmares and dream essence.",
+      "cf_slug": "sleep-tight",
+      "mr_slug": "sleep-tight",
+      "icon": "assets/mod_icons/sleep-tight.png"
+    },
+    {
+      "slug": "smarter-farmers",
+      "name": "Smarter Farmers",
+      "mod_id": "smarterfarmers",
+      "description": "Farmer villagers that replant what they harvest, handle modded crops, carry a hoe and stop trampling their own fields.",
+      "cf_slug": "smarter-farmers-farmers-replant",
+      "mr_slug": "smarter-farmers-farmers-replant",
+      "icon": "assets/mod_icons/smarter-farmers.webp"
+    },
+    {
+      "slug": "mystical-oak-tree",
+      "name": "Mystical Oak Tree",
+      "mod_id": "mysticaloaktree",
+      "description": "A talking, NPC-like tree with 300+ lines of lore, wisdom and questionable facts.",
+      "cf_slug": "mystical-oak-tree",
+      "mr_slug": "mystical-oak-tree",
+      "icon": "assets/mod_icons/mystical-oak-tree.webp"
+    },
+    {
+      "slug": "labels",
+      "name": "Storage Labels",
+      "mod_id": "labels",
+      "description": "Fancy item labels for your chests and barrels, so you can find things at a glance.",
+      "cf_slug": "labels",
+      "mr_slug": "labels",
+      "icon": "assets/mod_icons/labels.webp"
+    },
+    {
+      "slug": "goated",
+      "name": "Goated",
+      "mod_id": "goated",
+      "description": "Goats worth keeping: block-breaking ram blocks, thatch, a viking helmet and geeps.",
+      "cf_slug": "goated",
+      "mr_slug": "goated",
+      "icon": "assets/mod_icons/goated.webp"
+    },
+    {
+      "slug": "a-good-place",
+      "name": "A Good Place",
+      "mod_id": "a_good_place",
+      "description": "Blocks pop, slide and swing into place instead of just appearing. Fully customizable with resource packs.",
+      "cf_slug": "a-good-place",
+      "mr_slug": "a-good-place",
+      "icon": "assets/mod_icons/a-good-place.webp"
+    },
+    {
+      "slug": "vista",
+      "name": "Vista",
+      "mod_id": "vista",
+      "description": "Televisions, cassettes and viewfinders: collect GIF tapes and wire up live camera feeds in your base.",
+      "cf_slug": "vista",
+      "mr_slug": "vista",
+      "icon": "assets/mod_icons/vista.gif"
+    },
+    {
+      "slug": "heartstone",
+      "name": "Heartstone",
+      "mod_id": "heartstone",
+      "description": "Paired stones that let you and a friend track each other across the world, no F3 required.",
+      "cf_slug": "heartstone",
+      "mr_slug": "heartstone",
+      "icon": "assets/mod_icons/heartstone.webp"
     },
     {
       "slug": "fast-paintings",
       "name": "Fast Paintings",
+      "mod_id": "fastpaintings",
+      "description": "Rewrites painting rendering to be faster, and lets paintings have custom models.",
       "cf_slug": "fast-paintings",
       "mr_slug": "fast-paintings",
       "icon": "assets/mod_icons/fast-paintings.png"
     },
     {
-      "slug": "pack-editor",
-      "name": "PackEditor",
-      "cf_slug": "pack-editor",
-      "mr_slug": "pack-editor",
+      "slug": "mmmmmmmmmmmm",
+      "name": "MmmMmmMmmMmm",
+      "mod_id": "dummmmmmy",
+      "description": "A target dummy that shows the damage you deal and can be dressed up in armor.",
+      "cf_slug": "mmmmmmmmmmmm",
+      "mr_slug": "mmmmmmmmmmmm",
+      "icon": "assets/mod_icons/mmmmmmmmmmmm.png"
+    },
+    {
+      "slug": "jeed",
+      "name": "JEED",
+      "mod_id": "jeed",
+      "description": "Just Enough Effect Descriptions: a JEI tab explaining exactly what every status effect does.",
+      "cf_slug": "just-enough-effect-descriptions-jeed",
+      "mr_slug": "just-enough-effect-descriptions-jeed",
+      "icon": "assets/mod_icons/jeed.webp"
+    },
+    {
+      "slug": "jepp",
+      "name": "JEPP",
+      "mod_id": "jepp",
+      "description": "Just Enough Painting Previews: a JEI/REI tab that previews every painting, with name, size and source mod.",
+      "cf_slug": "jepp",
+      "mr_slug": null,
       "icon": null
+    },
+    {
+      "slug": "advancement-frames",
+      "name": "Advancement Frames",
+      "mod_id": "advancementframes",
+      "description": "Turns your advancements into nice looking plaques you can display.",
+      "cf_slug": "advancement-frames",
+      "mr_slug": "advancement-frames",
+      "icon": "assets/mod_icons/advancement-frames.png"
+    },
+    {
+      "slug": "randomium",
+      "name": "Randomium",
+      "mod_id": "randomium",
+      "description": "An ore that behaves randomly and can drop absolutely any item in the game.",
+      "cf_slug": "randomium-ore",
+      "mr_slug": "randomium-ore",
+      "icon": "assets/mod_icons/randomium.webp"
+    },
+    {
+      "slug": "moyai",
+      "name": "Moyai",
+      "mod_id": "moyai",
+      "description": "Adds naturally spawning Moyai to your game. 🗿",
+      "cf_slug": "moyai",
+      "mr_slug": "moyai",
+      "icon": "assets/mod_icons/moyai.webp"
+    },
+    {
+      "slug": "moonlight",
+      "name": "Moonlight Lib",
+      "mod_id": "moonlight",
+      "description": "The library behind most of these mods: dynamic pack generation, custom map markers, villager activities and more.",
+      "cf_slug": "selene",
+      "mr_slug": "moonlight",
+      "icon": "assets/mod_icons/moonlight.png",
+      "in_our_mods": false,
+      "in_mod_list": false
     }
   ]
 }

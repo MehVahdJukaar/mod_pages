@@ -131,9 +131,13 @@ def expand_support(config, fm, platform):
 
 def expand_our_mods(config, fm, all_mods, platform):
     slug = fm["slug"]
+    slug_key = "cf_slug" if platform == "cf" else "mr_slug"
     lines = ['<p style="text-align:center">']
     for mod in all_mods.values():
+        # No icon means no tile to show, and a missing platform slug means nowhere to link to
         if mod["slug"] == slug or not mod.get("icon"):
+            continue
+        if not mod.get("in_our_mods", True) or not mod.get(slug_key):
             continue
         icon = resolve_url(config, mod["icon"])
         name = mod["name"]
@@ -476,11 +480,53 @@ def generate_mod(source_path, config, all_mods):
     fm, body = parse_source(source_path)
     slug = fm["slug"]
     print(f"  {slug}")
+
+    registry = all_mods.get(slug)
+    if registry is None:
+        print(f"    warning: '{slug}' is not in mods.json, it won't appear in Our Mods or the in-game list")
+    else:
+        # mods.json holds the short name used in grids and in-game; a page title may expand on it,
+        # but the two drifting apart entirely (a rename) is worth flagging
+        page_name, list_name = fm["name"], registry["name"]
+        if list_name not in page_name and page_name not in list_name:
+            print(f"    warning: name mismatch, source says '{page_name}' but mods.json says '{list_name}'")
+
     for platform, key in [("curseforge", "cf"), ("modrinth", "mr")]:
+        # Nothing to publish for a mod that isn't on that platform
+        if not fm.get(f"{key}_slug"):
+            continue
         result = process_body(body, key, config, fm, all_mods)
         out_path = ROOT / "output" / platform / f"{slug}.md"
         out_path.parent.mkdir(parents=True, exist_ok=True)
         out_path.write_text(result + "\n", encoding="utf-8")
+
+
+# ── moonlight_mods.json ───────────────────────────────────────────────────────
+
+def write_moonlight_mods(config, all_mods):
+    """The catalog Moonlight fetches for its in-game 'discover mods' screen.
+    Shape must stay in sync with OurModsList.Entry's codec in the Moonlight repo."""
+    entries = []
+    for mod in all_mods.values():
+        if not mod.get("in_mod_list", True):
+            continue
+        if not mod.get("mod_id"):
+            print(f"  warning: '{mod['slug']}' has no mod_id, skipping it in moonlight_mods.json")
+            continue
+        cf, mr = mod.get("cf_slug"), mod.get("mr_slug")
+        entry = {
+            "id": mod["mod_id"],
+            "name": mod["name"],
+            "description": mod.get("description", ""),
+            "icon": resolve_url(config, mod["icon"]) if mod.get("icon") else None,
+            "curseforge": f"https://www.curseforge.com/minecraft/mc-mods/{cf}" if cf else None,
+            "modrinth": f"https://modrinth.com/mod/{mr}" if mr else None,
+        }
+        # Optional fields are omitted rather than nulled, so the codec reads them as absent
+        entries.append({k: v for k, v in entry.items() if v is not None})
+    path = ROOT / "moonlight_mods.json"
+    path.write_text(json.dumps({"mods": entries}, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    print(f"  moonlight_mods.json ({len(entries)} mods)")
 
 
 def main():
@@ -500,6 +546,7 @@ def main():
     print("Generating pages...")
     for src in sources:
         generate_mod(Path(src), config, all_mods)
+    write_moonlight_mods(config, all_mods)
     print(f"Done. {len(sources)} mod(s) processed.")
 
 

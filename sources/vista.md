@@ -12,9 +12,9 @@ mr_slug: vista
 
 ## 📖 About 📖
 
-Vista adds **Televisions, Cassettes, and Viewfinders** to Minecraft — letting you collect GIF cassette tapes, set up live camera feeds in your base, and watch them play back on big screens powered by redstone.
+Vista adds **Televisions, Cassettes, and Viewfinders** to Minecraft - letting you collect GIF cassette tapes, set up live camera feeds in your base, and watch them play back on big screens powered by redstone.
 
-TVs render with authentic **CRT shaders** and turn-on effects. Screens can be arranged in any square grid size. Cassettes are rare loot, each playing a unique GIF — collect them all.
+TVs render with authentic **CRT shaders** and turn-on effects. Screens can be arranged in any square grid size. Cassettes are rare loot, each playing a unique GIF - collect them all.
 
 > **Note:** The mod has degraded visuals when using Iris shader packs. For the best experience (CRT shaders, turn-on effects), play without Iris.
 

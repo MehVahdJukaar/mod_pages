@@ -14,7 +14,7 @@ mr_slug: polytone
 
 Polytone is a client-side **customization mod** that allows extensive tweaking of nearly every visual and audio aspect of the game through **Resource Packs**.
 
-It also offers **full backwards compatibility** with Optifine's `color.properties` system, so existing packs work out of the box — while offering far more options than Optifine ever did.
+It also offers **full backwards compatibility** with Optifine's `color.properties` system, so existing packs work out of the box - while offering far more options than Optifine ever did.
 
 Full documentation and an example pack are available on the [**Wiki**](https://github.com/MehVahdJukaar/polytone/wiki). Feel free to add Polytone to the optional dependency section of your resource pack!
 

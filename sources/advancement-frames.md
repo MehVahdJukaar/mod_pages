@@ -17,7 +17,7 @@ Advancement Frames lets you display your hard-earned Advancements as decorative 
 
 The mod adds two items: the **Advancement Frame** and the **Stat Frame**, both crafted with an Emerald and some Sticks.
 
-- Place a frame, open its GUI, and select any advancement you've earned — or leave it empty
+- Place a frame, open its GUI, and select any advancement you've earned - or leave it empty
 - The block displays the advancement icon and shows the advancement name and the player who earned it when looked at
 - Shift-clicking the placed frame shows the advancement **description** instead
 - If you lose an advancement, it's automatically cleared from the frame on the next world/chunk save

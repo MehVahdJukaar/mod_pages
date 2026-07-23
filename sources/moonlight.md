@@ -14,7 +14,7 @@ mr_slug: moonlight
 
 Formerly known as Selene Library, **Moonlight Lib** is a collection of utilities and shared code used across all of MehVahdJukaar's mods.
 
-**If you're a player:** You don't need to do anything special — Moonlight is automatically pulled in as a dependency when you install any mod that requires it. Just install it and forget about it.
+**If you're a player:** You don't need to do anything special - Moonlight is automatically pulled in as a dependency when you install any mod that requires it. Just install it and forget about it.
 
 **If you're a developer:** This library gives you a solid multiloader foundation with a focus on simplicity over boilerplate. Full documentation is available in the [Java Docs](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/main/java/net/mehvahdjukaar/moonlight/api) and [example package](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/example/java) on GitHub.
 
@@ -100,16 +100,16 @@ Custom model loaders and Quad utilities for advanced rendering.
 
 ### 🪙 Custom Villager Trades
 
-Add custom trades to any villager via the `moonlight/villager_trades` datapack folder — no code required. See Supplementaries or Sawmill for real-world examples.
+Add custom trades to any villager via the `moonlight/villager_trades` datapack folder - no code required. See Supplementaries or Sawmill for real-world examples.
 
 ### 🧙 More Utilities
 
-- **Block Color API** — detect any modded block's DyeColor and get the equivalent in a different color, dynamically for any block or item
-- **Custom Map Markers** — data-driven custom map decorations and markers with full rendering control
-- **Dynamic Villager AI** — add tasks and modify villager schedules without overriding the entire AI
-- **First & Third Person Item Animations** — simple interface for custom animations similar to the crossbow or spyglass
-- **Soft Fluid System** — data-driven virtual fluid system supporting bottles, bowls, buckets, stews, and drinks
-- **Grindstone Trigger** — custom advancement trigger for items passing through a grindstone
+- **Block Color API** - detect any modded block's DyeColor and get the equivalent in a different color, dynamically for any block or item
+- **Custom Map Markers** - data-driven custom map decorations and markers with full rendering control
+- **Dynamic Villager AI** - add tasks and modify villager schedules without overriding the entire AI
+- **First & Third Person Item Animations** - simple interface for custom animations similar to the crossbow or spyglass
+- **Soft Fluid System** - data-driven virtual fluid system supporting bottles, bowls, buckets, stews, and drinks
+- **Grindstone Trigger** - custom advancement trigger for items passing through a grindstone
 - **DispenserHelper**, **Global Datapack Folder**, **Debug Renderers**
 
 To import this library, go to the Files section and click **"Copy Gradle Line"**, then paste it into your `build.gradle`.

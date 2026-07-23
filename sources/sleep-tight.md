@@ -24,7 +24,7 @@ Early game is slower: sleep has a cooldown and costs hunger. Stick with your hom
 
 ## 🎒 Night Bags 🎒
 
-A portable sleeping bag crafted from Echo Shards and Phantom Membranes. Unroll it anywhere for an immediate sleep — no spawn point set, and no cooldown. Perfect for long expeditions.
+A portable sleeping bag crafted from Echo Shards and Phantom Membranes. Unroll it anywhere for an immediate sleep - no spawn point set, and no cooldown. Perfect for long expeditions.
 
 [SEPARATOR]
 
@@ -70,19 +70,19 @@ When you sleep, the mod checks for dark spots near your bed and can spawn a host
 
 ## ⚙️ Sleep Benefits & Requirements ⚙️
 
-Each sleep surface — regular Bed, Hammock, Night Bag — has its own configurable sleep profile:
+Each sleep surface - regular Bed, Hammock, Night Bag - has its own configurable sleep profile:
 
-- **Hunger requirement** — sleeping may require a certain food level
-- **XP toll** — each sleep can cost experience levels
-- **Status effects** — awarded on waking (e.g., Refreshed, Well-Rested)
-- **Healing** — restore health on waking
-- **Effect clearing** — optionally clears negative effects on sleep
+- **Hunger requirement** - sleeping may require a certain food level
+- **XP toll** - each sleep can cost experience levels
+- **Status effects** - awarded on waking (e.g., Refreshed, Well-Rested)
+- **Healing** - restore health on waking
+- **Effect clearing** - optionally clears negative effects on sleep
 
 [SEPARATOR]
 
 ## 🧩 Mod Integration 🧩
 
-- **Heartstone** — sleeping near your bonded partner grants Regeneration on waking
+- **Heartstone** - sleeping near your bonded partner grants Regeneration on waking
 
 [SEPARATOR]
 

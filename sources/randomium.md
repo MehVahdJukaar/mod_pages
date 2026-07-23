@@ -13,7 +13,7 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-Randomium is a new ore that drops a completely random item when broken. Any item in the game — from bread to a Dragon Egg. Requires at least an iron pickaxe to mine.
+Randomium is a new ore that drops a completely random item when broken. Any item in the game - from bread to a Dragon Egg. Requires at least an iron pickaxe to mine.
 
 [SEPARATOR]
 
@@ -21,7 +21,7 @@ Randomium is a new ore that drops a completely random item when broken. Any item
 
 ### Randomium Crystals
 
-A rarer find, Randomium Crystals let you influence what you get. Combine one in a crafting table with any item of your choice — the resulting Crystal will drop that item when broken.
+A rarer find, Randomium Crystals let you influence what you get. Combine one in a crafting table with any item of your choice - the resulting Crystal will drop that item when broken.
 
 ### ✨ Shy Block
 
@@ -35,7 +35,7 @@ The mod blacklists item inventories (so you can't get Shulker Boxes full of item
 
 ## ⚙️ Configuration ⚙️
 
-Most behaviors — drop pool, shy mechanics, ore generation — are configurable. Use the `randomium:blacklist` item tag to exclude specific items from ever dropping.
+Most behaviors - drop pool, shy mechanics, ore generation - are configurable. Use the `randomium:blacklist` item tag to exclude specific items from ever dropping.
 
 [SEPARATOR]
 [SUPPORT]

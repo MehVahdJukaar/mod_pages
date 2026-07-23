@@ -12,13 +12,13 @@ mr_slug: mystical-oak-tree
 
 ## 🌳 About 🌳
 
-Mystical Oak Tree is an ancient, immortal, transcendental being that manifests itself as an ordinary oak tree — with an uncanny human resemblance.
+Mystical Oak Tree is an ancient, immortal, transcendental being that manifests itself as an ordinary oak tree - with an uncanny human resemblance.
 
-Touch it and it will engage you in complex metaphysical conversation. Earn its trust over time and it will share its vast knowledge freely. Betray that trust, however, and it will remember. Attack it at your own peril — it has survived this long for a reason.
+Touch it and it will engage you in complex metaphysical conversation. Earn its trust over time and it will share its vast knowledge freely. Betray that trust, however, and it will remember. Attack it at your own peril - it has survived this long for a reason.
 
-- Found in **any overworld biome** — it chooses you, not the other way around. Look for a slightly different tree shape
+- Found in **any overworld biome** - it chooses you, not the other way around. Look for a slightly different tree shape
 - Talk to it once per day. Waking it during the day costs you trust points
-- **300+ custom-written lines** plus dynamically fetched content — it always has something new to say
+- **300+ custom-written lines** plus dynamically fetched content - it always has something new to say
 
 Topics it knows:
 

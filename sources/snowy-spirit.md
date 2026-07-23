@@ -14,7 +14,7 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-Snowy Spirit is a winter-themed mod born from Winter Jam 2021. It adds Sleds for speeding downhill, festive new blocks, seasonal villager behaviors, and the Gingerbread Golem — a pet that you can also eat.
+Snowy Spirit is a winter-themed mod born from Winter Jam 2021. It adds Sleds for speeding downhill, festive new blocks, seasonal villager behaviors, and the Gingerbread Golem - a pet that you can also eat.
 
 [YOUTUBE: 6lPE3bSGgok]
 
@@ -22,7 +22,7 @@ Snowy Spirit is a winter-themed mod born from Winter Jam 2021. It adds Sleds for
 
 ## 🛷 Sleds 🛷
 
-Sleds let you ride the terrain — they accelerate downhill, have special behavior on ice, and can navigate curves. Attach a **Chest or Shulker Box** for storage, or a **Wolf** as a passenger.
+Sleds let you ride the terrain - they accelerate downhill, have special behavior on ice, and can navigate curves. Attach a **Chest or Shulker Box** for storage, or a **Wolf** as a passenger.
 
 - Igloos now spawn with a Sled inside
 - Add **carpet** on top to customize the look and prevent powder snow from freezing you
@@ -38,7 +38,7 @@ During winter (December 20 – January 30 by default), villagers participate in 
 - Baby villagers throw **Snowballs** at each other and at players
 - If **Supplementaries** is installed, villagers also give out **Presents**
 
-**Serene Seasons** is supported — link the seasonal behavior to in-game seasons instead of real-world dates.
+**Serene Seasons** is supported - link the seasonal behavior to in-game seasons instead of real-world dates.
 
 [SEPARATOR]
 
@@ -46,11 +46,11 @@ During winter (December 20 – January 30 by default), villagers participate in 
 
 ### 🫚 Ginger
 
-A new crop that grows in Sparse Jungle biomes. Harvest Ginger and bake it into **Gingerbread Blocks** — the primary crafting material for winter builds and golems.
+A new crop that grows in Sparse Jungle biomes. Harvest Ginger and bake it into **Gingerbread Blocks** - the primary crafting material for winter builds and golems.
 
 ### 🔵 Gumdrops
 
-Colorful sugar blocks available in all 16 dye colors. They act as a button *and* a pressure plate — press them to send a signal. Can be placed in any direction, making them useful for redstone contraptions and decoration both.
+Colorful sugar blocks available in all 16 dye colors. They act as a button *and* a pressure plate - press them to send a signal. Can be placed in any direction, making them useful for redstone contraptions and decoration both.
 
 ### 🍬 Candy Cane
 
@@ -80,15 +80,15 @@ Place a Carved Pumpkin on top of a Gingerbread Block and add a Gumdrop button to
 
 - Come in **16 colors** with distinct personalities
 - Can be **eaten** when you're hungry (repairs when fed Gingerbread Cookies, obviously)
-- Vulnerable to **Milk** and **Water** — keep them away from rain
+- Vulnerable to **Milk** and **Water** - keep them away from rain
 - **Gingerbread Houses** can generate as structures, with a Witch and some Golems inside
 
 [SEPARATOR]
 
 ## 🙏 Credits 🙏
 
-- **DemiMark** — Sled sounds
-- **SophieTheTrophy** — Ginger sounds
+- **DemiMark** - Sled sounds
+- **SophieTheTrophy** - Ginger sounds
 
 [SEPARATOR]
 [SUPPORT]

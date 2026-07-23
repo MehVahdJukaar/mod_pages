@@ -27,29 +27,29 @@ Requires **[DEPENDENCY]**.
 
 ## 🪚 Features 🪚
 
-- Sawmill recipes are **compatible with any mod** — craft any wood-derivative block automatically
+- Sawmill recipes are **compatible with any mod** - craft any wood-derivative block automatically
 - **Carpenter Villager** works at the Sawmill with data-driven trades
 - **5 unique Carpenter houses** generate in villages, handcrafted to match the vanilla style
 - Unique **sawing sounds**
 - KubeJS integration for custom recipes (datapacks also supported)
-- **No extra wooden block spam** — just the Sawmill block itself
+- **No extra wooden block spam** - just the Sawmill block itself
 - Compatible with **Repurposed Structures**
 
 [YOUTUBE: otkWqcPNu2A | Showcase]
 
 ### 📦 For Modpack Makers
 
-Enable `save_recipes` in the config to export all dynamically generated recipes to JSON files — useful for static inclusion in your pack or for tweaking individual recipes.
+Enable `save_recipes` in the config to export all dynamically generated recipes to JSON files - useful for static inclusion in your pack or for tweaking individual recipes.
 
 [SEPARATOR]
 
 ## 🏆 Credits 🏆
 
-- **Plantkillable** — all textures
-- **Raspmary** — sawing sounds
-- **Zapsplat.org** — original sawing sound samples
-- **AlleCraft** — loot tables
-- **Artkek** — some structures
+- **Plantkillable** - all textures
+- **Raspmary** - sawing sounds
+- **Zapsplat.org** - original sawing sound samples
+- **AlleCraft** - loot tables
+- **Artkek** - some structures
 
 [SEPARATOR]
 [SUPPORT]
