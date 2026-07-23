@@ -9,49 +9,48 @@
 
 <p style="text-align:center"><span style="font-size:24px"><strong>📖 About 📖</strong></span></p>
 
-<p><span style="font-size:18px">Tired of incomplete wood sets? Every mod adds its own woods, every other mod adds its own wooden blocks, and none of them know about each other. You end up with cherry planks but no cherry bookshelf, walnut logs but no walnut chair.</span></p>
+<p><span style="font-size:18px">Every mod adds its own wood types, and every other mod adds its own wooden blocks, but none of them know about each other. The result is cherry planks with no cherry bookshelf, and walnut logs with no walnut chair.</span></p>
 
-<p><span style="font-size:18px">Every Compat fixes that automatically. It looks at the wood types and the wooden block types you have installed, then registers the missing combinations, textures and all. Install Quark and Twilight Forest and you get Twilight Forest vertical slabs. Install Macaw's Furniture and Regions Unexplored and you get every Macaw's block in every Regions Unexplored wood.</span></p>
+<p><span style="font-size:18px">Every Compat fills those gaps automatically. It reads the wood types and wooden block types you have installed and registers every missing combination, generating all assets at runtime. Install Macaw's Furniture and Regions Unexplored, and every Macaw's block exists in every Regions Unexplored wood.</span></p>
 
-<p><span style="font-size:18px">No per-mod compat addons to hunt down, no config to fill in. One mod, everything filled in.</span></p>
+<p><span style="font-size:18px">Requires <strong><a href="https://www.curseforge.com/minecraft/mc-mods/selene">Moonlight Library</a></strong>.</span></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/every-compat.png" alt="separator" width="1688" height="42"></p>
 
-<p style="text-align:center"><span style="font-size:24px"><strong>✨ What It Does ✨</strong></span></p>
+<p style="text-align:center"><span style="font-size:24px"><strong>✨ Features ✨</strong></span></p>
 
 <ul>
-<li><span style="font-size:18px">Adds <strong>every supported block type in every installed wood type</strong>, automatically</span></li>
+<li><span style="font-size:18px">Adds every supported block type in every installed wood type, with no configuration</span></li>
 <li><span style="font-size:18px">Generates textures, models, recipes, loot tables and tags at runtime</span></li>
-<li><span style="font-size:18px">Detects other compat addons and skips anything they already register, so nothing is duplicated</span></li>
-<li><span style="font-size:18px">Converts blocks from compat mods you have since removed into their Every Compat equivalents, so worlds don't lose their builds</span></li>
-<li><span style="font-size:18px">Ships an API so mod authors can register a whole block definition in about ten lines</span></li>
+<li><span style="font-size:18px">Registers nothing at all when installed on its own, so it only costs what it fills in</span></li>
+<li><span style="font-size:18px">Detects other compat addons and skips anything they already register</span></li>
+<li><span style="font-size:18px">Converts blocks from compat mods you have since removed into their Every Compat equivalents, so old builds survive</span></li>
+<li><span style="font-size:18px">Ships an API letting mod authors register a whole block definition in about ten lines</span></li>
 </ul>
-
-<p><span style="font-size:18px">Installed on its own it does nothing at all: it only registers blocks when there is a gap to fill.</span></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/every-compat.png" alt="separator" width="1688" height="42"></p>
 
 <p style="text-align:center"><span style="font-size:24px"><strong>🪑 Supported Mods 🪑</strong></span></p>
 
-<p><span style="font-size:18px">Every Compat has modules for the wood-adding and furniture-adding mods below. Coverage varies by Minecraft version and loader, and the list keeps growing.</span></p>
+<p><span style="font-size:18px">Coverage varies by Minecraft version and loader, and the list keeps growing.</span></p>
 
-<p><span style="font-size:18px"><strong>Furniture & decoration</strong>: Another Furniture, Beautify, Decorative Blocks, Decoration Delight, Furnish, Handcrafted, Hearth and Home, ReDeco, Refurbished Furniture (Crayfish), Unusual Furniture, Valhelsia Furniture, Clutter, Woodster, Workshop for Handsome Adventurer</span></p>
+<table>
+<thead>
+<tr><th><span style="font-size:18px">Category</span></th><th><span style="font-size:18px">Mods</span></th></tr>
+</thead>
+<tbody>
+<tr><td><span style="font-size:18px"><strong>Furniture</strong></span></td><td><span style="font-size:18px">Another Furniture, Beautify, Decorative Blocks, Decoration Delight, Furnish, Handcrafted, Hearth and Home, ReDeco, Refurbished Furniture, Unusual Furniture, Valhelsia Furniture, Clutter, Woodster, Workshop for Handsome Adventurer</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Macaw's</strong></span></td><td><span style="font-size:18px">Bridges, Doors, Fences, Furniture, Lights, Paths, Roofs, Stairs, Trapdoors, Windows</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Building</strong></span></td><td><span style="font-size:18px">Absent by Design, Architect's Palette, Blockus, Builders Addition, Builders Delight, Building But Better, Excessive Building, Infinity Buttons, Mosaic Carpentry, Quark, Stylish Stiles, Timber Frames, Twigs, Variant Vanilla Blocks</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Wood and trees</strong></span></td><td><span style="font-size:18px">Boat Load, Missing Wilds, Premium Wood, Regions Unexplored, Wilder Wild, Woodworks, Bark Carpets</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Storage and utility</strong></span></td><td><span style="font-size:18px">Functional Storage, More Chest Variants, More Crafting Tables, Storage Drawers, Variant Crafting Tables, Wooden Hoppers, Lightman's Currency, Mighty Mail</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Adventure and world</strong></span></td><td><span style="font-size:18px">Bewitchment, Create, Dawn of Time, Friends and Foes, Graveyard, Just a Raft, Pokecube AIO, Productive Bees, Tropicraft, Twilight Forest, Valhelsia Structures, Villagers Plus, Xerca</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Farming and food</strong></span></td><td><span style="font-size:18px">Farmer's Delight, Oreberries Replanted, Beautiful Campfires</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Other</strong></span></td><td><span style="font-size:18px">Awning, Backpacked, Bibliocraft, Camp Chair, Chipped, Copper Age Backport, Corail Pillar, Curiosities, Dramatic Doors, Lauch's Shutters, Red Bits, Table Top Craft</span></td></tr>
+</tbody>
+</table>
 
-<p><span style="font-size:18px"><strong>Macaw's</strong>: Bridges, Doors, Fences, Furniture, Lights, Paths, Roofs, Stairs, Trapdoors, Windows</span></p>
-
-<p><span style="font-size:18px"><strong>Building & blocks</strong>: Absent by Design, Architect's Palette, Blockus, Builders Addition, Builders Delight, Building But Better, Excessive Building, Infinity Buttons, Mosaic Carpentry, Quark, Stylish Stiles, Timber Frames, Twigs, Variant Vanilla Blocks</span></p>
-
-<p><span style="font-size:18px"><strong>Wood & trees</strong>: Boat Load, Missing Wilds, Premium Wood, Regions Unexplored, Wilder Wild, Woodworks, Bark Carpets</span></p>
-
-<p><span style="font-size:18px"><strong>Storage & utility</strong>: Functional Storage, More Chest Variants, More Crafting Tables, Storage Drawers, Variant Crafting Tables, Wooden Hoppers, Lightman's Currency, Mighty Mail</span></p>
-
-<p><span style="font-size:18px"><strong>Adventure & world</strong>: Bewitchment, Create, Dawn of Time, Friends and Foes, Graveyard, Just a Raft, Pokecube AIO, Productive Bees, Tropicraft, Twilight Forest, Valhelsia Structures, Villagers Plus, Xerca</span></p>
-
-<p><span style="font-size:18px"><strong>Farming & food</strong>: Farmer's Delight, Oreberries Replanted, Beautiful Campfires</span></p>
-
-<p><span style="font-size:18px"><strong>And more</strong>: Awning, Backpacked, Bibliocraft, Camp Chair, Chipped, Copper Age Backport, Corail Pillar, Curiosities, Dramatic Doors, Lauch's Shutters, Red Bits, Table Top Craft</span></p>
-
-<p><span style="font-size:18px">For the current, authoritative list, check the <a href="https://github.com/MehVahdJukaar/WoodGood">Every Compat GitHub</a>. If a mod you want isn't there, open a "Suggest a mod" issue.</span></p>
+<p><span style="font-size:18px">The <a href="https://github.com/MehVahdJukaar/WoodGood">Every Compat GitHub</a> has the current list. If a mod is missing, open a "Suggest a mod" issue.</span></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/every-compat.png" alt="separator" width="1688" height="42"></p>
 
@@ -67,7 +66,7 @@
 
 <p><span style="font-size:18px"><strong>Q: How does this work?</strong></span></p>
 
-<p><span style="font-size:18px"><strong>A:</strong> Magic. (Really: it reads the block definitions of supported mods, then registers copies of them for every wood type it finds, generating all assets at runtime.)</span></p>
+<p><span style="font-size:18px"><strong>A:</strong> It reads the block definitions of supported mods and registers a copy of each for every wood type it finds, generating all assets at runtime.</span></p>
 
 <p><span style="font-size:18px"><strong>Q: Is this compatible with other compat mods?</strong></span></p>
 
@@ -75,7 +74,7 @@
 
 <p><span style="font-size:18px"><strong>Q: This mod eats too much RAM!</strong></span></p>
 
-<p><span style="font-size:18px"><strong>A:</strong> Only if you ask it to. Alone it registers nothing. The moment you install ten wood mods and ten furniture mods, it registers the hundred-odd blocks that combination implies, exactly as if those blocks had shipped in the mods themselves. How much it registers is entirely up to which mods you install.</span></p>
+<p><span style="font-size:18px"><strong>A:</strong> Only in proportion to what you ask of it. On its own it registers nothing. Install ten wood mods and ten furniture mods and it registers the hundreds of blocks that combination implies, exactly as if those blocks had shipped in the mods themselves.</span></p>
 
 <p><span style="font-size:18px"><strong>Q: How do I retexture a block?</strong></span></p>
 
@@ -95,6 +94,8 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/every-compat.png" alt="separator" width="1688" height="42"></p>
 
+<p style="text-align:center"><span style="font-size:24px"><strong>❤️ Support Me ❤️</strong></span></p>
+
 <p><span style="font-size:18px">Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom <strong>Globe</strong> and/or <strong>Statue</strong> just for you - this also applies if you buy a server from Akliz using the code below.</span></p>
 
 <p style="text-align:center"><a href="https://ko-fi.com/mehvahdjukaar"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/badges/kofi.png" alt="Ko-Fi"></a></p>
@@ -105,6 +106,8 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/every-compat.png" alt="separator" width="1688" height="42"></p>
 
+<p style="text-align:center"><span style="font-size:24px"><strong>🦉 Our Mods 🦉</strong></span></p>
+
 <p style="text-align:center">
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
@@ -114,15 +117,15 @@
 <a href="https://www.curseforge.com/minecraft/mc-mods/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

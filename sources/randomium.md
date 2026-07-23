@@ -12,29 +12,34 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-Randomium is a new ore that drops a completely random item when broken. Any item in the game - from bread to a Dragon Egg. Requires at least an iron pickaxe to mine.
+Randomium is an ore that drops a completely random item when broken, anything from bread to a Dragon Egg. It needs at least an iron pickaxe to mine, and it does not want to be mined.
 
 [SEPARATOR]
 
 ## 🎲 Features 🎲
 
+### Randomium Ore
+
+- Drops one random item from the whole game when broken
+- Requires an iron pickaxe or better
+- Teleports or slides away when a player tries to mine it
+
 ### Randomium Crystals
 
-A rarer find, Randomium Crystals let you influence what you get. Combine one in a crafting table with any item of your choice - the resulting Crystal will drop that item when broken.
-
-### ✨ Shy Block
-
-Randomium blocks have a self-defense mechanism: they may teleport or slide away when a player tries to mine them. Good luck.
+- A rarer variant that lets you choose the drop
+- Combine one with any item in a crafting grid, and the resulting Crystal drops that item
 
 ### Anti-Duplication
 
-The mod blacklists item inventories (so you can't get Shulker Boxes full of items from the ore), and anything containing `randomium:randomium` in its NBT is automatically excluded from the drop pool. Configurable via the `randomium:blacklist` tag.
+- Item inventories are blacklisted, so the ore cannot drop a filled Shulker Box
+- Anything with `randomium:randomium` in its NBT is excluded from the drop pool automatically
 
 [SEPARATOR]
 
 ## ⚙️ Configuration ⚙️
 
-Most behaviors - drop pool, shy mechanics, ore generation - are configurable. Use the `randomium:blacklist` item tag to exclude specific items from ever dropping.
+- Drop pool, evasion behavior and ore generation are all configurable
+- The `randomium:blacklist` item tag excludes specific items from ever dropping
 
 [SEPARATOR]
 [SUPPORT]

@@ -9,19 +9,22 @@
 
 <p style="text-align:center"><span style="font-size:24px"><strong>📖 About 📖</strong></span></p>
 
-<p><span style="font-size:18px">Formerly known as Selene Library, <strong>Moonlight Lib</strong> is a collection of utilities and shared code used across all of MehVahdJukaar's mods.</span></p>
+<p><span style="font-size:18px">Formerly Selene Library, Moonlight Lib is the shared code behind all of MehVahdJukaar's mods.</span></p>
 
-<p><span style="font-size:18px"><strong>If you're a player:</strong> You don't need to do anything special - Moonlight is automatically pulled in as a dependency when you install any mod that requires it. Just install it and forget about it.</span></p>
+<p><span style="font-size:18px">Players do not need to do anything with it: it is pulled in automatically as a dependency by any mod that requires it.</span></p>
 
-<p><span style="font-size:18px"><strong>If you're a developer:</strong> This library gives you a solid multiloader foundation with a focus on simplicity over boilerplate. Full documentation is available in the <a href="https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/main/java/net/mehvahdjukaar/moonlight/api">Java Docs</a> and <a href="https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/example/java">example package</a> on GitHub.</span></p>
+<p><span style="font-size:18px">For developers it is a multiloader foundation aimed at cutting boilerplate. Documentation lives in the <a href="https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/main/java/net/mehvahdjukaar/moonlight/api">Java Docs</a> and the <a href="https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/example/java">example package</a>. To import it, use <strong>"Copy Gradle Line"</strong> in the Files section.</span></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/moonlight.png" alt="separator" width="1688" height="42"></p>
 
 <p style="text-align:center"><span style="font-size:24px"><strong>🛠️ Features 🛠️</strong></span></p>
 
-<p><strong>🎨 Dynamic Assets</strong></p>
+<p><strong>Dynamic Assets</strong></p>
 
-<p><span style="font-size:18px">Generate any asset dynamically for datapacks and resource packs. Includes an extensive API for generating dynamic textures: palette extraction, cropping, reshaping, automatic recoloring, and more.</span></p>
+<ul>
+<li><span style="font-size:18px">Generate any datapack or resource pack asset at runtime</span></li>
+<li><span style="font-size:18px">Texture API covering palette extraction, cropping, reshaping and automatic recoloring</span></li>
+</ul>
 
 <p><span style="font-size:18px"><strong>Dynamic resource generation example:</strong></span></p>
 <div class="spoiler"><img src="https://i.imgur.com/RipgGvz.png" alt="Dynamic Resources"></div>
@@ -32,9 +35,13 @@
 <p><span style="font-size:18px"><strong>Palette manipulation example:</strong></span></p>
 <div class="spoiler"><img src="https://i.imgur.com/2Yiu8C5.png" alt="Palette Manipulation"></div>
 
-<p><strong>🌍 Multiloader Utilities</strong></p>
+<p><strong>Multiloader Utilities</strong></p>
 
-<p><span style="font-size:18px">Simple static helper functions that emulate Forge behavior on Fabric. Four main API classes: <code>PlatHelper</code>, <code>ClientHelper</code>, <code>RegHelper</code>, <code>ForgeHelper</code>. Plus <code>ConfigBuilder</code> (Codec support, early loading, auto client-sync) and <code>ChannelHandler</code> for networking.</span></p>
+<ul>
+<li><span style="font-size:18px">Static helpers emulating Forge behavior on Fabric: <code>PlatHelper</code>, <code>ClientHelper</code>, <code>RegHelper</code> and <code>ForgeHelper</code></span></li>
+<li><span style="font-size:18px"><code>ConfigBuilder</code> for configs, with Codec support, early loading and automatic client sync</span></li>
+<li><span style="font-size:18px"><code>ChannelHandler</code> for networking</span></li>
+</ul>
 
 <p><span style="font-size:18px"><strong>PlatHelper example:</strong></span></p>
 <div class="spoiler"><img src="https://i.imgur.com/J09BP39.png" alt="PlatHelper"></div>
@@ -48,41 +55,49 @@
 <p><span style="font-size:18px"><strong>ChannelHandler example:</strong></span></p>
 <div class="spoiler"><img src="https://i.imgur.com/rE22Fcm.png" alt="ChannelHandler"></div>
 
-<p><strong>📒 Dynamic Registration (BlockSetAPI)</strong></p>
+<p><strong>Dynamic Registration (BlockSetAPI)</strong></p>
 
-<p><span style="font-size:18px">Detect "block sets" right after all blocks are registered and dynamically register new entries that depend on them. Built-in <code>WoodTypeRegistry</code> and <code>LeavesTypeRegistry</code> automatically populate with all woods and leaves from any installed mod.</span></p>
+<ul>
+<li><span style="font-size:18px">Detect block sets right after block registration, then register new entries derived from them</span></li>
+<li><span style="font-size:18px"><code>WoodTypeRegistry</code> and <code>LeavesTypeRegistry</code> populate automatically with every wood and leaf type installed</span></li>
+</ul>
 
 <p><span style="font-size:18px"><strong>BlockSetAPI examples:</strong></span></p>
 <div class="spoiler"><img src="https://i.imgur.com/UXqIcTu.png" alt="BlockSetAPI define">
 <img src="https://i.imgur.com/0pbcAXp.png" alt="BlockSetAPI register"></div>
 
-<p><strong>🔷 Custom Baked Models</strong></p>
+<p><strong>Custom Baked Models</strong></p>
 
-<p><span style="font-size:18px">Custom model loaders and Quad utilities for advanced rendering.</span></p>
+<ul>
+<li><span style="font-size:18px">Custom model loaders and quad utilities for advanced rendering</span></li>
+</ul>
 
 <p><span style="font-size:18px"><strong>Model Loader & Quad Utils examples:</strong></span></p>
 <div class="spoiler"><img src="https://i.imgur.com/oRY0fS8.png" alt="Model Loader">
 <img src="https://i.imgur.com/hu4aYCz.png" alt="Quad Utils"></div>
 
-<p><strong>🪙 Custom Villager Trades</strong></p>
-
-<p><span style="font-size:18px">Add custom trades to any villager via the <code>moonlight/villager_trades</code> datapack folder - no code required. See Supplementaries or Sawmill for real-world examples.</span></p>
-
-<p><strong>🧙 More Utilities</strong></p>
+<p><strong>Custom Villager Trades</strong></p>
 
 <ul>
-<li><span style="font-size:18px"><strong>Block Color API</strong> - detect any modded block's DyeColor and get the equivalent in a different color, dynamically for any block or item</span></li>
-<li><span style="font-size:18px"><strong>Custom Map Markers</strong> - data-driven custom map decorations and markers with full rendering control</span></li>
-<li><span style="font-size:18px"><strong>Dynamic Villager AI</strong> - add tasks and modify villager schedules without overriding the entire AI</span></li>
-<li><span style="font-size:18px"><strong>First & Third Person Item Animations</strong> - simple interface for custom animations similar to the crossbow or spyglass</span></li>
-<li><span style="font-size:18px"><strong>Soft Fluid System</strong> - data-driven virtual fluid system supporting bottles, bowls, buckets, stews, and drinks</span></li>
-<li><span style="font-size:18px"><strong>Grindstone Trigger</strong> - custom advancement trigger for items passing through a grindstone</span></li>
+<li><span style="font-size:18px">Add trades to any villager from the <code>moonlight/villager_trades</code> datapack folder, with no code</span></li>
+<li><span style="font-size:18px">Supplementaries and Sawmill use this in production</span></li>
+</ul>
+
+<p><strong>More Utilities</strong></p>
+
+<ul>
+<li><span style="font-size:18px"><strong>Block Color API</strong>: detect any modded block's DyeColor and get the equivalent in another color</span></li>
+<li><span style="font-size:18px"><strong>Custom Map Markers</strong>: data-driven map decorations with full rendering control</span></li>
+<li><span style="font-size:18px"><strong>Dynamic Villager AI</strong>: add tasks and change villager schedules without overriding the whole AI</span></li>
+<li><span style="font-size:18px"><strong>Item Animations</strong>: custom first and third person animations, like the crossbow or spyglass</span></li>
+<li><span style="font-size:18px"><strong>Soft Fluid System</strong>: a data-driven virtual fluid system covering bottles, bowls, buckets, stews and drinks</span></li>
+<li><span style="font-size:18px"><strong>Grindstone Trigger</strong>: an advancement trigger for items passing through a grindstone</span></li>
 <li><span style="font-size:18px"><strong>DispenserHelper</strong>, <strong>Global Datapack Folder</strong>, <strong>Debug Renderers</strong></span></li>
 </ul>
 
-<p><span style="font-size:18px">To import this library, go to the Files section and click <strong>"Copy Gradle Line"</strong>, then paste it into your <code>build.gradle</code>.</span></p>
-
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/moonlight.png" alt="separator" width="1688" height="42"></p>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>❤️ Support Me ❤️</strong></span></p>
 
 <p><span style="font-size:18px">Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom <strong>Globe</strong> and/or <strong>Statue</strong> just for you - this also applies if you buy a server from Akliz using the code below.</span></p>
 
@@ -94,25 +109,27 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/moonlight.png" alt="separator" width="1688" height="42"></p>
 
+<p style="text-align:center"><span style="font-size:24px"><strong>🦉 Our Mods 🦉</strong></span></p>
+
 <p style="text-align:center">
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

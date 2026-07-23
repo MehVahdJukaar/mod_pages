@@ -15,13 +15,13 @@ dependency:
 
 ## 📖 About 📖
 
-Supplementaries² is the overflow drawer for [DEPENDENCY]. It's where the extra color variants, the extra wood variants and the odd ideas that didn't quite earn a slot in the base mod ended up.
+Supplementaries² is an addon for [DEPENDENCY], adding extra color and wood variants of its blocks, along with a few features that did not fit in the base mod.
 
-If you already build with Supplementaries and keep wishing a block came in one more flavour, this is that mod.
+It exists separately so the base mod's block count stays manageable for people who do not want the variants.
 
 [SEPARATOR]
 
-## 📦 What's Inside 📦
+## 📦 Features 📦
 
 - **Colored Sacks**: sacks in all 16 dye colors, dyeable in the crafting grid
 - **Item Shelves in every wood type**, instead of just the vanilla few

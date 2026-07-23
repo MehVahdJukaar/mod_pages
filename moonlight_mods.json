@@ -20,7 +20,7 @@
       "id": "everycomp",
       "name": "Every Compat (Wood Good)",
       "description": "Fills in every missing wooden block from every mod you have installed, automatically. No per-mod compat addons needed.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/every-compat",
       "modrinth": "https://modrinth.com/mod/every-compat"
     },
@@ -76,7 +76,7 @@
       "id": "hauntedharvest",
       "name": "Haunted Harvest",
       "description": "Pumpkin carving, corn food and villagers who go trick-or-treating. Halloween that lasts all year.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/haunted-harvest",
       "modrinth": "https://modrinth.com/mod/haunted-harvest"
     },
@@ -100,7 +100,7 @@
       "id": "mysticaloaktree",
       "name": "Mystical Oak Tree",
       "description": "A talking, NPC-like tree with 300+ lines of lore, wisdom and questionable facts.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree",
       "modrinth": "https://modrinth.com/mod/mystical-oak-tree"
     },
@@ -124,7 +124,7 @@
       "id": "a_good_place",
       "name": "A Good Place",
       "description": "Blocks pop, slide and swing into place instead of just appearing. Fully customizable with resource packs.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/a-good-place",
       "modrinth": "https://modrinth.com/mod/a-good-place"
     },
@@ -140,7 +140,7 @@
       "id": "heartstone",
       "name": "Heartstone",
       "description": "Paired stones that let you and a friend track each other across the world, no F3 required.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/heartstone",
       "modrinth": "https://modrinth.com/mod/heartstone"
     },

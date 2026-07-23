@@ -2,83 +2,79 @@
 
 <h2 style="text-align:center">📖 About 📖</h2>
 
-Snowy Spirit is a winter-themed mod born from Winter Jam 2021. It adds Sleds for speeding downhill, festive new blocks, seasonal villager behaviors, and the Gingerbread Golem - a pet that you can also eat.
+Snowy Spirit is a winter-themed mod originally made for Winter Jam 2021. It adds rideable Sleds, a full gingerbread building set, festive decorations, and seasonal villager behavior.
+
+It also adds the Gingerbread Golem, a pet that follows you around and can be eaten.
+
+<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
+
+<h2 style="text-align:center">🖼️ Media 🖼️</h2>
 
 <p style="text-align:center"><iframe src="https://www.youtube.com/embed/6lPE3bSGgok?wmode=transparent" width="638" height="358" allowfullscreen="allowfullscreen"></iframe></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
 
-<h2 style="text-align:center">🛷 Sleds 🛷</h2>
+<h2 style="text-align:center">❄️ Features ❄️</h2>
 
-Sleds let you ride the terrain - they accelerate downhill, have special behavior on ice, and can navigate curves. Attach a **Chest or Shulker Box** for storage, or a **Wolf** as a passenger.
+### Sleds
 
-- Igloos now spawn with a Sled inside
-- Add **carpet** on top to customize the look and prevent powder snow from freezing you
-- Multiple wood types and material variants available
+- Ride downhill, accelerating with the slope, with special handling on ice and through curves
+- Available in every vanilla wood type
+- Attach a Chest or Shulker Box for storage, or a Wolf as a passenger
+- Add a carpet on top to change the look and stop powder snow from freezing you
+- Generate inside igloos
 
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
+### Gingerbread Golems
 
-<h2 style="text-align:center">🏘️ Seasonal Villagers 🏘️</h2>
+- Built by placing a Carved Pumpkin on a Gingerbread Block and adding a Gumdrop button
+- Follow you around as a pet, in 16 colors with their own personalities
+- Can be eaten when you are hungry, and repaired by feeding them Gingerbread Cookies
+- Vulnerable to Milk and Water, so keep them out of the rain
+- Gingerbread Houses generate as structures, with a Witch and some Golems inside
 
-During winter (December 20 – January 30 by default), villagers participate in the season:
+### Seasonal Villagers
 
-- Adults hang **Wreaths** on their doors at the start of winter and remove them after
-- Baby villagers throw **Snowballs** at each other and at players
-- If **Supplementaries** is installed, villagers also give out **Presents**
+- Adults hang **Wreaths** on their doors at the start of winter and take them down after
+- Baby villagers throw snowballs at each other and at players
+- With **Supplementaries** installed, villagers hand out Presents
+- Defaults to December 20th through January 30th
 
-**Serene Seasons** is supported - link the seasonal behavior to in-game seasons instead of real-world dates.
+### Ginger
 
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
+- A crop that grows in Sparse Jungle biomes, found as Wild Ginger
+- Bakes into **Gingerbread**, the main winter building material
+- Gingerbread comes as stairs, slabs, doors, trapdoors and a Frosted variant
+- Also makes Gingerbread Cookies and Eggnog
+- Storable in a Ginger Crate, and plantable in a flower pot
 
-<h2 style="text-align:center">🍬 New Blocks & Items 🍬</h2>
+### Decorations
 
-### 🫚 Ginger
-
-A new crop that grows in Sparse Jungle biomes. Harvest Ginger and bake it into **Gingerbread Blocks** - the primary crafting material for winter builds and golems.
-
-### 🔵 Gumdrops
-
-Colorful sugar blocks available in all 16 dye colors. They act as a button *and* a pressure plate - press them to send a signal. Can be placed in any direction, making them useful for redstone contraptions and decoration both.
-
-### 🍬 Candy Cane
-
-Purely decorative blocks for building festive structures.
-
-### 🌿 Wreaths
-
-Hang them on any door, including modded doors. Automatically placed by villagers during winter.
-
-### 💡 Glow Lights
-
-Small lights that attach to leaves. Remove them with Shears.
-
-### 🌨️ Snow Globe
-
-A decorative block that creates a localized snowy state in snow biomes.
-
-### 🎵 Music Disc
-
-A new winter-themed music disc.
+- **Gumdrops**: sugar blocks in all 16 dye colors that act as both a button and a pressure plate, placeable on any face
+- **Candy Cane** blocks for festive building
+- **Wreaths**: hang on any door, including modded ones
+- **Glow Lights**: small lights that attach to leaves, removable with Shears, including a Prismatic variant
+- **Snow Globe**: creates a localized snowy state in snow biomes
+- A winter-themed music disc
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
 
-<h2 style="text-align:center">🍪 Gingerbread Golems 🍪</h2>
+<h2 style="text-align:center">⚙️ Compatibility ⚙️</h2>
 
-Place a Carved Pumpkin on top of a Gingerbread Block and add a Gumdrop button to bring it to life. Gingerbread Golems will follow you as a pet.
-
-- Come in **16 colors** with distinct personalities
-- Can be **eaten** when you're hungry (repairs when fed Gingerbread Cookies, obviously)
-- Vulnerable to **Milk** and **Water** - keep them away from rain
-- **Gingerbread Houses** can generate as structures, with a Witch and some Golems inside
+| Mod | What you get |
+|---|---|
+| **Supplementaries** | Villagers hand out Presents during winter |
+| **Serene Seasons** | Tie the season to in-game seasons instead of real-world dates |
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
 
 <h2 style="text-align:center">🙏 Credits 🙏</h2>
 
-- **DemiMark** - Sled sounds
-- **SophieTheTrophy** - Ginger sounds
+- **DemiMark**: Sled sounds
+- **SophieTheTrophy**: Ginger sounds
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
+
+<h2 style="text-align:center">❤️ Support Me ❤️</h2>
 
 Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom **Globe** and/or **Statue** just for you - this also applies if you buy a server from Akliz using the code below.
 
@@ -91,24 +87,26 @@ Use code **"supplementaries"** to get **20% off** and support me at the same tim
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/snowy-spirit.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">🦉 Our Mods 🦉</h2>
+
 <p style="text-align:center">
 <a href="https://modrinth.com/mod/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/map-atlases"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/universal-sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

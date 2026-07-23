@@ -9,9 +9,9 @@
 
 <p style="text-align:center"><span style="font-size:24px"><strong>📖 About 📖</strong></span></p>
 
-<p><span style="font-size:18px">Placing a block in vanilla is instant and lifeless: one frame it isn't there, the next it is. A Good Place gives it a little animation, so blocks pop, slide or swing into place instead of just appearing.</span></p>
+<p><span style="font-size:18px">A Good Place adds a short animation when a block is placed, so blocks slide, pop or swing into position instead of appearing instantly.</span></p>
 
-<p><span style="font-size:18px">It's client-side, it works on tile entities too, and it ships with a sensible default animation applied to most blocks out of the box. The interesting part is that the whole thing is driven by resource packs, so if you don't like how it looks you can change it, and if you want different blocks to animate differently you can do that too.</span></p>
+<p><span style="font-size:18px">It is client-side, works on block entities, and ships with a default animation applied to most blocks. The whole system is driven by resource packs, so the animation can be changed or given different settings per block.</span></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/a-good-place.png" alt="separator" width="1688" height="42"></p>
 
@@ -21,11 +21,17 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/a-good-place.png" alt="separator" width="1688" height="42"></p>
 
-<p style="text-align:center"><span style="font-size:24px"><strong>🔧 Customization 🔧</strong></span></p>
+<p style="text-align:center"><span style="font-size:24px"><strong>🔧 Features 🔧</strong></span></p>
 
-<p><span style="font-size:18px">Everything is a resource pack. Open your resource pack folder and you'll find a pre-made sample pack with a <code>placement_animations</code> folder inside. Drop one or more JSON files in there: each one targets a set of blocks and gives them an animation.</span></p>
-
-<p><span style="font-size:18px">An animation is four animations layered together: <strong>scale</strong>, <strong>translation</strong>, <strong>rotation</strong> and <strong>height scale</strong>. Each has an accompanying <code>_curve</code> value controlling how it eases, from linear at <code>0</code> to sharply front- or back-loaded as it approaches <code>1</code> or <code>-1</code>.</span></p>
+<ul>
+<li><span style="font-size:18px">A pre-made sample pack is placed in your resource pack folder on first launch</span></li>
+<li><span style="font-size:18px">Animations are JSON files in a <code>placement_animations</code> folder, each targeting a set of blocks</span></li>
+<li><span style="font-size:18px">Every animation layers four parts: <strong>scale</strong>, <strong>translation</strong>, <strong>rotation</strong> and <strong>height scale</strong></span></li>
+<li><span style="font-size:18px">Each part has a <code>_curve</code> value setting how it eases, from linear at <code>0</code> to sharply front- or back-loaded near <code>1</code> and <code>-1</code></span></li>
+<li><span style="font-size:18px">Which blocks a file applies to is set by <code>predicates</code>, working like vanilla's worldgen block predicates: <code>matching_blocks</code>, <code>matching_state</code>, <code>has_collision</code> and <code>is_double_block</code>, combined with <code>not</code> and <code>any_of</code></span></li>
+<li><span style="font-size:18px">A <code>priority</code> field lets a specific pack override a general one</span></li>
+<li><span style="font-size:18px">The full field reference, including <code>restrict_direction</code>, <code>rotation_pivot</code>, <code>duration</code> and an optional <code>sound</code>, is in the <a href="https://github.com/enjarai/a-good-place">mod's README</a></span></li>
+</ul>
 
 <p><span style="font-size:18px">A minimal pop-in animation for stone:</span></p>
 
@@ -40,15 +46,11 @@
   "scale_curve": 0.92
 }</code></pre>
 
-<p><span style="font-size:18px">Which blocks a file applies to is controlled by <code>predicates</code>, the same idea as vanilla's worldgen block predicates. You get <code>matching_blocks</code>, <code>matching_state</code>, <code>has_collision</code>, <code>is_double_block</code>, plus <code>not</code> and <code>any_of</code> to combine them. Files also have a <code>priority</code> so a more specific pack can override a general one.</span></p>
-
-<p><span style="font-size:18px">The full field reference, including <code>restrict_direction</code>, <code>rotation_pivot</code>, <code>duration</code> and the optional <code>sound</code> to play on placement, is in the <a href="https://github.com/enjarai/a-good-place">mod's README and wiki</a>.</span></p>
-
-<blockquote><p><span style="font-size:18px">You may need to enable the sample resource pack in your resource pack menu the first time you install the mod.</span></p></blockquote>
-
-<p><span style="font-size:18px">Made something good? Share it with us on Discord.</span></p>
+<blockquote><p><span style="font-size:18px">You may need to enable the sample resource pack in the resource pack menu the first time you install the mod.</span></p></blockquote>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/a-good-place.png" alt="separator" width="1688" height="42"></p>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>❤️ Support Me ❤️</strong></span></p>
 
 <p><span style="font-size:18px">Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom <strong>Globe</strong> and/or <strong>Statue</strong> just for you - this also applies if you buy a server from Akliz using the code below.</span></p>
 
@@ -60,24 +62,26 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/a-good-place.png" alt="separator" width="1688" height="42"></p>
 
+<p style="text-align:center"><span style="font-size:24px"><strong>🦉 Our Mods 🦉</strong></span></p>
+
 <p style="text-align:center">
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

@@ -2,83 +2,95 @@
 
 <h2 style="text-align:center">📖 About 📖</h2>
 
-Sleep Tight overhauls sleeping to make it feel dangerous, rewarding, and actually meaningful.
+Sleep Tight overhauls sleeping. Beds gain a cooldown and a hunger cost, so skipping the night is no longer free, and sleeping in the same bed repeatedly turns it into a Home Bed that grants bonus XP.
 
-Early game is slower: sleep has a cooldown and costs hunger. Stick with your home bed and it becomes your sanctuary, granting bonus XP over time. Push too far and nightmares start, bad encounters spawn near your bed, and bedbugs move in. There's also a daytime hammock for naps, a portable Night Bag for adventurers, and plenty of configs if you want to dial anything back.
+Sleeping too often has consequences: nightmares wake you early, hostile mobs spawn in dark spots near your bed, and bedbugs infest it. The mod also adds hammocks for daytime naps and a portable Night Bag for expeditions.
+
+Everything is configurable, and an Easy Mode jar is available if you want the content without the difficulty.
+
+<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
+
+<h2 style="text-align:center">🖼️ Media 🖼️</h2>
 
 <p style="text-align:center"><iframe src="https://www.youtube.com/embed/Uunei1ZoW-s?wmode=transparent" width="638" height="358" allowfullscreen="allowfullscreen"></iframe></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
 
-<h2 style="text-align:center">🎒 Night Bags 🎒</h2>
+<h2 style="text-align:center">💤 Features 💤</h2>
 
-A portable sleeping bag crafted from Echo Shards and Phantom Membranes. Unroll it anywhere for an immediate sleep - no spawn point set, and no cooldown. Perfect for long expeditions.
+### Home Bed
+
+- Sleeping in the same bed for 6 nights makes it your Home Bed
+- Grants the **Invigorated** effect, increasing XP gained from mobs and blocks
+- Levels up with every night slept there, up to level 100
+- Sleeping elsewhere resets your progress
+- Optionally, respawning can be restricted to your Home Bed only
+
+### Nightmares
+
+- Consecutive nights of sleep build up a hidden Dread counter
+- At its peak you wake up early with a sleep cooldown, which stacks the more it happens
+- **Dreamer Essence** wards off nightmares and attracts phantoms away from you
+- Current Dread and bed familiarity are shown in the sleep HUD
+
+### Bedbugs
+
+- Can spawn in your bed after sleeping, more likely on higher difficulty
+- Infest the bed over time and can crawl through doors
+- Cured by dousing the bed with a **Potion of Harming**
+- Half of all woodland mansion beds generate already infested
+- Persistent, so they will not despawn on their own
+
+### Sleep Encounters
+
+- Sleeping checks for dark spots near your bed and can spawn a hostile mob there
+- Keeping the area lit prevents it
+
+### Hammocks
+
+- Attach to fences of any wood type, in all 16 dye colors
+- For daytime naps: resting in one skips to the next morning without the usual bed effects
+- Swing with the **A** and **D** keys
+- Falling off one earns the **Inertia is a Property of Matter** advancement
+
+### Night Bags
+
+- A portable bed for expeditions, unrolled anywhere for an immediate sleep
+- Does not set your spawn point and has no cooldown
+- By default they can only be unrolled, not placed as a normal block
+
+### Sleep Changes
+
+- You can lie in a bed without sleeping (right-click to lie, hold to sleep)
+- A HUD element shows the time remaining until you can sleep again
+- Sleeping in the Nether causes a less intense explosion
+- Two beds side by side act as one queen size bed
+- Villagers close their eyes while sleeping nearby
+- Fixes multiplayer players floating two pixels above beds
+
+### Misc
+
+- **Moon banner pattern**, for moon-charged banners in every color
+- Sleep requirements, benefits, penalties and nightmare rates are configured separately for beds, hammocks and night bags
+- Commands for reading and setting Home Bed nights, consecutive nights, sleep cooldown and nightmare chance
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
 
-<h2 style="text-align:center">🪑 Hammocks 🪑</h2>
+<h2 style="text-align:center">⚙️ Compatibility ⚙️</h2>
 
-A block for napping during the day. Attach it to fences (all variants), then lie down and swing with **A/D** keys. Available in all 16 dye colors. Sleeping in a hammock skips to the next morning without the normal bed effects.
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
-
-<h2 style="text-align:center">🐛 Bedbugs 🐛</h2>
-
-On higher difficulty, there's a chance of Bedbugs spawning after you sleep. They infest your bed over time and can crawl through doors. Cure an infested bed by dousing it with a **Potion of Harming**. They're persistent, so don't ignore them.
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
-
-<h2 style="text-align:center">🏠 Home Bed 🏠</h2>
-
-Sleep in the same bed for 6 or more nights and it becomes your **Home Bed**. This unlocks the **Invigorated** effect, which grants bonus XP for actions and slowly levels up to 100 over time. Travel or use a different bed and it resets.
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
-
-<h2 style="text-align:center">😱 Nightmares 😱</h2>
-
-Consecutive nights of sleep stack a hidden **Nightmare** counter. When it peaks, you wake up early with a sleep cooldown that stacks the more it happens. Prevent nightmares by using **Dreamer's Essence**, a craftable item that attracts phantoms away from you during the night.
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
-
-<h2 style="text-align:center">⚔️ Sleep Encounters ⚔️</h2>
-
-When you sleep, the mod checks for dark spots near your bed and can spawn a hostile mob there. Keep the area lit if you want a quiet night.
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
-
-<h2 style="text-align:center">💤 Sleep Changes 💤</h2>
-
-- You can **lie in bed** without committing to sleep (right-click vs hold)
-- Sleeping has a **5-minute cooldown** between uses
-- A HUD element shows the **time remaining** until the next sleep is allowed
-- Sleeping in the Nether causes less intense explosions (a small compensation for the danger)
-- Villagers close their eyes when sleeping nearby
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
-
-<h2 style="text-align:center">⚙️ Sleep Benefits & Requirements ⚙️</h2>
-
-Each sleep surface - regular Bed, Hammock, Night Bag - has its own configurable sleep profile:
-
-- **Hunger requirement** - sleeping may require a certain food level
-- **XP toll** - each sleep can cost experience levels
-- **Status effects** - awarded on waking (e.g., Refreshed, Well-Rested)
-- **Healing** - restore health on waking
-- **Effect clearing** - optionally clears negative effects on sleep
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
-
-<h2 style="text-align:center">🧩 Mod Integration 🧩</h2>
-
-- **Heartstone** - sleeping near your bonded partner grants Regeneration on waking
+| Mod | What you get |
+|---|---|
+| **Heartstone** | Sleeping near your bonded partner grants Regeneration on waking |
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
 
 <h2 style="text-align:center">🧰 Easy Mode 🧰</h2>
 
-An alternate jar is available with softer settings: no cooldown, fewer nightmares, rarer bedbugs, easier Night Bags, and no hunger consumption. Drop it in instead of the main jar if you want the features without the difficulty.
+An alternate jar with softer settings: no sleep cooldown, fewer nightmares, rarer bedbugs, easier night bags and no hunger cost. Use it instead of the main jar.
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
+
+<h2 style="text-align:center">❤️ Support Me ❤️</h2>
 
 Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom **Globe** and/or **Statue** just for you - this also applies if you buy a server from Akliz using the code below.
 
@@ -91,24 +103,26 @@ Use code **"supplementaries"** to get **20% off** and support me at the same tim
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/sleep-tight.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">🦉 Our Mods 🦉</h2>
+
 <p style="text-align:center">
 <a href="https://modrinth.com/mod/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/map-atlases"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/universal-sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

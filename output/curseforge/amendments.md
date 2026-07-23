@@ -27,95 +27,100 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
 
-<p style="text-align:center"><span style="font-size:24px"><strong>🖼️ Features 🖼️</strong></span></p>
+<p style="text-align:center"><span style="font-size:24px"><strong>✨ Features ✨</strong></span></p>
 
-<p><strong>🪣 Cauldrons</strong></p>
+<p><strong>Cauldrons</strong></p>
 
 <ul>
-<li><span style="font-size:18px">Can store <strong>any liquid</strong></span></li>
-<li><span style="font-size:18px">Mix Potions and Dyes by combining them inside</span></li>
-<li><span style="font-size:18px">Right-click with an item to craft using the liquid they contain</span></li>
-<li><span style="font-size:18px">Improved animations - splash and bubble particles, corrected sounds</span></li>
-<li><span style="font-size:18px">Boil when holding water or a potion with a heat source below</span></li>
-<li><span style="font-size:18px">Boiling cauldrons deal boiling damage to entities inside</span></li>
-<li><span style="font-size:18px">Stepping into a splash or lingering potion cauldron applies that potion</span></li>
-<li><span style="font-size:18px">Improved model with translucency and ambient occlusion</span></li>
+<li><span style="font-size:18px">Hold any liquid, not just water, lava and powder snow</span></li>
+<li><span style="font-size:18px">Mix potions and dyes together by combining them inside</span></li>
+<li><span style="font-size:18px">Right-click with an item to craft using the liquid inside, fully datapack-driven</span></li>
+<li><span style="font-size:18px">Boil when a heat source is placed underneath, dealing damage to entities inside</span></li>
 <li><span style="font-size:18px">Throw ingredients into a boiling water cauldron to make stews</span></li>
-<li><span style="font-size:18px">Fully datapack-driven custom cauldron recipes</span></li>
+<li><span style="font-size:18px">Stepping into a splash or lingering potion cauldron applies that potion</span></li>
+<li><span style="font-size:18px">Improved model with translucency and ambient occlusion, splash and bubble particles, corrected sounds</span></li>
 </ul>
 
-<p><strong>📖 Lecterns</strong></p>
+<p><strong>Lecterns</strong></p>
 
 <ul>
-<li><span style="font-size:18px">New GUI when holding a Book and Quill: Quill button + Ink Well button</span></li>
-<li><span style="font-size:18px">Click the Ink Well to cycle font colors</span></li>
-<li><span style="font-size:18px">Click the Quill to cycle fonts</span></li>
-<li><span style="font-size:18px">Now interact with hoppers</span></li>
+<li><span style="font-size:18px">New GUI when holding a Book and Quill, with a Quill button and an Ink Well button</span></li>
+<li><span style="font-size:18px">Click the Ink Well to cycle font colors, the Quill to cycle fonts</span></li>
+<li><span style="font-size:18px">Interact with hoppers</span></li>
 </ul>
 
-<p><strong>🏮 Lanterns</strong></p>
+<p><strong>Lanterns</strong></p>
 
 <ul>
-<li><span style="font-size:18px">New 3D swing animation when held in hand (first and third person)</span></li>
-<li><span style="font-size:18px">Can be hung on walls - works with <strong>any</strong> lantern</span></li>
-<li><span style="font-size:18px">Pendulum physics when hanging</span></li>
+<li><span style="font-size:18px">Can be hung on walls, working with any modded lantern</span></li>
+<li><span style="font-size:18px">Pendulum physics while hanging</span></li>
+<li><span style="font-size:18px">3D swing animation when held, in first and third person</span></li>
 </ul>
 
-<p><strong>🪧 Hanging Signs</strong></p>
+<p><strong>Hanging Signs</strong></p>
 
 <ul>
-<li><span style="font-size:18px">Can display any item on both faces</span></li>
-<li><span style="font-size:18px">Can display banner patterns (requires Supplementaries)</span></li>
+<li><span style="font-size:18px">Display any item on both faces</span></li>
+<li><span style="font-size:18px">Display banner patterns, with Supplementaries installed</span></li>
 <li><span style="font-size:18px">Swing physics when attached to walls</span></li>
-<li><span style="font-size:18px">Visual connection shown when attached to fences, walls, or similar blocks</span></li>
+<li><span style="font-size:18px">Visually connect to fences, walls and similar blocks</span></li>
 </ul>
 
-<p><strong>🎵 Jukeboxes</strong></p>
+<p><strong>Jukeboxes</strong></p>
 
 <ul>
-<li><span style="font-size:18px">Visually show the disc currently playing with a spinning disc animation</span></li>
-<li><span style="font-size:18px">New improved 3D model</span></li>
-<li><span style="font-size:18px">Compatible with <strong>any</strong> disc, modded or not</span></li>
+<li><span style="font-size:18px">Show the disc currently playing, spinning, on an improved 3D model</span></li>
+<li><span style="font-size:18px">Works with any disc, modded or not</span></li>
 </ul>
 
-<p><strong>🧶 Carpets</strong></p>
+<p><strong>Cakes</strong></p>
 
 <ul>
-<li><span style="font-size:18px">Can be placed on Slabs and Stairs</span></li>
-<li><span style="font-size:18px">Works with moss carpets too</span></li>
+<li><span style="font-size:18px">Stack two cakes by placing one on top of another, working with any modded cake</span></li>
+<li><span style="font-size:18px">Vanilla cakes can be rotated</span></li>
 </ul>
 
-<p><strong>🎂 Cakes</strong></p>
-
-<ul>
-<li><span style="font-size:18px">Stack two cakes by placing one on top of another - works with <strong>any</strong> cake</span></li>
-<li><span style="font-size:18px">Vanilla cakes can also be rotated</span></li>
-</ul>
-
-<p><strong>🌿 Lily Pads</strong></p>
+<p><strong>Lily Pads</strong></p>
 
 <ul>
 <li><span style="font-size:18px">Can have any block placed on top</span></li>
-<li><span style="font-size:18px">Become a waterlogged block to support the placement; revert when the block is removed</span></li>
+<li><span style="font-size:18px">Turn into a waterlogged block to support it, and revert when it is removed</span></li>
 </ul>
 
-<p><strong>🔥 Charges & Projectiles</strong></p>
+<p><strong>Carpets</strong></p>
 
 <ul>
-<li><span style="font-size:18px">Craftable Dragon Charge items</span></li>
-<li><span style="font-size:18px">Fire Charges have improved models, particles, and gravity - ignite entities in an area</span></li>
-<li><span style="font-size:18px">Snowballs and Slimeballs have 3D projectile models</span></li>
+<li><span style="font-size:18px">Placeable on Slabs and Stairs</span></li>
+<li><span style="font-size:18px">Works with moss carpets</span></li>
+</ul>
+
+<p><strong>Bells</strong></p>
+
+<ul>
+<li><span style="font-size:18px">Ring by clicking a chain connected to the bell</span></li>
+<li><span style="font-size:18px">Chains and ropes visually attach to the bell</span></li>
+</ul>
+
+<p><strong>Charges and Projectiles</strong></p>
+
+<ul>
+<li><span style="font-size:18px">Craftable Dragon Charges</span></li>
+<li><span style="font-size:18px">Fire Charges get better models, particles and gravity, and ignite entities in an area</span></li>
+<li><span style="font-size:18px">Snowballs and Slimeballs get 3D projectile models</span></li>
 <li><span style="font-size:18px">Snowballs apply freezing on impact and interact with fire</span></li>
+<li><span style="font-size:18px">Tipped arrows show their color when loaded in a crossbow</span></li>
 </ul>
 
-<p><strong>🎨 Visual Improvements</strong></p>
+<p><strong>Other Tweaks</strong></p>
 
 <ul>
-<li><span style="font-size:18px"><strong>Mob Skulls</strong> - can be stacked in any combination; candles placed on top leave a wax overlay</span></li>
-<li><span style="font-size:18px"><strong>Brewing Stands</strong> - potion bottles colored based on what they contain</span></li>
-<li><span style="font-size:18px"><strong>Banners & Pots</strong> - can be placed on ceilings</span></li>
-<li><span style="font-size:18px"><strong>Tripwire Hooks</strong> - shift-click with a tool to hang it on the hook</span></li>
-<li><span style="font-size:18px"><strong>Pixel Consistent Signs</strong> - pixel-accurate sign model, texture, and hitbox (thanks to <strong>Vectorwing</strong> for the original)</span></li>
+<li><span style="font-size:18px"><strong>Flower Pots</strong> can be hung, including any modded pot</span></li>
+<li><span style="font-size:18px"><strong>Mob Skulls</strong> stack in any combination, and candles placed on top leave a wax overlay</span></li>
+<li><span style="font-size:18px"><strong>Brewing Stands</strong> color their potion bottles based on the contents</span></li>
+<li><span style="font-size:18px"><strong>Banners and Pots</strong> can be placed on ceilings</span></li>
+<li><span style="font-size:18px"><strong>Tripwire Hooks</strong> hold a tool when you shift-click it onto them</span></li>
+<li><span style="font-size:18px"><strong>Torches</strong> can set entities on fire</span></li>
+<li><span style="font-size:18px"><strong>Signs</strong> get a pixel-accurate model, texture and hitbox, based on the original by <strong>Vectorwing</strong></span></li>
 </ul>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
@@ -144,6 +149,8 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
 
+<p style="text-align:center"><span style="font-size:24px"><strong>❤️ Support Me ❤️</strong></span></p>
+
 <p><span style="font-size:18px">Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom <strong>Globe</strong> and/or <strong>Statue</strong> just for you - this also applies if you buy a server from Akliz using the code below.</span></p>
 
 <p style="text-align:center"><a href="https://ko-fi.com/mehvahdjukaar"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/badges/kofi.png" alt="Ko-Fi"></a></p>
@@ -154,24 +161,26 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
 
+<p style="text-align:center"><span style="font-size:24px"><strong>🦉 Our Mods 🦉</strong></span></p>
+
 <p style="text-align:center">
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

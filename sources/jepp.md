@@ -11,11 +11,15 @@ mr_slug: null
 
 ## 📖 About 📖
 
-Paintings in Minecraft are a lottery. You place one, you get whatever the game feels like giving you, and the only way to find the one you wanted is to place it over and over.
+JEPP is a JEI and REI addon that adds a recipe category for paintings, so you can look up which paintings exist instead of placing one repeatedly until you get the one you wanted.
 
-JEPP is a small JEI/REI addon that adds a recipe category for paintings, so you can just look them up instead. Point at a painting and press **U** and you get a window with every painting available to you.
+[SEPARATOR]
 
-Each entry shows the painting's name, its dimensions and which mod adds it. It works with any mod that adds paintings, no configuration needed.
+## 🖼️ Features 🖼️
+
+- Press **U** on a painting to open a window listing every painting available
+- Each entry shows the painting's name, its dimensions and which mod adds it
+- Works with any mod that adds paintings, with no configuration
 
 [SEPARATOR]
 

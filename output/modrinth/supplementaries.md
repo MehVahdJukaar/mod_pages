@@ -2,13 +2,77 @@
 
 <h2 style="text-align:center">📖 About 📖</h2>
 
-Supplementaries is a large, highly configurable Vanilla+ mod focused on adding functional and decorative content that feels at home in the base game. Every feature is designed to be aesthetically viable and complementary to existing content, filling gaps that Mojang left behind.
+Supplementaries is a large, highly configurable Vanilla+ mod adding functional and decorative content designed to look like it shipped with the base game. It fills gaps Mojang left: storage that isn't a chest, lighting that isn't a torch, redstone parts that aren't a repeater, and a lot of decoration.
 
-The mod adds over 80 blocks and items across many categories: rope, jars, sign posts, pedestals, sconces, notice boards, wind chimes, globes, plushies, bamboo spikes, turnstiles, and much more. Check the [**Wiki**](https://github.com/MehVahdJukaar/Supplementaries/wiki) for the full feature list.
+It adds over 200 blocks and items, almost all of which can be individually disabled. The [**Wiki**](https://github.com/MehVahdJukaar/Supplementaries/wiki) documents each one.
 
 - Requires **[Moonlight Library](https://modrinth.com/mod/moonlight)**
-- While supported, the Fabric version may be missing some minor features
+- The Fabric version is supported, but may be missing some minor features
 - Free to include in modpacks
+
+<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/supplementaries.png" alt="separator" width="1688" height="42"></p>
+
+<h2 style="text-align:center">✨ Features ✨</h2>
+
+### Storage
+
+- **Sack**: a cheap portable container that slows you down when carried
+- **Safe**: locked with a **Key**, so only its owner can open it. Also a **Lock Block** for doors
+- **Jar** and **Tinted Jar**: store fluids, cookies, or small mobs. Also a Boat in a Jar and a Tater in a Jar
+- **Item Shelf**, **Book Pile**, **Crystal Display** and **Hat Stand** for showing things off
+- **Quiver** for arrows, **Lunch Basket** for food
+- **Present** and **Trapped Present** in all 16 colors
+- **Urn** for ashes
+
+### Redstone
+
+- **Bellows**: pushes air to feed fire and speed up furnaces
+- **Crank** and **Turn Table**: rotate blocks and machines
+- **Faucet**: moves fluids between containers, no pipes needed
+- **Pulley Block**: raise and lower ropes and whatever hangs from them
+- **Relayer**, **Speaker Block**, **Redstone Illuminator**, **Sliding Block**, **Cog Block**, **Clock Block**
+- **Spring Launcher** for launching entities, **Sconce Lever** for a lever that lights the room
+- **Pedestal** and **Wind Vane**
+
+### Lighting
+
+- **Sconces** in Glow, Soul, Ender, Cupric and Nether Brass variants
+- **Candle Holders** in all 16 colors, plus Soul, Ender, Spectacle and Cupric
+- **Gold Candelabra**, **Skull Candle**, **Fire Pit**
+- **Lamps** in Stone, Blackstone, Deepslate and End Stone
+- **Lumisene**: a glowing fluid, bottled or in a bucket
+
+### Decoration
+
+- **Rope** and **Roped Post**: climbable, and hang things from them
+- **Flag**, **Bunting**, **Awning**, **Doormat** in every dye color
+- **Globe**: shows a map of your world, with a Sepia variant
+- **Blackboard** for drawing, **Notice Board** for posting written books
+- **Way Sign** for pointing at nearby structures, **Statue** for decoration
+- **Flower Box** and **Planter** for growing things indoors
+- **Timber Frames**, **Daub** and **Wattle and Daub** for medieval building
+- **Gold** and **Netherite** doors, trapdoors, gates and bars
+- Stone Tiles, Blackstone Tiles, Ash Bricks, Lapis Bricks, Gravel Bricks, Brittlestone, Fine Wood, Checker Block, Raked Gravel
+
+### Tools and Gadgets
+
+- **Slingshot**: fires blocks, and can be enchanted for special effects
+- **Bomb**, **Blue Bomb** and **Spiky Bomb** for demolition
+- **Cannon** and **Cannonball**, mountable on boats and rafts
+- **Rope Arrow**: shoot a rope up a wall and climb it
+- **Altimeter**, **Speedometer**, **Hourglass**, **Wrench**
+- **Flute** to call your pets, **Confetti Popper** for celebrating
+- **Bubble Blower** for making bubble blocks
+- **Soap**: strips color off dyed and waxed blocks
+- **Antique Ink**, **Cartographer's Quill** and **Slice Map** for writing and cartography
+- **Goblet**, **Pancake**, **Candy**, **Sugar Cube**
+
+### Mobs and World
+
+- **Plunderer**: a hostile illager variant
+- **Red Merchant**: a rare trading mob
+- **Flax**: a new crop, growing wild, for string and cloth
+- **Bamboo Spikes**, including a Tipped variant, and **Cage** for trapping mobs
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/supplementaries.png" alt="separator" width="1688" height="42"></p>
 
@@ -54,6 +118,8 @@ Some sounds are from [Zapsplat](https://www.zapsplat.com).
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/supplementaries.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">❤️ Support Me ❤️</h2>
+
 Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom **Globe** and/or **Statue** just for you - this also applies if you buy a server from Akliz using the code below.
 
 <p style="text-align:center"><a href="https://ko-fi.com/mehvahdjukaar"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/badges/kofi.png" alt="Ko-Fi"></a></p>
@@ -65,24 +131,26 @@ Use code **"supplementaries"** to get **20% off** and support me at the same tim
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/supplementaries.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">🦉 Our Mods 🦉</h2>
+
 <p style="text-align:center">
 <a href="https://modrinth.com/mod/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/map-atlases"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/universal-sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

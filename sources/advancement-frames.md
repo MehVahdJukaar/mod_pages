@@ -12,15 +12,17 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-Advancement Frames lets you display your hard-earned Advancements as decorative wall plaques.
+Advancement Frames adds wall plaques that display your advancements, so progress can be shown off in a base rather than buried in a menu.
 
-The mod adds two items: the **Advancement Frame** and the **Stat Frame**, both crafted with an Emerald and some Sticks.
+[SEPARATOR]
 
-- Place a frame, open its GUI, and select any advancement you've earned - or leave it empty
-- The block displays the advancement icon and shows the advancement name and the player who earned it when looked at
-- Shift-clicking the placed frame shows the advancement **description** instead
-- If you lose an advancement, it's automatically cleared from the frame on the next world/chunk save
-- **Stat Frame** works the same way for player statistics
+## 🏆 Features 🏆
+
+- **Advancement Frame**: open its GUI and pick any advancement you have earned, or leave it empty
+- Displays the advancement's icon, and its name and the player who earned it when looked at
+- Shift-click a placed frame to show the advancement description instead
+- Losing an advancement clears it from the frame on the next save
+- **Stat Frame**: the same, for player statistics
 
 [SEPARATOR]
 [SUPPORT]

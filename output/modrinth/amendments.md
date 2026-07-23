@@ -14,76 +14,79 @@ Requires **[Moonlight Library](https://modrinth.com/mod/moonlight)**. You are fr
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
 
-<h2 style="text-align:center">🖼️ Features 🖼️</h2>
+<h2 style="text-align:center">✨ Features ✨</h2>
 
-### 🪣 Cauldrons
+### Cauldrons
 
-- Can store **any liquid**
-- Mix Potions and Dyes by combining them inside
-- Right-click with an item to craft using the liquid they contain
-- Improved animations - splash and bubble particles, corrected sounds
-- Boil when holding water or a potion with a heat source below
-- Boiling cauldrons deal boiling damage to entities inside
-- Stepping into a splash or lingering potion cauldron applies that potion
-- Improved model with translucency and ambient occlusion
+- Hold any liquid, not just water, lava and powder snow
+- Mix potions and dyes together by combining them inside
+- Right-click with an item to craft using the liquid inside, fully datapack-driven
+- Boil when a heat source is placed underneath, dealing damage to entities inside
 - Throw ingredients into a boiling water cauldron to make stews
-- Fully datapack-driven custom cauldron recipes
+- Stepping into a splash or lingering potion cauldron applies that potion
+- Improved model with translucency and ambient occlusion, splash and bubble particles, corrected sounds
 
-### 📖 Lecterns
+### Lecterns
 
-- New GUI when holding a Book and Quill: Quill button + Ink Well button
-- Click the Ink Well to cycle font colors
-- Click the Quill to cycle fonts
-- Now interact with hoppers
+- New GUI when holding a Book and Quill, with a Quill button and an Ink Well button
+- Click the Ink Well to cycle font colors, the Quill to cycle fonts
+- Interact with hoppers
 
-### 🏮 Lanterns
+### Lanterns
 
-- New 3D swing animation when held in hand (first and third person)
-- Can be hung on walls - works with **any** lantern
-- Pendulum physics when hanging
+- Can be hung on walls, working with any modded lantern
+- Pendulum physics while hanging
+- 3D swing animation when held, in first and third person
 
-### 🪧 Hanging Signs
+### Hanging Signs
 
-- Can display any item on both faces
-- Can display banner patterns (requires Supplementaries)
+- Display any item on both faces
+- Display banner patterns, with Supplementaries installed
 - Swing physics when attached to walls
-- Visual connection shown when attached to fences, walls, or similar blocks
+- Visually connect to fences, walls and similar blocks
 
-### 🎵 Jukeboxes
+### Jukeboxes
 
-- Visually show the disc currently playing with a spinning disc animation
-- New improved 3D model
-- Compatible with **any** disc, modded or not
+- Show the disc currently playing, spinning, on an improved 3D model
+- Works with any disc, modded or not
 
-### 🧶 Carpets
+### Cakes
 
-- Can be placed on Slabs and Stairs
-- Works with moss carpets too
+- Stack two cakes by placing one on top of another, working with any modded cake
+- Vanilla cakes can be rotated
 
-### 🎂 Cakes
-
-- Stack two cakes by placing one on top of another - works with **any** cake
-- Vanilla cakes can also be rotated
-
-### 🌿 Lily Pads
+### Lily Pads
 
 - Can have any block placed on top
-- Become a waterlogged block to support the placement; revert when the block is removed
+- Turn into a waterlogged block to support it, and revert when it is removed
 
-### 🔥 Charges & Projectiles
+### Carpets
 
-- Craftable Dragon Charge items
-- Fire Charges have improved models, particles, and gravity - ignite entities in an area
-- Snowballs and Slimeballs have 3D projectile models
+- Placeable on Slabs and Stairs
+- Works with moss carpets
+
+### Bells
+
+- Ring by clicking a chain connected to the bell
+- Chains and ropes visually attach to the bell
+
+### Charges and Projectiles
+
+- Craftable Dragon Charges
+- Fire Charges get better models, particles and gravity, and ignite entities in an area
+- Snowballs and Slimeballs get 3D projectile models
 - Snowballs apply freezing on impact and interact with fire
+- Tipped arrows show their color when loaded in a crossbow
 
-### 🎨 Visual Improvements
+### Other Tweaks
 
-- **Mob Skulls** - can be stacked in any combination; candles placed on top leave a wax overlay
-- **Brewing Stands** - potion bottles colored based on what they contain
-- **Banners & Pots** - can be placed on ceilings
-- **Tripwire Hooks** - shift-click with a tool to hang it on the hook
-- **Pixel Consistent Signs** - pixel-accurate sign model, texture, and hitbox (thanks to **Vectorwing** for the original)
+- **Flower Pots** can be hung, including any modded pot
+- **Mob Skulls** stack in any combination, and candles placed on top leave a wax overlay
+- **Brewing Stands** color their potion bottles based on the contents
+- **Banners and Pots** can be placed on ceilings
+- **Tripwire Hooks** hold a tool when you shift-click it onto them
+- **Torches** can set entities on fire
+- **Signs** get a pixel-accurate model, texture and hitbox, based on the original by **Vectorwing**
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
 
@@ -111,6 +114,8 @@ Requires **[Moonlight Library](https://modrinth.com/mod/moonlight)**. You are fr
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">❤️ Support Me ❤️</h2>
+
 Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom **Globe** and/or **Statue** just for you - this also applies if you buy a server from Akliz using the code below.
 
 <p style="text-align:center"><a href="https://ko-fi.com/mehvahdjukaar"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/badges/kofi.png" alt="Ko-Fi"></a></p>
@@ -122,24 +127,26 @@ Use code **"supplementaries"** to get **20% off** and support me at the same tim
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/amendments.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">🦉 Our Mods 🦉</h2>
+
 <p style="text-align:center">
 <a href="https://modrinth.com/mod/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/map-atlases"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/universal-sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

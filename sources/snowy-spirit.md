@@ -13,81 +13,75 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-Snowy Spirit is a winter-themed mod born from Winter Jam 2021. It adds Sleds for speeding downhill, festive new blocks, seasonal villager behaviors, and the Gingerbread Golem - a pet that you can also eat.
+Snowy Spirit is a winter-themed mod originally made for Winter Jam 2021. It adds rideable Sleds, a full gingerbread building set, festive decorations, and seasonal villager behavior.
+
+It also adds the Gingerbread Golem, a pet that follows you around and can be eaten.
+
+[SEPARATOR]
+
+## 🖼️ Media 🖼️
 
 [YOUTUBE: 6lPE3bSGgok]
 
 [SEPARATOR]
 
-## 🛷 Sleds 🛷
+## ❄️ Features ❄️
 
-Sleds let you ride the terrain - they accelerate downhill, have special behavior on ice, and can navigate curves. Attach a **Chest or Shulker Box** for storage, or a **Wolf** as a passenger.
+### Sleds
 
-- Igloos now spawn with a Sled inside
-- Add **carpet** on top to customize the look and prevent powder snow from freezing you
-- Multiple wood types and material variants available
+- Ride downhill, accelerating with the slope, with special handling on ice and through curves
+- Available in every vanilla wood type
+- Attach a Chest or Shulker Box for storage, or a Wolf as a passenger
+- Add a carpet on top to change the look and stop powder snow from freezing you
+- Generate inside igloos
 
-[SEPARATOR]
+### Gingerbread Golems
 
-## 🏘️ Seasonal Villagers 🏘️
+- Built by placing a Carved Pumpkin on a Gingerbread Block and adding a Gumdrop button
+- Follow you around as a pet, in 16 colors with their own personalities
+- Can be eaten when you are hungry, and repaired by feeding them Gingerbread Cookies
+- Vulnerable to Milk and Water, so keep them out of the rain
+- Gingerbread Houses generate as structures, with a Witch and some Golems inside
 
-During winter (December 20 – January 30 by default), villagers participate in the season:
+### Seasonal Villagers
 
-- Adults hang **Wreaths** on their doors at the start of winter and remove them after
-- Baby villagers throw **Snowballs** at each other and at players
-- If **Supplementaries** is installed, villagers also give out **Presents**
+- Adults hang **Wreaths** on their doors at the start of winter and take them down after
+- Baby villagers throw snowballs at each other and at players
+- With **Supplementaries** installed, villagers hand out Presents
+- Defaults to December 20th through January 30th
 
-**Serene Seasons** is supported - link the seasonal behavior to in-game seasons instead of real-world dates.
+### Ginger
 
-[SEPARATOR]
+- A crop that grows in Sparse Jungle biomes, found as Wild Ginger
+- Bakes into **Gingerbread**, the main winter building material
+- Gingerbread comes as stairs, slabs, doors, trapdoors and a Frosted variant
+- Also makes Gingerbread Cookies and Eggnog
+- Storable in a Ginger Crate, and plantable in a flower pot
 
-## 🍬 New Blocks & Items 🍬
+### Decorations
 
-### 🫚 Ginger
-
-A new crop that grows in Sparse Jungle biomes. Harvest Ginger and bake it into **Gingerbread Blocks** - the primary crafting material for winter builds and golems.
-
-### 🔵 Gumdrops
-
-Colorful sugar blocks available in all 16 dye colors. They act as a button *and* a pressure plate - press them to send a signal. Can be placed in any direction, making them useful for redstone contraptions and decoration both.
-
-### 🍬 Candy Cane
-
-Purely decorative blocks for building festive structures.
-
-### 🌿 Wreaths
-
-Hang them on any door, including modded doors. Automatically placed by villagers during winter.
-
-### 💡 Glow Lights
-
-Small lights that attach to leaves. Remove them with Shears.
-
-### 🌨️ Snow Globe
-
-A decorative block that creates a localized snowy state in snow biomes.
-
-### 🎵 Music Disc
-
-A new winter-themed music disc.
+- **Gumdrops**: sugar blocks in all 16 dye colors that act as both a button and a pressure plate, placeable on any face
+- **Candy Cane** blocks for festive building
+- **Wreaths**: hang on any door, including modded ones
+- **Glow Lights**: small lights that attach to leaves, removable with Shears, including a Prismatic variant
+- **Snow Globe**: creates a localized snowy state in snow biomes
+- A winter-themed music disc
 
 [SEPARATOR]
 
-## 🍪 Gingerbread Golems 🍪
+## ⚙️ Compatibility ⚙️
 
-Place a Carved Pumpkin on top of a Gingerbread Block and add a Gumdrop button to bring it to life. Gingerbread Golems will follow you as a pet.
-
-- Come in **16 colors** with distinct personalities
-- Can be **eaten** when you're hungry (repairs when fed Gingerbread Cookies, obviously)
-- Vulnerable to **Milk** and **Water** - keep them away from rain
-- **Gingerbread Houses** can generate as structures, with a Witch and some Golems inside
+| Mod | What you get |
+|---|---|
+| **Supplementaries** | Villagers hand out Presents during winter |
+| **Serene Seasons** | Tie the season to in-game seasons instead of real-world dates |
 
 [SEPARATOR]
 
 ## 🙏 Credits 🙏
 
-- **DemiMark** - Sled sounds
-- **SophieTheTrophy** - Ginger sounds
+- **DemiMark**: Sled sounds
+- **SophieTheTrophy**: Ginger sounds
 
 [SEPARATOR]
 [SUPPORT]

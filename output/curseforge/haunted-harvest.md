@@ -9,81 +9,99 @@
 
 <p style="text-align:center"><span style="font-size:24px"><strong>📖 About 📖</strong></span></p>
 
-<p><span style="font-size:18px">Haunted Harvest is a seasonal mod that brings Halloween to your Minecraft world in a way that feels completely vanilla. Baby villagers go trick-or-treating, pumpkins get carved, witches hand out cursed apples, and corn grows in abandoned farms.</span></p>
+<p><span style="font-size:18px">Haunted Harvest adds Halloween to Minecraft in a vanilla-styled way. Baby villagers put on costumes and go trick-or-treating door to door, adults decorate the village with pumpkins, and witches hand out cursed apples.</span></p>
 
-<p><span style="font-size:18px">By default it's active year-round, but it supports a seasonal mode that restricts trick-or-treating and pumpkin placement to the real-world Halloween period.</span></p>
+<p><span style="font-size:18px">It also adds free-form pumpkin carving, corn as a new crop with full Farmer's Delight integration, and a handful of new foods.</span></p>
 
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
-
-<p style="text-align:center"><span style="font-size:24px"><strong>🍬 Trick or Treating 🍬</strong></span></p>
-
-<p><span style="font-size:18px">Baby villagers wear one of 8 possible masks at night: Creeper, Pumpkin, Zombie, Illager, Piglin, Skeleton, Enderman, or Spider. Then they go door to door:</span></p>
-
-<ol>
-<li><span style="font-size:18px">The adult gives the child a random <strong>Candy</strong> (including Supplementaries candies if installed), the kid moves on to the next house</span></li>
-<li><span style="font-size:18px">The adult has no candy and gives out <strong>Coal</strong> instead</span></li>
-<li><span style="font-size:18px">The child's spooky costume <strong>scares the adult off</strong></span></li>
-<li><span style="font-size:18px">If the child gets nothing, they pull out <strong>Eggs</strong>… you know what happens next</span></li>
-</ol>
+<p><span style="font-size:18px">Active year-round by default, with an optional seasonal mode that limits trick-or-treating and decorations to the real-world Halloween period.</span></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
 
-<p style="text-align:center"><span style="font-size:24px"><strong>🧹 Witch Interactions 🧹</strong></span></p>
+<p style="text-align:center"><span style="font-size:24px"><strong>🎃 Features 🎃</strong></span></p>
 
-<p><span style="font-size:18px">If a trick-or-treating child encounters a Witch during their night walk, one of three things happens:</span></p>
+<p><strong>Trick or Treating</strong></p>
 
-<ol>
-<li><span style="font-size:18px">The Witch <strong>spooks</strong> and scares off the child</span></li>
+<ul>
+<li><span style="font-size:18px">Baby villagers wear one of 8 masks at night: Creeper, Pumpkin, Zombie, Illager, Piglin, Skeleton, Enderman or Spider</span></li>
+<li><span style="font-size:18px">They walk door to door and knock, and the adult inside reacts in one of several ways</span></li>
+<li><span style="font-size:18px">The adult gives out a random <strong>Candy</strong>, including Supplementaries candies if installed</span></li>
+<li><span style="font-size:18px">Out of candy, the adult gives <strong>Coal</strong> instead</span></li>
+<li><span style="font-size:18px">The costume scares the adult off entirely</span></li>
+<li><span style="font-size:18px">Given nothing, the child throws <strong>Eggs</strong> at the house</span></li>
+<li><span style="font-size:18px">Baby villagers are not targeted by hostile mobs at night, so this does not get them killed</span></li>
+</ul>
+
+<p><strong>Witches</strong></p>
+
+<ul>
+<li><span style="font-size:18px">A trick-or-treating child that meets a Witch gets one of three outcomes</span></li>
+<li><span style="font-size:18px">The Witch spooks the child and scares it off</span></li>
 <li><span style="font-size:18px">The Witch hands out a <strong>Rotten Apple</strong></span></li>
-<li><span style="font-size:18px">Rarely, the Witch gives a <strong>Grim Apple</strong> (a cursed item that slowly converts the child into a Witch if consumed)</span></li>
-</ol>
+<li><span style="font-size:18px">Rarely, the Witch hands out a <strong>Grim Apple</strong>, which slowly turns a child that eats it into a Witch</span></li>
+</ul>
 
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
-
-<p style="text-align:center"><span style="font-size:24px"><strong>🌽 Food 🌽</strong></span></p>
+<p><strong>Pumpkin Carving</strong></p>
 
 <ul>
-<li><span style="font-size:18px"><strong>Candy</strong>: collected by trick-or-treating; eating it decreases age slightly and heals the child, letting them trick-or-treat for more nights</span></li>
-<li><span style="font-size:18px"><strong>Rotten Apple</strong>: a new food, similar to Rotten Flesh; drops rarely from Oak and Dark Oak Leaves; ingredient in Grim Apples</span></li>
-<li><span style="font-size:18px"><strong>Grim Apple</strong>: the opposite of a Golden Apple; inflicts all sorts of negative effects; can transform a child who eats it into a Witch</span></li>
-<li><span style="font-size:18px"><strong>Corn</strong>: a new 3-block-tall rare crop found in abandoned farm structures; crafts into Popcorn, Candy Corn, or Paper Bags; full Farmer's Delight integration</span></li>
-<li><span style="font-size:18px"><strong>Splattered Egg</strong>: throw an Egg at any block to leave a mess</span></li>
+<li><span style="font-size:18px">Use Shears on a Pumpkin's top face to start carving, then carve in-world with a Sword or Knife, or through a GUI</span></li>
+<li><span style="font-size:18px">Wax a carved Pumpkin to lock the design, or right-click it with a Torch to light it</span></li>
+<li><span style="font-size:18px">Carving the side instead gives the plain vanilla Carved Pumpkin</span></li>
+<li><span style="font-size:18px"><strong>Jack o'Lanterns</strong> come in Soul, Ender, Redstone and Cupric variants</span></li>
+<li><span style="font-size:18px">Recipes to copy a carved design from one Pumpkin to another</span></li>
+<li><span style="font-size:18px">Wearable like any Pumpkin, and works on Snow Golems</span></li>
+<li><span style="font-size:18px">Carving patterns are data-driven, and generate in abandoned houses</span></li>
+</ul>
+
+<p><strong>Village Decorations</strong></p>
+
+<ul>
+<li><span style="font-size:18px">During the season, each adult villager places one Pumpkin around the village</span></li>
+<li><span style="font-size:18px">Baby villagers carve them during playtime and light the last one they carved at night</span></li>
+<li><span style="font-size:18px">Adults clean them all up once the season ends</span></li>
+<li><span style="font-size:18px">Defaults to October 20th through November 10th</span></li>
+<li><span style="font-size:18px">Requires mobGriefing, the same as villager breeding</span></li>
+</ul>
+
+<p><strong>Corn</strong></p>
+
+<ul>
+<li><span style="font-size:18px">A rare 3-block-tall crop, found growing in abandoned farm structures</span></li>
+<li><span style="font-size:18px">Crafts into Corn on the Cob, Popcorn, Candy Corn, Cornbread and Kernels</span></li>
+<li><span style="font-size:18px">Storable in a Corn Crate</span></li>
+<li><span style="font-size:18px">Full Farmer's Delight integration, including a Succotash recipe</span></li>
+</ul>
+
+<p><strong>Other Food and Items</strong></p>
+
+<ul>
+<li><span style="font-size:18px"><strong>Candy</strong>: collected while trick-or-treating. Eating it slightly reduces a child's age and heals them, letting them trick-or-treat more nights</span></li>
+<li><span style="font-size:18px"><strong>Rotten Apple</strong>: similar to Rotten Flesh, drops rarely from Oak and Dark Oak leaves, used to craft Grim Apples</span></li>
+<li><span style="font-size:18px"><strong>Grim Apple</strong>: the inverse of a Golden Apple, inflicting a range of negative effects</span></li>
+<li><span style="font-size:18px"><strong>Paper Bag</strong> and <strong>Candy Bag</strong> for carrying the haul</span></li>
+<li><span style="font-size:18px"><strong>Splattered Egg</strong>: throwing an Egg at a block now leaves a mess</span></li>
 </ul>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
 
-<p style="text-align:center"><span style="font-size:24px"><strong>🏘️ Village Decorations 🏘️</strong></span></p>
+<p style="text-align:center"><span style="font-size:24px"><strong>⚙️ Compatibility ⚙️</strong></span></p>
 
-<p><span style="font-size:18px">During Halloween season (October 20th – November 10th by default), adults place one Pumpkin each around the village. Baby villagers carve them during playtime, and at night they light the last one they carved. After the season ends, adults clean them all up.</span></p>
+<table>
+<thead>
+<tr><th><span style="font-size:18px">Mod</span></th><th><span style="font-size:18px">What you get</span></th></tr>
+</thead>
+<tbody>
+<tr><td><span style="font-size:18px"><strong>Farmer's Delight</strong></span></td><td><span style="font-size:18px">Succotash recipe, tomato fields in abandoned farms</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Supplementaries</strong></span></td><td><span style="font-size:18px">Its candies are handed out while trick-or-treating</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Serene Seasons</strong></span></td><td><span style="font-size:18px">Tie the season to in-game seasons instead of real-world dates</span></td></tr>
+<tr><td><span style="font-size:18px"><strong>Autumnity</strong></span></td><td><span style="font-size:18px">Compatible</span></td></tr>
+</tbody>
+</table>
 
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
-
-<p style="text-align:center"><span style="font-size:24px"><strong>🎃 Pumpkin Carving 🎃</strong></span></p>
-
-<ul>
-<li><span style="font-size:18px">Use Shears on the top of a normal Pumpkin to begin carving, then use the GUI or a Sword/Knife to carve in-world</span></li>
-<li><span style="font-size:18px">Wax a carved Pumpkin to lock the design, or click with a Torch to create a Jack-o'-Lantern</span></li>
-<li><span style="font-size:18px">Default carved Pumpkins are still available by carving the side instead</span></li>
-<li><span style="font-size:18px">Recipes exist to duplicate carved designs from one Pumpkin to another</span></li>
-<li><span style="font-size:18px">Wearable like any other Pumpkin; works with Snow Golems</span></li>
-<li><span style="font-size:18px">Data-driven carving patterns can spawn in abandoned houses and be placed by baby villagers</span></li>
-</ul>
-
-<p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
-
-<p style="text-align:center"><span style="font-size:24px"><strong>🧩 Integration & Notes 🧩</strong></span></p>
-
-<ul>
-<li><span style="font-size:18px">Baby villagers are no longer targeted by hostile mobs at night</span></li>
-<li><span style="font-size:18px">Entirely configurable: seasonal mode, always-on, specific date ranges, all adjustable</span></li>
-<li><span style="font-size:18px">Designed to work in any modpack; seasonal mode strips all features except Rotten Apples and egg splattering when inactive</span></li>
-<li><span style="font-size:18px"><strong>Farmer's Delight</strong> integration: Succotash recipe, tomato fields in abandoned farms</span></li>
-<li><span style="font-size:18px"><strong>Serene Seasons</strong> compatibility: restrict the mod to specific in-game seasons</span></li>
-<li><span style="font-size:18px"><strong>Autumnity</strong> compatibility</span></li>
-<li><span style="font-size:18px">Note: Pumpkin placement is tied to MobGriefing; if disabled, the mod effectively stops working (same reason villagers can't breed without it)</span></li>
-</ul>
+<p><span style="font-size:18px">Seasonal mode is modpack-safe: outside the season every feature switches off except Rotten Apples and egg splattering.</span></p>
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
+
+<p style="text-align:center"><span style="font-size:24px"><strong>❤️ Support Me ❤️</strong></span></p>
 
 <p><span style="font-size:18px">Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom <strong>Globe</strong> and/or <strong>Statue</strong> just for you - this also applies if you buy a server from Akliz using the code below.</span></p>
 
@@ -95,10 +113,12 @@
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/haunted-harvest.png" alt="separator" width="1688" height="42"></p>
 
+<p style="text-align:center"><span style="font-size:24px"><strong>🦉 Our Mods 🦉</strong></span></p>
+
 <p style="text-align:center">
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/map-atlases-forge"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
@@ -107,12 +127,12 @@
 <a href="https://www.curseforge.com/minecraft/mc-mods/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://www.curseforge.com/minecraft/mc-mods/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

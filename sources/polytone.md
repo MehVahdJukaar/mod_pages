@@ -23,36 +23,40 @@ Check the Files tab for actively supported versions.
 
 ## ✨ Features ✨
 
-### 🎨 Colors & Visuals
-- Custom **Biome Colors & Particles** 🌄
-- Custom **Block Colormaps** 🎨
-- Custom **Fluid Colormaps** 🍸
-- Custom **Sky Colors** 🌈
-- Custom **Map Colors** 🗺️
-- Change **Spawn Egg Colors** 🐣
-- Day Time-Variant **Animated Textures** ☀️
-- Block **Offset Type** 📐
+### Colors & Visuals
 
-### 💫 Particles & Shaders
-- Custom **Client-Side Particles** ✨
-- **Entity Model Particle Emitters** 🦋
-- Modify **Existing Particles** 🖌️
-- Customize **Particle Colors** 🍭
-- Custom **Post Shaders** 🌅
+- Custom **Biome Colors & Particles**
+- Custom **Block Colormaps**
+- Custom **Fluid Colormaps**
+- Custom **Sky Colors**
+- Custom **Map Colors**
+- Change **Spawn Egg Colors**
+- Day Time-Variant **Animated Textures**
+- Block **Offset Type**
 
-### 🎵 Audio
-- Custom **Client-Side Sounds** 🎵
-- Change **Block Sounds** 🪅
-- Register new **Sound Events** 🔔
+### Particles & Shaders
 
-### 🖼️ Items & UI
-- Custom **Item Models** 🗡️
-- Add/Remove **Item Tooltips** 🪡
-- Change **Item Rarity** 💍
-- Customize **Creative Tabs** 🏷️
-- Move **GUI Slots** 🗓️
-- Add **GUI Elements** 📒
-- Config screen to disable **Pack Overlays** 🔧
+- Custom **Client-Side Particles**
+- **Entity Model Particle Emitters**
+- Modify **Existing Particles**
+- Customize **Particle Colors**
+- Custom **Post Shaders**
+
+### Audio
+
+- Custom **Client-Side Sounds**
+- Change **Block Sounds**
+- Register new **Sound Events**
+
+### Items & UI
+
+- Custom **Item Models**
+- Add/Remove **Item Tooltips**
+- Change **Item Rarity**
+- Customize **Creative Tabs**
+- Move **GUI Slots**
+- Add **GUI Elements**
+- Config screen to disable **Pack Overlays**
 
 [SEPARATOR]
 

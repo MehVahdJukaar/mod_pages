@@ -12,46 +12,48 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-Formerly *"Oh My Goat!"* - Goated is a vanilla-style mod that fleshes out the 1.18 Goat a bit more. New blocks, a new mob, a new food, and a piece of equipment that gets better when you're losing.
-
-*Make sure you have enough ram!*
+Formerly "Oh My Goat!", Goated is a vanilla-styled mod that builds out the Goat. It adds a block-breaking machine made from goat horns, a helmet that gets stronger as your health drops, goat meat, and a Goat-Sheep hybrid.
 
 [SEPARATOR]
 
 ## 🐐 Features 🐐
 
-### 🪨 Ram Block
+### Ram Block
 
-A block-breaking machine crafted from goat horns. Push it with a piston and it rams into blocks, breaking them just like a goat hitting a tree.
+- Pushed by a piston, it rams into blocks and breaks them
+- Break speed depends on block hardness. Breaks anything up to obsidian hardness, but only iron-tier blocks drop
+- Enchantments have no effect, since it is a block and not a tool
+- Knocks back and damages entities it hits
 
-- Break speed depends on block hardness; can break anything up to obsidian hardness, but only iron-tier blocks drop
-- Does not work with enchantments - it's a block, not a tool
-- Also knocks back and damages any entities it hits
+### Barbaric Helmet
 
-### ⛑️ Barbaric Helmet
+- Grants Strength and Speed while you are on low health, scaling as your health drops
+- Made from goat horns and copper
+- Helmet idea by **Ariboa12**
 
-Crafted from goat horns and copper. Grants Strength and Speed when you're on low health - the worse you're doing, the better you fight.
+### The Geep
 
-*Credit to Ariboa12 for the helmet idea.*
+- Bred from a Goat and a Sheep
+- Drops Wool and Chevon, and can be milked
+- Cannot breed with each other, cannot be dyed, and has less health than either parent
 
-### 🥩 Chevon
+### Chevon
 
-Goats now drop Chevon, a new meat. Integrates with Farmer's Delight recipes.
+- A new meat dropped by goats
+- Works in Farmer's Delight recipes
 
-### 🐑 The Geep
+### Thatch
 
-The result of breeding a Goat with a Sheep. Can't breed themselves, but yield Wool and Chevon, and can be milked. More fragile than either parent - lower health and can't be dyed.
-
-### 🌾 Thatch
-
-A decorative building block perfect for Nordic-style builds.
+- A decorative building block, suited to Nordic-style builds
 
 [SEPARATOR]
 
-## ⚙️ Mod Integration ⚙️
+## ⚙️ Compatibility ⚙️
 
-- If **Windswept** is installed, Chevon is disabled in favor of its own goat drops
-- Chevon works in **Farmer's Delight** recipes
+| Mod | What you get |
+|---|---|
+| **Farmer's Delight** | Chevon works in its recipes |
+| **Windswept** | Chevon is disabled in favor of Windswept's own goat drops |
 
 [SEPARATOR]
 [SUPPORT]

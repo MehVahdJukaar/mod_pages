@@ -12,9 +12,9 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-The Heartstone is a craftable item that lets you track and stay connected to another player - no F3 required.
+Heartstones are crafted in pairs. Give one to another player and keep the other, and each stone points you toward its partner, across any distance and any dimension.
 
-Crafted from 3 Amethyst Shards and 1 Heart of the Sea, it comes in pairs. Give one to a friend and keep the other.
+Intended for multiplayer survival, where finding each other otherwise means reading coordinates out loud.
 
 [YOUTUBE: uRE5flchnYU]
 
@@ -22,12 +22,12 @@ Crafted from 3 Amethyst Shards and 1 Heart of the Sea, it comes in pairs. Give o
 
 ## 💜 Features 💜
 
-- **Right-click** the stone to send a particle trail in the direction of your paired player
-- Getting **closer** to your partner makes them glow pink, so you can spot them even through walls
-- Using a **Map** reveals the other player's position on it
-- The stone works in **three distance stages**: 0–999 blocks, 1,000–9,999 blocks, and 10,000+ blocks - the particles shrink and shift in pitch as distance grows
-- If your partner **dies**, your heartstone breaks - it repairs itself only when they pick theirs back up
-- Craft heart-shaped **Firework Charges** using Amethyst Shards *(Forge only)*
+- Right-click to send a particle trail toward your paired player
+- Particles shrink and shift in pitch with distance, across three ranges: under 1,000 blocks, under 10,000, and beyond
+- Getting close makes your partner glow pink, visible through walls
+- Holding a Map reveals their position on it
+- If your partner dies your stone breaks, and it repairs itself only once they pick theirs back up
+- Heart-shaped Firework Charges, on Forge only
 
 [SEPARATOR]
 

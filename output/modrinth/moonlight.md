@@ -2,19 +2,20 @@
 
 <h2 style="text-align:center">📖 About 📖</h2>
 
-Formerly known as Selene Library, **Moonlight Lib** is a collection of utilities and shared code used across all of MehVahdJukaar's mods.
+Formerly Selene Library, Moonlight Lib is the shared code behind all of MehVahdJukaar's mods.
 
-**If you're a player:** You don't need to do anything special - Moonlight is automatically pulled in as a dependency when you install any mod that requires it. Just install it and forget about it.
+Players do not need to do anything with it: it is pulled in automatically as a dependency by any mod that requires it.
 
-**If you're a developer:** This library gives you a solid multiloader foundation with a focus on simplicity over boilerplate. Full documentation is available in the [Java Docs](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/main/java/net/mehvahdjukaar/moonlight/api) and [example package](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/example/java) on GitHub.
+For developers it is a multiloader foundation aimed at cutting boilerplate. Documentation lives in the [Java Docs](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/main/java/net/mehvahdjukaar/moonlight/api) and the [example package](https://github.com/MehVahdJukaar/Moonlight/tree/1.20/common/src/example/java). To import it, use **"Copy Gradle Line"** in the Files section.
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/moonlight.png" alt="separator" width="1688" height="42"></p>
 
 <h2 style="text-align:center">🛠️ Features 🛠️</h2>
 
-### 🎨 Dynamic Assets
+### Dynamic Assets
 
-Generate any asset dynamically for datapacks and resource packs. Includes an extensive API for generating dynamic textures: palette extraction, cropping, reshaping, automatic recoloring, and more.
+- Generate any datapack or resource pack asset at runtime
+- Texture API covering palette extraction, cropping, reshaping and automatic recoloring
 
 <details>
 <summary>Dynamic resource generation example</summary>
@@ -37,9 +38,11 @@ Generate any asset dynamically for datapacks and resource packs. Includes an ext
 
 </details>
 
-### 🌍 Multiloader Utilities
+### Multiloader Utilities
 
-Simple static helper functions that emulate Forge behavior on Fabric. Four main API classes: `PlatHelper`, `ClientHelper`, `RegHelper`, `ForgeHelper`. Plus `ConfigBuilder` (Codec support, early loading, auto client-sync) and `ChannelHandler` for networking.
+- Static helpers emulating Forge behavior on Fabric: `PlatHelper`, `ClientHelper`, `RegHelper` and `ForgeHelper`
+- `ConfigBuilder` for configs, with Codec support, early loading and automatic client sync
+- `ChannelHandler` for networking
 
 <details>
 <summary>PlatHelper example</summary>
@@ -69,9 +72,10 @@ Simple static helper functions that emulate Forge behavior on Fabric. Four main 
 
 </details>
 
-### 📒 Dynamic Registration (BlockSetAPI)
+### Dynamic Registration (BlockSetAPI)
 
-Detect "block sets" right after all blocks are registered and dynamically register new entries that depend on them. Built-in `WoodTypeRegistry` and `LeavesTypeRegistry` automatically populate with all woods and leaves from any installed mod.
+- Detect block sets right after block registration, then register new entries derived from them
+- `WoodTypeRegistry` and `LeavesTypeRegistry` populate automatically with every wood and leaf type installed
 
 <details>
 <summary>BlockSetAPI examples</summary>
@@ -81,9 +85,9 @@ Detect "block sets" right after all blocks are registered and dynamically regist
 
 </details>
 
-### 🔷 Custom Baked Models
+### Custom Baked Models
 
-Custom model loaders and Quad utilities for advanced rendering.
+- Custom model loaders and quad utilities for advanced rendering
 
 <details>
 <summary>Model Loader & Quad Utils examples</summary>
@@ -93,23 +97,24 @@ Custom model loaders and Quad utilities for advanced rendering.
 
 </details>
 
-### 🪙 Custom Villager Trades
+### Custom Villager Trades
 
-Add custom trades to any villager via the `moonlight/villager_trades` datapack folder - no code required. See Supplementaries or Sawmill for real-world examples.
+- Add trades to any villager from the `moonlight/villager_trades` datapack folder, with no code
+- Supplementaries and Sawmill use this in production
 
-### 🧙 More Utilities
+### More Utilities
 
-- **Block Color API** - detect any modded block's DyeColor and get the equivalent in a different color, dynamically for any block or item
-- **Custom Map Markers** - data-driven custom map decorations and markers with full rendering control
-- **Dynamic Villager AI** - add tasks and modify villager schedules without overriding the entire AI
-- **First & Third Person Item Animations** - simple interface for custom animations similar to the crossbow or spyglass
-- **Soft Fluid System** - data-driven virtual fluid system supporting bottles, bowls, buckets, stews, and drinks
-- **Grindstone Trigger** - custom advancement trigger for items passing through a grindstone
+- **Block Color API**: detect any modded block's DyeColor and get the equivalent in another color
+- **Custom Map Markers**: data-driven map decorations with full rendering control
+- **Dynamic Villager AI**: add tasks and change villager schedules without overriding the whole AI
+- **Item Animations**: custom first and third person animations, like the crossbow or spyglass
+- **Soft Fluid System**: a data-driven virtual fluid system covering bottles, bowls, buckets, stews and drinks
+- **Grindstone Trigger**: an advancement trigger for items passing through a grindstone
 - **DispenserHelper**, **Global Datapack Folder**, **Debug Renderers**
 
-To import this library, go to the Files section and click **"Copy Gradle Line"**, then paste it into your `build.gradle`.
-
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/moonlight.png" alt="separator" width="1688" height="42"></p>
+
+<h2 style="text-align:center">❤️ Support Me ❤️</h2>
 
 Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom **Globe** and/or **Statue** just for you - this also applies if you buy a server from Akliz using the code below.
 
@@ -122,25 +127,27 @@ Use code **"supplementaries"** to get **20% off** and support me at the same tim
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/moonlight.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">🦉 Our Mods 🦉</h2>
+
 <p style="text-align:center">
 <a href="https://modrinth.com/mod/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/map-atlases"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/universal-sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/smarter-farmers-farmers-replant"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png" alt="Smarter Farmers" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

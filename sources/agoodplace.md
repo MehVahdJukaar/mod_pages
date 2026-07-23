@@ -11,9 +11,9 @@ mr_slug: a-good-place
 
 ## 📖 About 📖
 
-Placing a block in vanilla is instant and lifeless: one frame it isn't there, the next it is. A Good Place gives it a little animation, so blocks pop, slide or swing into place instead of just appearing.
+A Good Place adds a short animation when a block is placed, so blocks slide, pop or swing into position instead of appearing instantly.
 
-It's client-side, it works on tile entities too, and it ships with a sensible default animation applied to most blocks out of the box. The interesting part is that the whole thing is driven by resource packs, so if you don't like how it looks you can change it, and if you want different blocks to animate differently you can do that too.
+It is client-side, works on block entities, and ships with a default animation applied to most blocks. The whole system is driven by resource packs, so the animation can be changed or given different settings per block.
 
 [SEPARATOR]
 
@@ -23,11 +23,15 @@ It's client-side, it works on tile entities too, and it ships with a sensible de
 
 [SEPARATOR]
 
-## 🔧 Customization 🔧
+## 🔧 Features 🔧
 
-Everything is a resource pack. Open your resource pack folder and you'll find a pre-made sample pack with a `placement_animations` folder inside. Drop one or more JSON files in there: each one targets a set of blocks and gives them an animation.
-
-An animation is four animations layered together: **scale**, **translation**, **rotation** and **height scale**. Each has an accompanying `_curve` value controlling how it eases, from linear at `0` to sharply front- or back-loaded as it approaches `1` or `-1`.
+- A pre-made sample pack is placed in your resource pack folder on first launch
+- Animations are JSON files in a `placement_animations` folder, each targeting a set of blocks
+- Every animation layers four parts: **scale**, **translation**, **rotation** and **height scale**
+- Each part has a `_curve` value setting how it eases, from linear at `0` to sharply front- or back-loaded near `1` and `-1`
+- Which blocks a file applies to is set by `predicates`, working like vanilla's worldgen block predicates: `matching_blocks`, `matching_state`, `has_collision` and `is_double_block`, combined with `not` and `any_of`
+- A `priority` field lets a specific pack override a general one
+- The full field reference, including `restrict_direction`, `rotation_pivot`, `duration` and an optional `sound`, is in the [mod's README](https://github.com/enjarai/a-good-place)
 
 A minimal pop-in animation for stone:
 
@@ -44,13 +48,7 @@ A minimal pop-in animation for stone:
 }
 ```
 
-Which blocks a file applies to is controlled by `predicates`, the same idea as vanilla's worldgen block predicates. You get `matching_blocks`, `matching_state`, `has_collision`, `is_double_block`, plus `not` and `any_of` to combine them. Files also have a `priority` so a more specific pack can override a general one.
-
-The full field reference, including `restrict_direction`, `rotation_pivot`, `duration` and the optional `sound` to play on placement, is in the [mod's README and wiki](https://github.com/enjarai/a-good-place).
-
-> You may need to enable the sample resource pack in your resource pack menu the first time you install the mod.
-
-Made something good? Share it with us on Discord.
+> You may need to enable the sample resource pack in the resource pack menu the first time you install the mod.
 
 [SEPARATOR]
 [SUPPORT]

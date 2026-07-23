@@ -26,7 +26,7 @@
       "description": "Fills in every missing wooden block from every mod you have installed, automatically. No per-mod compat addons needed.",
       "cf_slug": "every-compat",
       "mr_slug": "every-compat",
-      "icon": "assets/mod_icons/every-compat.png"
+      "icon": "assets/mod_icons/every-compat.gif"
     },
     {
       "slug": "supp-squared",
@@ -89,7 +89,7 @@
       "description": "Pumpkin carving, corn food and villagers who go trick-or-treating. Halloween that lasts all year.",
       "cf_slug": "haunted-harvest",
       "mr_slug": "haunted-harvest",
-      "icon": "assets/mod_icons/haunted-harvest.png",
+      "icon": "assets/mod_icons/haunted-harvest.gif",
       "separator_colors": [
         "7a3a08",
         "ea8f1e"
@@ -120,7 +120,7 @@
       "description": "A talking, NPC-like tree with 300+ lines of lore, wisdom and questionable facts.",
       "cf_slug": "mystical-oak-tree",
       "mr_slug": "mystical-oak-tree",
-      "icon": "assets/mod_icons/mystical-oak-tree.png"
+      "icon": "assets/mod_icons/mystical-oak-tree.gif"
     },
     {
       "slug": "labels",
@@ -147,7 +147,7 @@
       "description": "Blocks pop, slide and swing into place instead of just appearing. Fully customizable with resource packs.",
       "cf_slug": "a-good-place",
       "mr_slug": "a-good-place",
-      "icon": "assets/mod_icons/a-good-place.png"
+      "icon": "assets/mod_icons/a-good-place.gif"
     },
     {
       "slug": "vista",
@@ -169,7 +169,7 @@
       "description": "Paired stones that let you and a friend track each other across the world, no F3 required.",
       "cf_slug": "heartstone",
       "mr_slug": "heartstone",
-      "icon": "assets/mod_icons/heartstone.png"
+      "icon": "assets/mod_icons/heartstone.gif"
     },
     {
       "slug": "fast-paintings",

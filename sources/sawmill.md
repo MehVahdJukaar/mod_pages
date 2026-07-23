@@ -18,7 +18,9 @@ dependency:
 
 ## 📖 About 📖
 
-Universal Sawmill adds a **Sawmill** crafting station for crafting any wooden item from any installed mod. It's fully integrated into the world: Carpenter villagers work at the Sawmill, and their handcrafted houses generate naturally in villages.
+Universal Sawmill adds a Sawmill crafting station that cuts wood into any wooden item, from any installed mod, with recipes generated automatically.
+
+It also adds a Carpenter villager who works at it, and handcrafted Carpenter houses that generate in villages.
 
 Requires **[DEPENDENCY]**.
 
@@ -26,19 +28,20 @@ Requires **[DEPENDENCY]**.
 
 ## 🪚 Features 🪚
 
-- Sawmill recipes are **compatible with any mod** - craft any wood-derivative block automatically
-- **Carpenter Villager** works at the Sawmill with data-driven trades
-- **5 unique Carpenter houses** generate in villages, handcrafted to match the vanilla style
-- Unique **sawing sounds**
-- KubeJS integration for custom recipes (datapacks also supported)
-- **No extra wooden block spam** - just the Sawmill block itself
+- Recipes are generated for every wood-derived block from every installed mod
+- Adds only the Sawmill block itself, no extra wooden block variants
+- **Carpenter Villager** works at the Sawmill, with data-driven trades
+- **5 Carpenter houses** generate in villages, hand-built to match the vanilla style
+- Unique sawing sounds
+- Custom recipes through datapacks or KubeJS
 - Compatible with **Repurposed Structures**
 
 [YOUTUBE: otkWqcPNu2A | Showcase]
 
-### 📦 For Modpack Makers
+### For Modpack Makers
 
-Enable `save_recipes` in the config to export all dynamically generated recipes to JSON files - useful for static inclusion in your pack or for tweaking individual recipes.
+- Enable `save_recipes` in the config to export every generated recipe to JSON
+- Useful for shipping them statically in a pack, or for tweaking individual recipes
 
 [SEPARATOR]
 

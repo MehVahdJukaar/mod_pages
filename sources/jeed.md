@@ -12,29 +12,21 @@ akliz_code: supplementaries
 
 ## 📖 About 📖
 
-Just Enough Effect Descriptions (JEED) is a JEI/REI/EMI plugin that gives status effects a proper information panel.
+JEED is a JEI, REI and EMI plugin that adds an **Effects** recipe category, giving every status effect a proper information panel.
 
-The mod adds a new **Effects** recipe category. You can access it by clicking any of the status effect icons on the JEI item screen, or by clicking an active effect box on the inventory screen.
-
-Inside you'll find: which items provide the effect, a description of what it does, what mod it comes from, and its effect color.
+Open it by clicking a status effect icon in the recipe viewer, or an active effect box on the inventory screen. Each entry lists which items provide the effect, what it does, which mod adds it, and its color.
 
 <p style="text-align:center"><img src="https://i.imgur.com/P8qv5ZN.png" alt="JEED screenshot" width="600" height="313"> <img src="https://i.imgur.com/UfGgoGG.png" alt="JEED screenshot 2" width="600" height="313"></p>
 
 [SEPARATOR]
 
-## 🧪 Customization 🧪
+## 🧪 Features 🧪
 
-JEED automatically picks up all registered status effects. Modded effects won't have a description by default, but anyone can add one.
-
-**Adding descriptions**: add this key to your language file or resource pack:
-
-`effect.[mod_id].[effect_name].description`
-
-This is something modders can do directly in their mod, or players can do via a resource pack.
-
-**JeedAPI**: modders can use the `JeedAPI` class to register screen extensions for custom GUIs, or tell JEED where effects are rendered so they become clickable.
-
-**Recipe support**: if your mod has custom effects or effect-providing items that JEED can't detect automatically, add one of these recipe types:
+- Every registered status effect is picked up automatically, modded ones included
+- Modded effects have no description until someone writes one, which any resource pack can do
+- Add the key `effect.[mod_id].[effect_name].description` to a language file
+- Modders can use the `JeedAPI` class to register screen extensions for custom GUIs, or to tell JEED where effects are rendered so they become clickable
+- For effects or effect-providing items JEED cannot detect, add one of these recipe types:
 
 <details>
 <summary>jeed:effect_provider - link an item to an effect it provides</summary>

@@ -2,40 +2,39 @@
 
 <h2 style="text-align:center">📖 About 📖</h2>
 
-Vanilla farmers are not good at farming. They ignore modded crops, replant whatever seed happens to be first in their inventory, trample their own farmland and give up on their task constantly.
+Smarter Farmers rewrites farmer villager behavior. Farmers replant what they just harvested, handle crops from any mod, equip a hoe before working, and stop trampling their own farmland.
 
-Smarter Farmers rewrites that behaviour. Farmers now replant what they just harvested, understand crops from any mod, pick up a hoe before working, and generally act like someone who has held a job before.
+It takes priority over other mods that alter farmers, so it can be installed alongside them.
 
-It slots in on top of other mods that touch farmers: Smarter Farmers' logic always takes priority.
-
-> **Remember to turn on mob griefing.** Farmers can't touch a single block without it.
+> **Mob griefing must be enabled.** Farmers cannot place or break a single block without it.
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/smarter-farmers.png" alt="separator" width="1688" height="42"></p>
 
-<h2 style="text-align:center">🌾 What Farmers Can Now Do 🌾</h2>
+<h2 style="text-align:center">🌾 Features 🌾</h2>
 
-- **Handle modded crops**: plant, harvest and replant crops from any mod
-- **Replant sensibly**: they put back what they just harvested instead of grabbing the first seed in the bag
-- **Fill in gaps intelligently**: with nothing to replant, they pick a crop based on what's growing around them, so no more lone carrot patch in the middle of your wheat field
-- **Accept and pick up seeds** for those crops, while non-farmer villagers no longer hoard them
-- **Equip a hoe** while harvesting, of a tier matching their villager level, and equip the seed they're about to plant
-- **Stop trampling farmland**
-- **Plant pumpkins and melons in a checkerboard**, and know better than to block an existing stem's air space
-- **Work on modded farmland** through the `farmer_plantable_on` block tag, which by default includes things like Supplementaries' planter
-- **Harvest crop-like blocks that aren't crops** through the `crop_replaceable` tag, covering Immersive Weathering's weeds and the big crop blocks from Overweight Farming and Hefty Crops
-- **Survive sweet berry bushes**, which no longer hurt them
-
-Their farm task also fails far less often, which makes the whole village feel less broken.
-
-On top of that, **all villagers** now accept and breed with any modded food item you throw at them.
+- Plant, harvest and replant crops from any mod
+- Replant what was just harvested, rather than the first seed in the inventory
+- With nothing to replant, pick a crop based on what is growing nearby, instead of leaving single-crop gaps in a field
+- Accept and pick up seeds for those crops, while non-farmer villagers no longer hoard them
+- Equip a hoe while harvesting, of a tier matching their villager level, and equip the seed they are about to plant
+- No longer trample farmland
+- Plant pumpkins and melons in a checkerboard, leaving the air space an existing stem needs
+- Work on modded farmland through the `farmer_plantable_on` block tag, which includes Supplementaries' planter by default
+- Harvest crop-like blocks that are not crops through the `crop_replaceable` tag, covering Immersive Weathering's weeds and the large crops from Overweight Farming and Hefty Crops
+- Take no damage from sweet berry bushes
+- Fail their farm task far less often
+- All villagers, not just farmers, accept and breed with any modded food item
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/smarter-farmers.png" alt="separator" width="1688" height="42"></p>
 
 <h2 style="text-align:center">🔍 Debugging 🔍</h2>
 
-The mod ships with debug renderers you can switch on in the configs to see exactly what a farmer is thinking: what it's targeting, what it plans to plant, and why it gave up.
+- Debug renderers can be enabled in the configs
+- They show what a farmer is targeting, what it plans to plant, and why its task failed
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/smarter-farmers.png" alt="separator" width="1688" height="42"></p>
+
+<h2 style="text-align:center">❤️ Support Me ❤️</h2>
 
 Modding takes a lot of my time. If you like what I do and want to support me, you'll receive a custom **Globe** and/or **Statue** just for you - this also applies if you buy a server from Akliz using the code below.
 
@@ -48,24 +47,26 @@ Use code **"supplementaries"** to get **20% off** and support me at the same tim
 
 <p style="text-align:center"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/separators/smarter-farmers.png" alt="separator" width="1688" height="42"></p>
 
+<h2 style="text-align:center">🦉 Our Mods 🦉</h2>
+
 <p style="text-align:center">
 <a href="https://modrinth.com/mod/supplementaries"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supplementaries.gif" alt="Supplementaries" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/amendments"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/amendments.gif" alt="Amendments" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png" alt="Every Compat (Wood Good)" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/every-compat"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.gif" alt="Every Compat (Wood Good)" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/supplementaries-squared"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png" alt="Supplementaries Squared" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/map-atlases"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/map-atlases.png" alt="Map Atlases" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/universal-sawmill"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png" alt="Universal Sawmill" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/polytone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/polytone.png" alt="Polytone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/pack-editor"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png" alt="Nautilus Studio" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/snowy-spirit"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png" alt="Snowy Spirit" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png" alt="Haunted Harvest" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/haunted-harvest"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.gif" alt="Haunted Harvest" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/sleep-tight"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sleep-tight.png" alt="Sleep Tight" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png" alt="Mystical Oak Tree" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/mystical-oak-tree"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.gif" alt="Mystical Oak Tree" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/labels"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png" alt="Storage Labels" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/goated"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png" alt="Goated" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png" alt="A Good Place" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/a-good-place"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.gif" alt="A Good Place" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/vista"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif" alt="Vista" width="125" height="125"></a>
-<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png" alt="Heartstone" width="125" height="125"></a>
+<a href="https://modrinth.com/mod/heartstone"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.gif" alt="Heartstone" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/fast-paintings"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/fast-paintings.png" alt="Fast Paintings" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/mmmmmmmmmmmm"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mmmmmmmmmmmm.png" alt="MmmMmmMmmMmm" width="125" height="125"></a>
 <a href="https://modrinth.com/mod/just-enough-effect-descriptions-jeed"><img src="https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png" alt="JEED" width="125" height="125"></a>

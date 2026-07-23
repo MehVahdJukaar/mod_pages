@@ -11,27 +11,22 @@ mr_slug: mystical-oak-tree
 
 ## 🌳 About 🌳
 
-Mystical Oak Tree is an ancient, immortal, transcendental being that manifests itself as an ordinary oak tree - with an uncanny human resemblance.
+Mystical Oak Tree adds a rare talking tree to the Overworld. It looks almost like a normal oak, and clicking it starts a conversation.
 
-Touch it and it will engage you in complex metaphysical conversation. Earn its trust over time and it will share its vast knowledge freely. Betray that trust, however, and it will remember. Attack it at your own peril - it has survived this long for a reason.
+It tracks how you treat it. Talk to it regularly and it opens up; wake it during the day or attack it and it remembers.
 
-- Found in **any overworld biome** - it chooses you, not the other way around. Look for a slightly different tree shape
-- Talk to it once per day. Waking it during the day costs you trust points
-- **300+ custom-written lines** plus dynamically fetched content - it always has something new to say
+Made for Spooky Jam 2022.
 
-Topics it knows:
+[SEPARATOR]
 
-- Random facts
-- Tree jokes
-- Minecraft lore and trivia
-- Words of wisdom
-- Video game quotes
-- Tips
-- Memes
-- Tomorrow's weather forecast
-- You
+## 🌳 Features 🌳
 
-*Made for Spooky Jam 2022.*
+- Generates rarely in any Overworld biome, recognisable by a slightly different tree shape
+- Right-click to talk to it, once per day
+- Waking it during the day costs trust, and it holds a grudge
+- Attacking it is a bad idea
+- Over 300 hand-written lines, plus content fetched dynamically, so it rarely repeats itself
+- Talks about: random facts, tree jokes, Minecraft lore and trivia, words of wisdom, video game quotes, tips, memes, tomorrow's weather forecast, and you
 
 [SEPARATOR]
 

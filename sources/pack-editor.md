@@ -11,13 +11,9 @@ mr_slug: pack-editor
 
 ## 📖 About 📖
 
-**Nautilus Studio** is an in-game **data & resource pack workbench**. 
+Nautilus Studio is an in-game data and resource pack workbench. Instead of hand-writing JSON and guessing at the right fields, it opens a full editor alongside the game: pick a file, fill in a generated form, hit reload, and the change appears in the running world.
 
-Instead of hand-writing JSON in a text editor and guessing at the right fields, it adds a fully fledged IDE alongside your game.
-
-In short, pick a file, fill in the fields, hit reload, and watch the change appear in your world instantly.
-
-It reads the game's own definitions to build these editors automatically, works with any mod.
+The forms are built automatically from the game's own content definitions, so it works with modded content as well as vanilla.
 
 [SEPARATOR]
 
@@ -27,30 +23,29 @@ It reads the game's own definitions to build these editors automatically, works 
 
 [SEPARATOR]
 
-## 📦 What It Can Edit 📦
+## 📦 Features 📦
 
-Out of the box, Nautilus Studio ships form editors for a broad slice of vanilla content, including:
+### What It Can Edit
 
-- **Worldgen**: configured & placed features, carvers, biomes, noise settings, density functions, world presets
+- **Worldgen**: configured and placed features, carvers, biomes, noise settings, density functions, world presets
 - **Structures**: structures, structure sets, jigsaw pools
-- **Loot & Predicates**: loot tables, item modifiers, predicates
-- **Recipes & Advancements**
+- **Loot and Predicates**: loot tables, item modifiers, predicates
+- **Recipes and Advancements**
 - **Enchantments**
-- **World & Dimension**: dimensions, dimension types
-- **Mob Variants**, **Decoration & Trims**, **Items & Sound**, and more
+- **World and Dimension**: dimensions, dimension types
+- **Mob Variants**, **Decoration and Trims**, **Items and Sound**, and more
+- Anything a mod registers. [**Polytone**](https://modrinth.com/mod/polytone) registers its colormaps, particle effects and custom models, for example
+- Any custom codec, pointed at by class name, even for content the editor has never seen
+- Anything it cannot parse falls back to a live-validated raw JSON editor with syntax highlighting
 
-...plus whatever mods contribute. [**Polytone**](https://modrinth.com/mod/polytone), for example, registers its content so you can edit colormaps, particle effects and custom models right inside the workbench. You can even point it at a **custom codec by class name** to generate an editor for content it has never seen before.
+### Using It
 
-[SEPARATOR]
+- Join a world first: the editor needs live registries to build its forms and to reload
+- Open it from the **Mod Menu** entry on Fabric, or the config-screen button in the mods list on NeoForge
+- The workbench opens in its own window beside the game
+- Hit reload to push changes into the running world
 
-## 🚀 Getting Started 🚀
-
-1. Install Nautilus Studio and join a world (the editor needs a live world for registries and reloads).
-2. On **Fabric**, open it from the **Mod Menu** entry. On **NeoForge**, open it from the mod's config-screen button in the mods list.
-3. The workbench window opens beside your game. Open a pack folder, pick a file, and start editing.
-4. Hit **reload** to push your changes into the running game.
-
-> **Tip:** Nautilus Studio runs best on **Fabric**. On NeoForge the editor window can occasionally fail to open due to Java's headless-window restrictions.
+> Nautilus Studio runs best on **Fabric**. On NeoForge the editor window can occasionally fail to open, due to Java's headless-window restrictions.
 
 [SEPARATOR]
 

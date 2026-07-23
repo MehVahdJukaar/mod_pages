@@ -11,11 +11,9 @@ mr_slug: vista
 
 ## 📖 About 📖
 
-Vista adds **Televisions, Cassettes, and Viewfinders** to Minecraft - letting you collect GIF cassette tapes, set up live camera feeds in your base, and watch them play back on big screens powered by redstone.
+Vista adds working screens to Minecraft. Televisions play Cassettes, and can be linked to a Viewfinder placed anywhere in the world to show a live camera feed of it. TVs can be tiled into screens of any size.
 
-TVs render with authentic **CRT shaders** and turn-on effects. Screens can be arranged in any square grid size. Cassettes are rare loot, each playing a unique GIF - collect them all.
-
-> **Note:** The mod has degraded visuals when using Iris shader packs. For the best experience (CRT shaders, turn-on effects), play without Iris.
+Screens render through a CRT filter with scanlines, vignette and a turn-on animation. The mod also adds reflective Mirrors, Picture Tapes for displaying maps and photos, and a Wave Gate that streams media from a URL.
 
 [SEPARATOR]
 
@@ -27,59 +25,90 @@ TVs render with authentic **CRT shaders** and turn-on effects. Screens can be ar
 
 [SEPARATOR]
 
-## 📺 Televisions 📺
+## 📺 Features 📺
 
-- Must be powered by redstone to function
-- Accept cassette tapes or hollow cassettes
-- Can be arranged in any square grid size for a bigger screen
-- Compatible with droppers and hoppers for automated cassette swapping
-- Shift-click a TV to pause playback
-- Link to a Viewfinder via a hollow cassette to display a live camera feed
+### Television
 
-[SEPARATOR]
+- Needs a redstone signal to turn on
+- Adjacent TVs merge into one big screen, up to 8x8 by default, 24x24 max
+- Accepts cassettes, picture tapes, or a hollow cassette for a live feed
+- Works with hoppers and droppers
+- Shift-click to pause
+- Optionally consumes Forge energy on NeoForge
 
-## 📼 Cassettes 📼
+### Cassettes
 
-- Dropped by creepers killed by a pillager arrow
-- Also found rarely in loot chests
-- Each cassette plays a unique GIF
-- Insert in a TV to play
-- New cassettes can be added via datapacks and resource packs
+- Each plays a different looping animation. About 20 are included
+- Dropped by creepers killed by a pillager
+- 3% chance in rare loot chests: woodland mansions, stronghold libraries, jungle temples, igloos, bastions, shipwrecks, nether fortresses, trail ruins, ominous trial chamber rewards
+- **Hollow Cassette**: bind it to a Viewfinder, then play it in a TV for the live feed
 
-**Hollow Cassette:**
-- Crafted from a Cassette + Echo Shard
-- Use on a Viewfinder to link the two together
-- Insert in a TV to display the live Viewfinder feed
+### Viewfinder
 
-[SEPARATOR]
-
-## 📷 Viewfinder 📷
-
-- Right-click to look through the viewfinder's perspective
-- Click to lock the view; scroll to zoom
-- Apply glass panes to tint the linked TV's output
-- Equip mob heads (with Supplementaries installed) to apply mob-head shaders to the TV
-- Remotely rotate using a Supplementaries turntable
+- Right-click opens its screen: lens slot, pitch and yaw controls, view button
+- Sneak-click to look through it directly
+- Scroll to zoom, click to lock the view
+- A glass pane in the lens slot tints the linked TV's output
 - View distance controllable with redstone
+- Can be aimed by a Supplementaries turntable or a ComputerCraft computer
+- Keeps broadcasting from Create contraptions (NeoForge only) and Sable sublevels
+
+### Mirror
+
+- Render a real reflection of the world, not a static texture
+- Tile into larger surfaces, like TVs
+- Placed flush with the block face or recessed into it, depending on where you click
+- Reflect other mirrors recursively, with correct parallax. Depth and quality falloff are configurable
+- Work on Sable sublevels
+- Made with **Crystalline**, dropped by elder guardians
+
+### Picture Tape
+
+- Holds up to 32 pictures and plays them as a slideshow on any TV
+- Right-click to load pictures and set playback speed
+- Accepts filled maps and vanilla paintings, plus Exposure photographs and albums and Joy of Painting canvases
+
+### Wave Gate
+
+- Set it to any URL or local file (video, image or GIF) to play it on a linked TV
+- Creative-only by default, craftable via config
+- Needs FFmpeg, which the mod offers to download on first launch, or the WaterMedia mod
+- URL allowlist config for servers
+- Exposed as a ComputerCraft peripheral
+
+### Misc
+
+- Looking at an enderman through a TV angers it. Killing an enderman angered this way drops the **Sojourn** music disc
+- Playing a cassette on a large screen grants the **Absolute Cinema** advancement
 
 [SEPARATOR]
 
-## 🌊 Wave Gate 🌊
+## ⚙️ Compatibility ⚙️
 
-- Creative-only item (configurable)
-- Accepts any URL: video, image, GIF, or a local file
-- Connect to a TV via a hollow cassette to display any media
-- Requires **FFMPEG** (auto-downloaded) or the **Watermedia** mod
+| Mod | What you get |
+|---|---|
+| **Supplementaries** | Mob head shaders in the lens slot, turntable-driven panning |
+| **ComputerCraft** | Viewfinder and wave gate peripherals |
+| **Create** | Viewfinders broadcasting from moving contraptions (NeoForge only) |
+| **Sable** / **Create Aeronautics** | Viewfinders and mirrors on moving sublevels |
+| **Exposure** | Photographs and albums on picture tapes |
+| **Joy of Painting** | Painted canvases on picture tapes |
+| **Vampirism** | Vampires are not rendered in mirrors or camera feeds |
+| **Distant Horizons**, **Sodium**, **Entity Culling**, **Flashback**, **Veil** | Feeds render correctly when these are installed |
+
+> **Iris and Oculus:** Vista has visual glitches and degraded performance with Iris installed, even with shader packs off. This can't be fixed from Vista's side.
+
+**WaterMedia 3.0.0+** changed its API incompatibly, so Vista disables that integration automatically. Stay below 3.0.0 if you need it.
 
 [SEPARATOR]
 
-## 🛠️ Custom Cassettes 🛠️
+## 🛠️ For Pack Makers 🛠️
 
-*For datapack and resource pack makers.*
-
-Add JSON definition files to `data/your_pack_id/vista/cassette_tape/` in a datapack. See the [mod's examples on GitHub](https://github.com/MehVahdJukaar/cameramod/tree/master/common/src/main/resources/data/vista/vista/cassette_tape). Definitions support `sound` and `sound_duration` fields.
-
-Then add the corresponding GIF or PNG to a resource pack matching the filename from the JSON. Check the mod's built-in resource pack for the full structure.
+- Cassette tapes are a datapack registry, no code needed
+- Put JSON definitions in `data/<your_pack>/vista/cassette_tape/` and the matching GIF or PNG in a resource pack
+- Definitions support `sound` and `sound_duration`
+- See the [mod's own tapes](https://github.com/MehVahdJukaar/cameramod/tree/master/common/src/main/resources/data/vista/vista/cassette_tape) for reference
+- Mirrors, picture tapes and the wave gate can each be disabled entirely in the config, along with screen size limits and the rendering pipeline
 
 [SEPARATOR]
 [SUPPORT]

@@ -30,76 +30,79 @@ Requires **[DEPENDENCY]**. You are free to include this mod in your modpacks.
 
 [SEPARATOR]
 
-## 🖼️ Features 🖼️
+## ✨ Features ✨
 
-### 🪣 Cauldrons
+### Cauldrons
 
-- Can store **any liquid**
-- Mix Potions and Dyes by combining them inside
-- Right-click with an item to craft using the liquid they contain
-- Improved animations - splash and bubble particles, corrected sounds
-- Boil when holding water or a potion with a heat source below
-- Boiling cauldrons deal boiling damage to entities inside
-- Stepping into a splash or lingering potion cauldron applies that potion
-- Improved model with translucency and ambient occlusion
+- Hold any liquid, not just water, lava and powder snow
+- Mix potions and dyes together by combining them inside
+- Right-click with an item to craft using the liquid inside, fully datapack-driven
+- Boil when a heat source is placed underneath, dealing damage to entities inside
 - Throw ingredients into a boiling water cauldron to make stews
-- Fully datapack-driven custom cauldron recipes
+- Stepping into a splash or lingering potion cauldron applies that potion
+- Improved model with translucency and ambient occlusion, splash and bubble particles, corrected sounds
 
-### 📖 Lecterns
+### Lecterns
 
-- New GUI when holding a Book and Quill: Quill button + Ink Well button
-- Click the Ink Well to cycle font colors
-- Click the Quill to cycle fonts
-- Now interact with hoppers
+- New GUI when holding a Book and Quill, with a Quill button and an Ink Well button
+- Click the Ink Well to cycle font colors, the Quill to cycle fonts
+- Interact with hoppers
 
-### 🏮 Lanterns
+### Lanterns
 
-- New 3D swing animation when held in hand (first and third person)
-- Can be hung on walls - works with **any** lantern
-- Pendulum physics when hanging
+- Can be hung on walls, working with any modded lantern
+- Pendulum physics while hanging
+- 3D swing animation when held, in first and third person
 
-### 🪧 Hanging Signs
+### Hanging Signs
 
-- Can display any item on both faces
-- Can display banner patterns (requires Supplementaries)
+- Display any item on both faces
+- Display banner patterns, with Supplementaries installed
 - Swing physics when attached to walls
-- Visual connection shown when attached to fences, walls, or similar blocks
+- Visually connect to fences, walls and similar blocks
 
-### 🎵 Jukeboxes
+### Jukeboxes
 
-- Visually show the disc currently playing with a spinning disc animation
-- New improved 3D model
-- Compatible with **any** disc, modded or not
+- Show the disc currently playing, spinning, on an improved 3D model
+- Works with any disc, modded or not
 
-### 🧶 Carpets
+### Cakes
 
-- Can be placed on Slabs and Stairs
-- Works with moss carpets too
+- Stack two cakes by placing one on top of another, working with any modded cake
+- Vanilla cakes can be rotated
 
-### 🎂 Cakes
-
-- Stack two cakes by placing one on top of another - works with **any** cake
-- Vanilla cakes can also be rotated
-
-### 🌿 Lily Pads
+### Lily Pads
 
 - Can have any block placed on top
-- Become a waterlogged block to support the placement; revert when the block is removed
+- Turn into a waterlogged block to support it, and revert when it is removed
 
-### 🔥 Charges & Projectiles
+### Carpets
 
-- Craftable Dragon Charge items
-- Fire Charges have improved models, particles, and gravity - ignite entities in an area
-- Snowballs and Slimeballs have 3D projectile models
+- Placeable on Slabs and Stairs
+- Works with moss carpets
+
+### Bells
+
+- Ring by clicking a chain connected to the bell
+- Chains and ropes visually attach to the bell
+
+### Charges and Projectiles
+
+- Craftable Dragon Charges
+- Fire Charges get better models, particles and gravity, and ignite entities in an area
+- Snowballs and Slimeballs get 3D projectile models
 - Snowballs apply freezing on impact and interact with fire
+- Tipped arrows show their color when loaded in a crossbow
 
-### 🎨 Visual Improvements
+### Other Tweaks
 
-- **Mob Skulls** - can be stacked in any combination; candles placed on top leave a wax overlay
-- **Brewing Stands** - potion bottles colored based on what they contain
-- **Banners & Pots** - can be placed on ceilings
-- **Tripwire Hooks** - shift-click with a tool to hang it on the hook
-- **Pixel Consistent Signs** - pixel-accurate sign model, texture, and hitbox (thanks to **Vectorwing** for the original)
+- **Flower Pots** can be hung, including any modded pot
+- **Mob Skulls** stack in any combination, and candles placed on top leave a wax overlay
+- **Brewing Stands** color their potion bottles based on the contents
+- **Banners and Pots** can be placed on ceilings
+- **Tripwire Hooks** hold a tool when you shift-click it onto them
+- **Torches** can set entities on fire
+- **Signs** get a pixel-accurate model, texture and hitbox, based on the original by **Vectorwing**
 
 [SEPARATOR]
 

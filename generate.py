@@ -103,9 +103,14 @@ def expand_support(config, fm, platform):
     # Support text is in config so it can be swapped centrally
     raw_text = config.get("support_text", "")
 
+    # Both [SUPPORT] and [OUR_MODS] carry their own heading, so no source has to remember one
+    title = render_h2(config["support_title"], platform)
+
     if platform == "cf":
         cf_text = md_to_cf_inline(raw_text)
         return "\n".join([
+            title,
+            "",
             f'<p><span style="font-size:18px">{cf_text}</span></p>',
             "",
             f'<p style="text-align:center"><a href="{kofi_url}"><img src="{kofi_img}" alt="Ko-Fi"></a></p>',
@@ -118,6 +123,8 @@ def expand_support(config, fm, platform):
         ])
     else:
         return "\n".join([
+            title,
+            "",
             raw_text,
             "",
             f'<p style="text-align:center"><a href="{kofi_url}"><img src="{kofi_img}" alt="Ko-Fi"></a></p>',
@@ -132,7 +139,7 @@ def expand_support(config, fm, platform):
 def expand_our_mods(config, fm, all_mods, platform):
     slug = fm["slug"]
     slug_key = "cf_slug" if platform == "cf" else "mr_slug"
-    lines = ['<p style="text-align:center">']
+    lines = [render_h2(config["our_mods_title"], platform), "", '<p style="text-align:center">']
     for mod in all_mods.values():
         # No icon means no tile to show, and a missing platform slug means nowhere to link to
         if mod["slug"] == slug or not mod.get("icon"):
@@ -237,6 +244,35 @@ def render_ordered_list(items, platform):
         )
         return f"<ol>\n{lis}\n</ol>"
     return "\n".join(f"{idx + 1}. {item}" for idx, item in enumerate(items))
+
+
+def split_table_row(line):
+    return [c.strip() for c in line.strip().strip("|").split("|")]
+
+
+def is_table_divider(line):
+    return bool(re.fullmatch(r"\|[\s:|-]+\|", line.strip()))
+
+
+def render_table(rows, platform):
+    """rows[0] is the header. CF needs real <table> markup, Modrinth takes the markdown as-is."""
+    if platform != "cf":
+        header, *body = rows
+        divider = "|" + "|".join("---" for _ in header) + "|"
+        lines = ["| " + " | ".join(header) + " |", divider]
+        lines += ["| " + " | ".join(r) + " |" for r in body]
+        return "\n".join(lines)
+
+    def cells(row, tag):
+        return "".join(
+            f'<{tag}><span style="font-size:18px">{md_to_cf_inline(c)}</span></{tag}>' for c in row
+        )
+
+    header, *body = rows
+    out = ["<table>", "<thead>", f"<tr>{cells(header, 'th')}</tr>", "</thead>", "<tbody>"]
+    out += [f"<tr>{cells(row, 'td')}</tr>" for row in body]
+    out += ["</tbody>", "</table>"]
+    return "\n".join(out)
 
 
 def render_paragraph(text, platform):
@@ -413,6 +449,18 @@ def process_body(body, platform, config, fm, all_mods):
             out.append(render_details(summary, content_lines, platform))
             out.append("")
             i = next_i
+            continue
+
+        # ── Table ─────────────────────────────────────────────────────────────
+        if s.startswith("|"):
+            rows = []
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                row = lines[i].strip()
+                if not is_table_divider(row):
+                    rows.append(split_table_row(row))
+                i += 1
+            out.append(render_table(rows, platform))
+            out.append("")
             continue
 
         # ── List items (consecutive) ──────────────────────────────────────────
