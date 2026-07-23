@@ -1,8 +1,7 @@
 ---
 name: "Supplementaries Squared"
 slug: supp-squared
-separator: "assets/separators/orange.png"
-icon: "assets/mod_icons/supp-squared.webp"
+separator: "assets/separators/supp-squared.png"
 cf_slug: supplementaries-squared
 mr_slug: supplementaries-squared
 dependency:
@@ -16,7 +15,7 @@ dependency:
 
 ## 📖 About 📖
 
-Supplementaries² is the overflow drawer for [DEPENDENCY]. It's where the extra colour variants, the extra wood variants and the odd ideas that didn't quite earn a slot in the base mod ended up.
+Supplementaries² is the overflow drawer for [DEPENDENCY]. It's where the extra color variants, the extra wood variants and the odd ideas that didn't quite earn a slot in the base mod ended up.
 
 If you already build with Supplementaries and keep wishing a block came in one more flavour, this is that mod.
 

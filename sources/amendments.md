@@ -1,8 +1,7 @@
 ---
 name: "Amendments"
 slug: amendments
-separator: "assets/separators/orange.png"
-icon: "assets/mod_icons/amendments.gif"
+separator: "assets/separators/amendments.png"
 cf_slug: amendments
 mr_slug: amendments
 banner_url: "https://i.imgur.com/G4k4MIs.png"

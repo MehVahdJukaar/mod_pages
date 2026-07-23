@@ -1,8 +1,7 @@
 ---
 name: "Smarter Farmers"
 slug: smarter-farmers
-separator: "assets/separators/green.png"
-icon: "assets/mod_icons/smarter-farmers.webp"
+separator: "assets/separators/smarter-farmers.png"
 cf_slug: smarter-farmers-farmers-replant
 mr_slug: smarter-farmers-farmers-replant
 ---

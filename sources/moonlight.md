@@ -1,8 +1,7 @@
 ---
 name: "Moonlight Lib"
 slug: moonlight
-separator: "assets/separators/blue.png"
-icon: null
+separator: "assets/separators/moonlight.png"
 cf_slug: selene
 mr_slug: moonlight
 ---

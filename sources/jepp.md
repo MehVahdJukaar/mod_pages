@@ -1,8 +1,7 @@
 ---
 name: "Just Enough Painting Previews (JEPP)"
 slug: jepp
-separator: "assets/separators/magenta.png"
-icon: null
+separator: "assets/separators/jepp.png"
 cf_slug: jepp
 mr_slug: null
 ---

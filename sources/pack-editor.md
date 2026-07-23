@@ -1,8 +1,7 @@
 ---
 name: "Nautilus Studio"
 slug: pack-editor
-separator: "assets/separators/lilac.png"
-icon: null
+separator: "assets/separators/pack-editor.png"
 cf_slug: pack-editor
 mr_slug: pack-editor
 ---

@@ -1,8 +1,7 @@
 ---
 name: "Labels"
 slug: labels
-separator: "assets/separators/green.png"
-icon: "assets/mod_icons/labels.webp"
+separator: "assets/separators/labels.png"
 cf_slug: labels
 mr_slug: labels
 akliz_code: supplementaries

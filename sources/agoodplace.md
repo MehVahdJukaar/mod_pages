@@ -1,8 +1,7 @@
 ---
 name: "A Good Place"
 slug: a-good-place
-separator: "assets/separators/green.png"
-icon: "assets/mod_icons/a-good-place.webp"
+separator: "assets/separators/a-good-place.png"
 cf_slug: a-good-place
 mr_slug: a-good-place
 ---

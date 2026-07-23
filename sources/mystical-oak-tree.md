@@ -1,8 +1,7 @@
 ---
 name: "Mystical Oak Tree"
 slug: mystical-oak-tree
-separator: "assets/separators/green.png"
-icon: "assets/mod_icons/mystical-oak-tree.webp"
+separator: "assets/separators/mystical-oak-tree.png"
 cf_slug: mystical-oak-tree
 mr_slug: mystical-oak-tree
 ---

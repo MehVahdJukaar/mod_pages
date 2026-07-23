@@ -1,8 +1,7 @@
 ---
 name: "Haunted Harvest"
 slug: haunted-harvest
-separator: "assets/separators/orange.png"
-icon: "assets/mod_icons/haunted-harvest.webp"
+separator: "assets/separators/haunted-harvest.png"
 cf_slug: haunted-harvest
 mr_slug: haunted-harvest
 akliz_code: supplementaries

@@ -1,8 +1,7 @@
 ---
 name: "Sleep Tight"
 slug: sleep-tight
-separator: "assets/separators/orange.png"
-icon: "assets/mod_icons/sleep-tight.png"
+separator: "assets/separators/sleep-tight.png"
 cf_slug: sleep-tight
 mr_slug: sleep-tight
 akliz_code: supplementaries

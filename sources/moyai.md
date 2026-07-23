@@ -1,8 +1,7 @@
 ---
 name: "Moyai"
 slug: moyai
-separator: "assets/separators/green.png"
-icon: "assets/mod_icons/moyai.webp"
+separator: "assets/separators/moyai.png"
 cf_slug: moyai
 mr_slug: moyai
 ---

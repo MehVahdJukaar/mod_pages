@@ -1,8 +1,7 @@
 ---
 name: "Universal Sawmill"
 slug: sawmill
-separator: "assets/separators/blue.png"
-icon: "assets/mod_icons/sawmill.webp"
+separator: "assets/separators/sawmill.png"
 cf_slug: sawmill
 mr_slug: universal-sawmill
 banner_url: "https://i.imgur.com/8dNQkxR.png"

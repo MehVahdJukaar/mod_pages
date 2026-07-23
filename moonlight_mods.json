@@ -20,7 +20,7 @@
       "id": "everycomp",
       "name": "Every Compat (Wood Good)",
       "description": "Fills in every missing wooden block from every mod you have installed, automatically. No per-mod compat addons needed.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/every-compat.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/every-compat",
       "modrinth": "https://modrinth.com/mod/every-compat"
     },
@@ -28,7 +28,7 @@
       "id": "suppsquared",
       "name": "Supplementaries Squared",
       "description": "Supplementaries addon with extra variants: colored sacks, wooden item shelves, plaques, metal frames and more.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/supp-squared.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/supplementaries-squared",
       "modrinth": "https://modrinth.com/mod/supplementaries-squared"
     },
@@ -44,7 +44,7 @@
       "id": "sawmill",
       "name": "Universal Sawmill",
       "description": "The woodcutter as it was meant to be: works with every wood from every mod, automatically. Comes with a Carpenter villager.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/sawmill.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/sawmill",
       "modrinth": "https://modrinth.com/mod/universal-sawmill"
     },
@@ -60,6 +60,7 @@
       "id": "nautilus_studio",
       "name": "Nautilus Studio",
       "description": "An in-game workbench for building data and resource packs: pick a file, fill in the form, hit reload.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pack-editor",
       "modrinth": "https://modrinth.com/mod/pack-editor"
     },
@@ -67,7 +68,7 @@
       "id": "snowyspirit",
       "name": "Snowy Spirit",
       "description": "Sleds, garlands, gift wrapping, ginger houses and winter villager activities. Christmas, in mod form.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/snowy-spirit.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/snowy-spirit",
       "modrinth": "https://modrinth.com/mod/snowy-spirit"
     },
@@ -75,7 +76,7 @@
       "id": "hauntedharvest",
       "name": "Haunted Harvest",
       "description": "Pumpkin carving, corn food and villagers who go trick-or-treating. Halloween that lasts all year.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/haunted-harvest.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/haunted-harvest",
       "modrinth": "https://modrinth.com/mod/haunted-harvest"
     },
@@ -91,7 +92,7 @@
       "id": "smarterfarmers",
       "name": "Smarter Farmers",
       "description": "Farmer villagers that replant what they harvest, handle modded crops, carry a hoe and stop trampling their own fields.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/smarter-farmers.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/smarter-farmers-farmers-replant",
       "modrinth": "https://modrinth.com/mod/smarter-farmers-farmers-replant"
     },
@@ -99,7 +100,7 @@
       "id": "mysticaloaktree",
       "name": "Mystical Oak Tree",
       "description": "A talking, NPC-like tree with 300+ lines of lore, wisdom and questionable facts.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/mystical-oak-tree.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/mystical-oak-tree",
       "modrinth": "https://modrinth.com/mod/mystical-oak-tree"
     },
@@ -107,7 +108,7 @@
       "id": "labels",
       "name": "Storage Labels",
       "description": "Fancy item labels for your chests and barrels, so you can find things at a glance.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/labels.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/labels",
       "modrinth": "https://modrinth.com/mod/labels"
     },
@@ -115,7 +116,7 @@
       "id": "goated",
       "name": "Goated",
       "description": "Goats worth keeping: block-breaking ram blocks, thatch, a viking helmet and geeps.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/goated.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/goated",
       "modrinth": "https://modrinth.com/mod/goated"
     },
@@ -123,7 +124,7 @@
       "id": "a_good_place",
       "name": "A Good Place",
       "description": "Blocks pop, slide and swing into place instead of just appearing. Fully customizable with resource packs.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/a-good-place.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/a-good-place",
       "modrinth": "https://modrinth.com/mod/a-good-place"
     },
@@ -139,7 +140,7 @@
       "id": "heartstone",
       "name": "Heartstone",
       "description": "Paired stones that let you and a friend track each other across the world, no F3 required.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heartstone.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/heartstone",
       "modrinth": "https://modrinth.com/mod/heartstone"
     },
@@ -163,7 +164,7 @@
       "id": "jeed",
       "name": "JEED",
       "description": "Just Enough Effect Descriptions: a JEI tab explaining exactly what every status effect does.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jeed.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed",
       "modrinth": "https://modrinth.com/mod/just-enough-effect-descriptions-jeed"
     },
@@ -171,6 +172,7 @@
       "id": "jepp",
       "name": "JEPP",
       "description": "Just Enough Painting Previews: a JEI/REI tab that previews every painting, with name, size and source mod.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/jepp.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/jepp"
     },
     {
@@ -185,7 +187,7 @@
       "id": "randomium",
       "name": "Randomium",
       "description": "An ore that behaves randomly and can drop absolutely any item in the game.",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/randomium.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/randomium.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/randomium-ore",
       "modrinth": "https://modrinth.com/mod/randomium-ore"
     },
@@ -193,7 +195,7 @@
       "id": "moyai",
       "name": "Moyai",
       "description": "Adds naturally spawning Moyai to your game. 🗿",
-      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/moyai.webp",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/moyai.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/moyai",
       "modrinth": "https://modrinth.com/mod/moyai"
     }

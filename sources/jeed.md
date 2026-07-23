@@ -1,8 +1,7 @@
 ---
 name: "Just Enough Effect Descriptions (JEED)"
 slug: jeed
-separator: "assets/separators/indigo.png"
-icon: "assets/mod_icons/jeed.webp"
+separator: "assets/separators/jeed.png"
 cf_slug: just-enough-effect-descriptions-jeed
 mr_slug: just-enough-effect-descriptions-jeed
 akliz_code: supplementaries

@@ -1,8 +1,7 @@
 ---
 name: "Goated"
 slug: goated
-separator: "assets/separators/green.png"
-icon: "assets/mod_icons/goated.webp"
+separator: "assets/separators/goated.png"
 cf_slug: goated
 mr_slug: goated
 akliz_code: supplementaries

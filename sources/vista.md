@@ -1,8 +1,7 @@
 ---
 name: "Vista"
 slug: vista
-separator: "assets/separators/magenta.png"
-icon: "assets/mod_icons/vista.gif"
+separator: "assets/separators/vista.png"
 cf_slug: vista
 mr_slug: vista
 ---

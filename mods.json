@@ -26,7 +26,7 @@
       "description": "Fills in every missing wooden block from every mod you have installed, automatically. No per-mod compat addons needed.",
       "cf_slug": "every-compat",
       "mr_slug": "every-compat",
-      "icon": "assets/mod_icons/every-compat.webp"
+      "icon": "assets/mod_icons/every-compat.png"
     },
     {
       "slug": "supp-squared",
@@ -35,7 +35,7 @@
       "description": "Supplementaries addon with extra variants: colored sacks, wooden item shelves, plaques, metal frames and more.",
       "cf_slug": "supplementaries-squared",
       "mr_slug": "supplementaries-squared",
-      "icon": "assets/mod_icons/supp-squared.webp"
+      "icon": "assets/mod_icons/supp-squared.png"
     },
     {
       "slug": "map-atlases",
@@ -53,7 +53,7 @@
       "description": "The woodcutter as it was meant to be: works with every wood from every mod, automatically. Comes with a Carpenter villager.",
       "cf_slug": "sawmill",
       "mr_slug": "universal-sawmill",
-      "icon": "assets/mod_icons/sawmill.webp"
+      "icon": "assets/mod_icons/sawmill.png"
     },
     {
       "slug": "polytone",
@@ -71,7 +71,7 @@
       "description": "An in-game workbench for building data and resource packs: pick a file, fill in the form, hit reload.",
       "cf_slug": "pack-editor",
       "mr_slug": "pack-editor",
-      "icon": null
+      "icon": "assets/mod_icons/pack-editor.png"
     },
     {
       "slug": "snowy-spirit",
@@ -80,7 +80,7 @@
       "description": "Sleds, garlands, gift wrapping, ginger houses and winter villager activities. Christmas, in mod form.",
       "cf_slug": "snowy-spirit",
       "mr_slug": "snowy-spirit",
-      "icon": "assets/mod_icons/snowy-spirit.webp"
+      "icon": "assets/mod_icons/snowy-spirit.png"
     },
     {
       "slug": "haunted-harvest",
@@ -89,7 +89,11 @@
       "description": "Pumpkin carving, corn food and villagers who go trick-or-treating. Halloween that lasts all year.",
       "cf_slug": "haunted-harvest",
       "mr_slug": "haunted-harvest",
-      "icon": "assets/mod_icons/haunted-harvest.webp"
+      "icon": "assets/mod_icons/haunted-harvest.png",
+      "separator_colors": [
+        "7a3a08",
+        "ea8f1e"
+      ]
     },
     {
       "slug": "sleep-tight",
@@ -107,7 +111,7 @@
       "description": "Farmer villagers that replant what they harvest, handle modded crops, carry a hoe and stop trampling their own fields.",
       "cf_slug": "smarter-farmers-farmers-replant",
       "mr_slug": "smarter-farmers-farmers-replant",
-      "icon": "assets/mod_icons/smarter-farmers.webp"
+      "icon": "assets/mod_icons/smarter-farmers.png"
     },
     {
       "slug": "mystical-oak-tree",
@@ -116,7 +120,7 @@
       "description": "A talking, NPC-like tree with 300+ lines of lore, wisdom and questionable facts.",
       "cf_slug": "mystical-oak-tree",
       "mr_slug": "mystical-oak-tree",
-      "icon": "assets/mod_icons/mystical-oak-tree.webp"
+      "icon": "assets/mod_icons/mystical-oak-tree.png"
     },
     {
       "slug": "labels",
@@ -125,7 +129,7 @@
       "description": "Fancy item labels for your chests and barrels, so you can find things at a glance.",
       "cf_slug": "labels",
       "mr_slug": "labels",
-      "icon": "assets/mod_icons/labels.webp"
+      "icon": "assets/mod_icons/labels.png"
     },
     {
       "slug": "goated",
@@ -134,7 +138,7 @@
       "description": "Goats worth keeping: block-breaking ram blocks, thatch, a viking helmet and geeps.",
       "cf_slug": "goated",
       "mr_slug": "goated",
-      "icon": "assets/mod_icons/goated.webp"
+      "icon": "assets/mod_icons/goated.png"
     },
     {
       "slug": "a-good-place",
@@ -143,7 +147,7 @@
       "description": "Blocks pop, slide and swing into place instead of just appearing. Fully customizable with resource packs.",
       "cf_slug": "a-good-place",
       "mr_slug": "a-good-place",
-      "icon": "assets/mod_icons/a-good-place.webp"
+      "icon": "assets/mod_icons/a-good-place.png"
     },
     {
       "slug": "vista",
@@ -152,7 +156,11 @@
       "description": "Televisions, cassettes and viewfinders: collect GIF tapes and wire up live camera feeds in your base.",
       "cf_slug": "vista",
       "mr_slug": "vista",
-      "icon": "assets/mod_icons/vista.gif"
+      "icon": "assets/mod_icons/vista.gif",
+      "separator_colors": [
+        "5a1a7a",
+        "e040c8"
+      ]
     },
     {
       "slug": "heartstone",
@@ -161,7 +169,7 @@
       "description": "Paired stones that let you and a friend track each other across the world, no F3 required.",
       "cf_slug": "heartstone",
       "mr_slug": "heartstone",
-      "icon": "assets/mod_icons/heartstone.webp"
+      "icon": "assets/mod_icons/heartstone.png"
     },
     {
       "slug": "fast-paintings",
@@ -188,7 +196,7 @@
       "description": "Just Enough Effect Descriptions: a JEI tab explaining exactly what every status effect does.",
       "cf_slug": "just-enough-effect-descriptions-jeed",
       "mr_slug": "just-enough-effect-descriptions-jeed",
-      "icon": "assets/mod_icons/jeed.webp"
+      "icon": "assets/mod_icons/jeed.png"
     },
     {
       "slug": "jepp",
@@ -197,7 +205,7 @@
       "description": "Just Enough Painting Previews: a JEI/REI tab that previews every painting, with name, size and source mod.",
       "cf_slug": "jepp",
       "mr_slug": null,
-      "icon": null
+      "icon": "assets/mod_icons/jepp.png"
     },
     {
       "slug": "advancement-frames",
@@ -215,7 +223,7 @@
       "description": "An ore that behaves randomly and can drop absolutely any item in the game.",
       "cf_slug": "randomium-ore",
       "mr_slug": "randomium-ore",
-      "icon": "assets/mod_icons/randomium.webp"
+      "icon": "assets/mod_icons/randomium.png"
     },
     {
       "slug": "moyai",
@@ -224,7 +232,7 @@
       "description": "Adds naturally spawning Moyai to your game. 🗿",
       "cf_slug": "moyai",
       "mr_slug": "moyai",
-      "icon": "assets/mod_icons/moyai.webp"
+      "icon": "assets/mod_icons/moyai.png"
     },
     {
       "slug": "moonlight",

@@ -1,8 +1,7 @@
 ---
 name: "Heartstone"
 slug: heartstone
-separator: "assets/separators/magenta.png"
-icon: "assets/mod_icons/heartstone.webp"
+separator: "assets/separators/heartstone.png"
 cf_slug: heartstone
 mr_slug: heartstone
 akliz_code: supplementaries

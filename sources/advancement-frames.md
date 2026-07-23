@@ -1,8 +1,7 @@
 ---
 name: "Advancement Frames"
 slug: advancement-frames
-separator: "assets/separators/orange.png"
-icon: "assets/mod_icons/advancement-frames.png"
+separator: "assets/separators/advancement-frames.png"
 cf_slug: advancement-frames
 mr_slug: advancement-frames
 akliz_code: supplementaries

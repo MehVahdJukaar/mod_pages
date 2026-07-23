@@ -1,8 +1,7 @@
 ---
 name: "Polytone"
 slug: polytone
-separator: "assets/separators/magenta.png"
-icon: "assets/mod_icons/polytone.png"
+separator: "assets/separators/polytone.png"
 cf_slug: polytone
 mr_slug: polytone
 ---

@@ -1,8 +1,7 @@
 ---
 name: "Randomium"
 slug: randomium
-separator: "assets/separators/indigo.png"
-icon: "assets/mod_icons/randomium.webp"
+separator: "assets/separators/randomium.png"
 cf_slug: randomium-ore
 mr_slug: randomium-ore
 akliz_code: supplementaries

@@ -1,8 +1,7 @@
 ---
 name: "Every Compat (Wood Good)"
 slug: every-compat
-separator: "assets/separators/lilac.png"
-icon: "assets/mod_icons/every-compat.webp"
+separator: "assets/separators/every-compat.png"
 cf_slug: every-compat
 mr_slug: every-compat
 dependency:

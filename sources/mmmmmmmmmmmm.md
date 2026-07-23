@@ -1,8 +1,7 @@
 ---
 name: "MmmMmmMmmMmm"
 slug: mmmmmmmmmmmm
-separator: "assets/separators/indigo.png"
-icon: "assets/mod_icons/mmmmmmmmmmmm.png"
+separator: "assets/separators/mmmmmmmmmmmm.png"
 cf_slug: mmmmmmmmmmmm
 mr_slug: mmmmmmmmmmmm
 ---

@@ -1,8 +1,7 @@
 ---
 name: "Fast Paintings"
 slug: fast-paintings
-separator: "assets/separators/blue.png"
-icon: null
+separator: "assets/separators/fast-paintings.png"
 cf_slug: fast-paintings
 mr_slug: fast-paintings
 ---

@@ -1,8 +1,7 @@
 ---
 name: "Snowy Spirit"
 slug: snowy-spirit
-separator: "assets/separators/blue.png"
-icon: "assets/mod_icons/snowy-spirit.webp"
+separator: "assets/separators/snowy-spirit.png"
 cf_slug: snowy-spirit
 mr_slug: snowy-spirit
 akliz_code: supplementaries

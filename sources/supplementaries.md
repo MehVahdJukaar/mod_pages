@@ -1,8 +1,7 @@
 ---
 name: "Supplementaries"
 slug: supplementaries
-separator: "assets/separators/orange.png"
-icon: "assets/mod_icons/supplementaries.gif"
+separator: "assets/separators/supplementaries.png"
 cf_slug: supplementaries
 mr_slug: supplementaries
 banner_url: "https://i.imgur.com/ZpeKQZQ.png"
