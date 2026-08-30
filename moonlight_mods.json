@@ -145,6 +145,14 @@
       "modrinth": "https://modrinth.com/mod/heraldics"
     },
     {
+      "id": "courier_owls",
+      "name": "Courier Owls",
+      "description": "Owls that live in tree hollows and fly your items over to other players.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/courier-owls.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/courier-owls",
+      "modrinth": "https://modrinth.com/mod/courier-owls"
+    },
+    {
       "id": "splatter",
       "name": "Splatter",
       "description": "Blood that sprays from wounds and paints itself onto floors, walls and mobs, then dries away.",
