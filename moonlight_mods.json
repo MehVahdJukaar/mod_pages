@@ -137,6 +137,14 @@
       "modrinth": "https://modrinth.com/mod/vista"
     },
     {
+      "id": "heraldics",
+      "name": "Heraldics",
+      "description": "Medieval decoration: banner tabards for players and horses, working portcullises and new masonry blocks.",
+      "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/heraldics.png",
+      "curseforge": "https://www.curseforge.com/minecraft/mc-mods/heraldics",
+      "modrinth": "https://modrinth.com/mod/heraldics"
+    },
+    {
       "id": "splatter",
       "name": "Splatter",
       "description": "Blood that sprays from wounds and paints itself onto floors, walls and mobs, then dries away.",
