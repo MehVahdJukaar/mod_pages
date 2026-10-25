@@ -62,7 +62,7 @@
       "description": "An in-game workbench for building data and resource packs: pick a file, fill in the form, hit reload.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/pack-editor.png",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/pack-editor",
-      "modrinth": "https://modrinth.com/mod/pack-editor"
+      "modrinth": "https://modrinth.com/mod/packs-editor"
     },
     {
       "id": "snowyspirit",
@@ -134,7 +134,7 @@
       "description": "Televisions, cassettes and viewfinders: collect GIF tapes and wire up live camera feeds in your base.",
       "icon": "https://raw.githubusercontent.com/MehVahdJukaar/mod_pages/master/assets/mod_icons/vista.gif",
       "curseforge": "https://www.curseforge.com/minecraft/mc-mods/vista",
-      "modrinth": "https://modrinth.com/mod/vista"
+      "modrinth": "https://modrinth.com/mod/vista_tv"
     },
     {
       "id": "heraldics",
