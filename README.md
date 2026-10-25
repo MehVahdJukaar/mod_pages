@@ -12,6 +12,7 @@ assets/
   mod_icons/    mod icons, used in the "Our Mods" grid
   banners/      page header images
   media/        screenshots used on the pages
+  packs/        resource pack pages: logo and images per pack, plus the shared line
 moonlight_mods.json
 ```
 
